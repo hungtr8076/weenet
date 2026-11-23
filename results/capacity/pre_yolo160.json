@@ -1,0 +1,18 @@
+{
+ "label": "yolo160",
+ "plan": "yo_s0.plan",
+ "pre": "fast",
+ "res": 160,
+ "workers": 3,
+ "dur_s": 15.0,
+ "pre_1_ms_median": 2.0898785000156295,
+ "pre_1_ms_p99": 2.1932788700121364,
+ "rate_w_fps": 1273.524288071829,
+ "gpu_ms_median": 3.9579649999836874,
+ "gpu_ms_p99": 5.268507919979587,
+ "gpu_launches": 3717,
+ "gpu_mhz_mean": 920.5760000000004,
+ "k_gpu": 8,
+ "k_cpu": 42,
+ "k_pred": 8
+}

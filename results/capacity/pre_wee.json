@@ -1,0 +1,18 @@
+{
+ "label": "wee",
+ "plan": "weenet_z_ds4_rp.plan",
+ "pre": "fast",
+ "res": 224,
+ "workers": 3,
+ "dur_s": 15.0,
+ "pre_1_ms_median": 2.9256764999985307,
+ "pre_1_ms_p99": 2.9849671200076955,
+ "rate_w_fps": 911.8168721727886,
+ "gpu_ms_median": 3.685498000010057,
+ "gpu_ms_p99": 4.36117219998664,
+ "gpu_launches": 4041,
+ "gpu_mhz_mean": 916.8592592592595,
+ "k_gpu": 9,
+ "k_cpu": 30,
+ "k_pred": 9
+}

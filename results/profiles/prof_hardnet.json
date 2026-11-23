@@ -1,0 +1,899 @@
+[
+ {
+  "count": 1026
+ },
+ {
+  "name": "/base.0/conv/Conv + PWN(/base.0/relu/Clip)",
+  "timeMs": 404.668,
+  "averageMs": 0.394414,
+  "percentage": 3.46358
+ },
+ {
+  "name": "/base.1/conv/Conv + PWN(/base.1/relu/Clip)",
+  "timeMs": 490.726,
+  "averageMs": 0.47829,
+  "percentage": 4.20015
+ },
+ {
+  "name": "/base.2/dwconv/Conv",
+  "timeMs": 436.056,
+  "averageMs": 0.425006,
+  "percentage": 3.73222
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /base.2/dwconv/Conv",
+  "timeMs": 128.853,
+  "averageMs": 0.125587,
+  "percentage": 1.10286
+ },
+ {
+  "name": "/base.3/layers.0/layer1/conv/Conv + PWN(/base.3/layers.0/layer1/relu/Clip)",
+  "timeMs": 92.2563,
+  "averageMs": 0.0899184,
+  "percentage": 0.789627
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.3/layers.0/layer2/dwconv/Conv",
+  "timeMs": 39.6424,
+  "averageMs": 0.0386379,
+  "percentage": 0.339302
+ },
+ {
+  "name": "/base.3/layers.0/layer2/dwconv/Conv",
+  "timeMs": 71.3237,
+  "averageMs": 0.0695163,
+  "percentage": 0.610463
+ },
+ {
+  "name": "/base.3/layers.0/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 90.5114,
+  "averageMs": 0.0882177,
+  "percentage": 0.774692
+ },
+ {
+  "name": "/base.2/dwconv/Conv_output_0 copy",
+  "timeMs": 41.3103,
+  "averageMs": 0.0402635,
+  "percentage": 0.353577
+ },
+ {
+  "name": "/base.3/layers.1/layer1/conv/Conv + PWN(/base.3/layers.1/layer1/relu/Clip)",
+  "timeMs": 90.0911,
+  "averageMs": 0.0878081,
+  "percentage": 0.771095
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.3/layers.1/layer2/dwconv/Conv",
+  "timeMs": 61.3109,
+  "averageMs": 0.0597572,
+  "percentage": 0.524764
+ },
+ {
+  "name": "/base.3/layers.1/layer2/dwconv/Conv",
+  "timeMs": 109.51,
+  "averageMs": 0.106735,
+  "percentage": 0.937302
+ },
+ {
+  "name": "/base.3/layers.2/layer1/conv/Conv + PWN(/base.3/layers.2/layer1/relu/Clip)",
+  "timeMs": 94.9786,
+  "averageMs": 0.0925717,
+  "percentage": 0.812927
+ },
+ {
+  "name": "/base.3/layers.2/layer2/dwconv/Conv",
+  "timeMs": 69.3377,
+  "averageMs": 0.0675806,
+  "percentage": 0.593466
+ },
+ {
+  "name": "/base.3/layers.2/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 90.3934,
+  "averageMs": 0.0881027,
+  "percentage": 0.773682
+ },
+ {
+  "name": "/base.3/layers.1/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 71.9385,
+  "averageMs": 0.0701155,
+  "percentage": 0.615726
+ },
+ {
+  "name": "/base.3/layers.3/layer1/conv/Conv + PWN(/base.3/layers.3/layer1/relu/Clip)",
+  "timeMs": 165.468,
+  "averageMs": 0.161275,
+  "percentage": 1.41625
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.3/layers.3/layer2/dwconv/Conv",
+  "timeMs": 93.0812,
+  "averageMs": 0.0907224,
+  "percentage": 0.796687
+ },
+ {
+  "name": "/base.3/layers.3/layer2/dwconv/Conv",
+  "timeMs": 157.318,
+  "averageMs": 0.153331,
+  "percentage": 1.34649
+ },
+ {
+  "name": "/base.4/conv/Conv + PWN(/base.4/relu/Clip)",
+  "timeMs": 460.625,
+  "averageMs": 0.448952,
+  "percentage": 3.94252
+ },
+ {
+  "name": "/base.5/dwconv/Conv",
+  "timeMs": 239.305,
+  "averageMs": 0.233241,
+  "percentage": 2.04822
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /base.5/dwconv/Conv",
+  "timeMs": 66.6659,
+  "averageMs": 0.0649765,
+  "percentage": 0.570597
+ },
+ {
+  "name": "/base.6/layers.0/layer1/conv/Conv + PWN(/base.6/layers.0/layer1/relu/Clip)",
+  "timeMs": 56.0025,
+  "averageMs": 0.0545833,
+  "percentage": 0.479328
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.6/layers.0/layer2/dwconv/Conv",
+  "timeMs": 15.1306,
+  "averageMs": 0.0147471,
+  "percentage": 0.129503
+ },
+ {
+  "name": "/base.6/layers.0/layer2/dwconv/Conv",
+  "timeMs": 25.4388,
+  "averageMs": 0.0247941,
+  "percentage": 0.217732
+ },
+ {
+  "name": "/base.6/layers.0/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 32.1469,
+  "averageMs": 0.0313323,
+  "percentage": 0.275147
+ },
+ {
+  "name": "/base.5/dwconv/Conv_output_0 copy",
+  "timeMs": 22.8342,
+  "averageMs": 0.0222555,
+  "percentage": 0.195439
+ },
+ {
+  "name": "/base.6/layers.1/layer1/conv/Conv + PWN(/base.6/layers.1/layer1/relu/Clip)",
+  "timeMs": 48.1761,
+  "averageMs": 0.0469552,
+  "percentage": 0.412342
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.6/layers.1/layer2/dwconv/Conv",
+  "timeMs": 20.9997,
+  "averageMs": 0.0204676,
+  "percentage": 0.179738
+ },
+ {
+  "name": "/base.6/layers.1/layer2/dwconv/Conv",
+  "timeMs": 37.2531,
+  "averageMs": 0.0363091,
+  "percentage": 0.318851
+ },
+ {
+  "name": "/base.6/layers.2/layer1/conv/Conv + PWN(/base.6/layers.2/layer1/relu/Clip)",
+  "timeMs": 37.1651,
+  "averageMs": 0.0362233,
+  "percentage": 0.318099
+ },
+ {
+  "name": "/base.6/layers.2/layer2/dwconv/Conv",
+  "timeMs": 25.3235,
+  "averageMs": 0.0246818,
+  "percentage": 0.216745
+ },
+ {
+  "name": "/base.6/layers.2/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 33.1038,
+  "averageMs": 0.0322649,
+  "percentage": 0.283338
+ },
+ {
+  "name": "/base.6/layers.1/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 25.5402,
+  "averageMs": 0.024893,
+  "percentage": 0.2186
+ },
+ {
+  "name": "/base.5/dwconv/Conv_output_0 copy",
+  "timeMs": 24.9235,
+  "averageMs": 0.024292,
+  "percentage": 0.213322
+ },
+ {
+  "name": "/base.6/layers.3/layer1/conv/Conv + PWN(/base.6/layers.3/layer1/relu/Clip)",
+  "timeMs": 83.1074,
+  "averageMs": 0.0810014,
+  "percentage": 0.711321
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.6/layers.3/layer2/dwconv/Conv",
+  "timeMs": 32.6939,
+  "averageMs": 0.0318654,
+  "percentage": 0.279829
+ },
+ {
+  "name": "/base.6/layers.3/layer2/dwconv/Conv",
+  "timeMs": 59.3789,
+  "averageMs": 0.0578742,
+  "percentage": 0.508228
+ },
+ {
+  "name": "/base.6/layers.4/layer1/conv/Conv + PWN(/base.6/layers.4/layer1/relu/Clip)",
+  "timeMs": 45.4048,
+  "averageMs": 0.0442542,
+  "percentage": 0.388622
+ },
+ {
+  "name": "/base.6/layers.4/layer2/dwconv/Conv",
+  "timeMs": 24.8028,
+  "averageMs": 0.0241742,
+  "percentage": 0.212288
+ },
+ {
+  "name": "/base.6/layers.4/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 7.91449,
+  "averageMs": 0.00771393,
+  "percentage": 0.0677406
+ },
+ {
+  "name": "/base.6/layers.5/layer1/conv/Conv + PWN(/base.6/layers.5/layer1/relu/Clip)",
+  "timeMs": 52.0677,
+  "averageMs": 0.0507482,
+  "percentage": 0.44565
+ },
+ {
+  "name": "/base.6/layers.5/layer2/dwconv/Conv",
+  "timeMs": 37.474,
+  "averageMs": 0.0365244,
+  "percentage": 0.320742
+ },
+ {
+  "name": "/base.6/layers.6/layer1/conv/Conv + PWN(/base.6/layers.6/layer1/relu/Clip)",
+  "timeMs": 29.4345,
+  "averageMs": 0.0286886,
+  "percentage": 0.251931
+ },
+ {
+  "name": "/base.6/layers.6/layer2/dwconv/Conv",
+  "timeMs": 24.7898,
+  "averageMs": 0.0241616,
+  "percentage": 0.212178
+ },
+ {
+  "name": "/base.6/layers.6/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 8.95677,
+  "averageMs": 0.00872979,
+  "percentage": 0.0766615
+ },
+ {
+  "name": "/base.6/layers.5/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 16.802,
+  "averageMs": 0.0163762,
+  "percentage": 0.143809
+ },
+ {
+  "name": "/base.6/layers.3/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 26.5002,
+  "averageMs": 0.0258286,
+  "percentage": 0.226817
+ },
+ {
+  "name": "/base.5/dwconv/Conv_output_0 copy",
+  "timeMs": 116.124,
+  "averageMs": 0.113181,
+  "percentage": 0.993912
+ },
+ {
+  "name": "/base.6/layers.7/layer1/conv/Conv + PWN(/base.6/layers.7/layer1/relu/Clip)",
+  "timeMs": 281.816,
+  "averageMs": 0.274675,
+  "percentage": 2.41208
+ },
+ {
+  "name": "/base.6/layers.7/layer2/dwconv/Conv",
+  "timeMs": 93.5747,
+  "averageMs": 0.0912034,
+  "percentage": 0.800911
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /base.6/layers.7/layer2/dwconv/Conv",
+  "timeMs": 57.6495,
+  "averageMs": 0.0561886,
+  "percentage": 0.493425
+ },
+ {
+  "name": "/base.6/layers.8/layer1/conv/Conv + PWN(/base.6/layers.8/layer1/relu/Clip)",
+  "timeMs": 55.1245,
+  "averageMs": 0.0537275,
+  "percentage": 0.471813
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.6/layers.8/layer2/dwconv/Conv",
+  "timeMs": 15.0674,
+  "averageMs": 0.0146856,
+  "percentage": 0.128963
+ },
+ {
+  "name": "/base.6/layers.8/layer2/dwconv/Conv",
+  "timeMs": 24.6927,
+  "averageMs": 0.024067,
+  "percentage": 0.211347
+ },
+ {
+  "name": "/base.6/layers.8/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 32.1116,
+  "averageMs": 0.0312978,
+  "percentage": 0.274845
+ },
+ {
+  "name": "/base.6/layers.7/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 19.3853,
+  "averageMs": 0.018894,
+  "percentage": 0.165919
+ },
+ {
+  "name": "/base.6/layers.9/layer1/conv/Conv + PWN(/base.6/layers.9/layer1/relu/Clip)",
+  "timeMs": 44.4951,
+  "averageMs": 0.0433675,
+  "percentage": 0.380836
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.6/layers.9/layer2/dwconv/Conv",
+  "timeMs": 21.169,
+  "averageMs": 0.0206325,
+  "percentage": 0.181187
+ },
+ {
+  "name": "/base.6/layers.9/layer2/dwconv/Conv",
+  "timeMs": 37.3843,
+  "averageMs": 0.0364369,
+  "percentage": 0.319974
+ },
+ {
+  "name": "/base.6/layers.10/layer1/conv/Conv + PWN(/base.6/layers.10/layer1/relu/Clip)",
+  "timeMs": 37.3411,
+  "averageMs": 0.0363948,
+  "percentage": 0.319604
+ },
+ {
+  "name": "/base.6/layers.10/layer2/dwconv/Conv",
+  "timeMs": 24.627,
+  "averageMs": 0.0240029,
+  "percentage": 0.210784
+ },
+ {
+  "name": "/base.6/layers.10/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 31.9231,
+  "averageMs": 0.0311142,
+  "percentage": 0.273232
+ },
+ {
+  "name": "/base.6/layers.9/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 24.8996,
+  "averageMs": 0.0242686,
+  "percentage": 0.213117
+ },
+ {
+  "name": "/base.6/layers.11/layer1/conv/Conv + PWN(/base.6/layers.11/layer1/relu/Clip)",
+  "timeMs": 75.8056,
+  "averageMs": 0.0738846,
+  "percentage": 0.648825
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.6/layers.11/layer2/dwconv/Conv",
+  "timeMs": 32.6661,
+  "averageMs": 0.0318383,
+  "percentage": 0.279591
+ },
+ {
+  "name": "/base.6/layers.11/layer2/dwconv/Conv",
+  "timeMs": 59.5659,
+  "averageMs": 0.0580565,
+  "percentage": 0.509828
+ },
+ {
+  "name": "/base.6/layers.12/layer1/conv/Conv + PWN(/base.6/layers.12/layer1/relu/Clip)",
+  "timeMs": 45.4537,
+  "averageMs": 0.0443019,
+  "percentage": 0.389041
+ },
+ {
+  "name": "/base.6/layers.12/layer2/dwconv/Conv",
+  "timeMs": 24.8578,
+  "averageMs": 0.0242279,
+  "percentage": 0.212759
+ },
+ {
+  "name": "/base.6/layers.12/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 7.87851,
+  "averageMs": 0.00767886,
+  "percentage": 0.0674326
+ },
+ {
+  "name": "/base.6/layers.13/layer1/conv/Conv + PWN(/base.6/layers.13/layer1/relu/Clip)",
+  "timeMs": 51.5142,
+  "averageMs": 0.0502087,
+  "percentage": 0.440913
+ },
+ {
+  "name": "/base.6/layers.13/layer2/dwconv/Conv",
+  "timeMs": 37.606,
+  "averageMs": 0.0366531,
+  "percentage": 0.321872
+ },
+ {
+  "name": "/base.6/layers.14/layer1/conv/Conv + PWN(/base.6/layers.14/layer1/relu/Clip)",
+  "timeMs": 29.0612,
+  "averageMs": 0.0283247,
+  "percentage": 0.248736
+ },
+ {
+  "name": "/base.6/layers.14/layer2/dwconv/Conv",
+  "timeMs": 24.5832,
+  "averageMs": 0.0239603,
+  "percentage": 0.210409
+ },
+ {
+  "name": "/base.6/layers.14/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 31.3538,
+  "averageMs": 0.0305593,
+  "percentage": 0.268359
+ },
+ {
+  "name": "/base.6/layers.13/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 25.2291,
+  "averageMs": 0.0245897,
+  "percentage": 0.215937
+ },
+ {
+  "name": "/base.6/layers.11/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 80.4323,
+  "averageMs": 0.078394,
+  "percentage": 0.688424
+ },
+ {
+  "name": "/base.6/layers.7/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 19.0769,
+  "averageMs": 0.0185935,
+  "percentage": 0.163281
+ },
+ {
+  "name": "/base.6/layers.15/layer1/conv/Conv + PWN(/base.6/layers.15/layer1/relu/Clip)",
+  "timeMs": 306.4,
+  "averageMs": 0.298636,
+  "percentage": 2.6225
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.6/layers.15/layer2/dwconv/Conv",
+  "timeMs": 77.5423,
+  "averageMs": 0.0755773,
+  "percentage": 0.663689
+ },
+ {
+  "name": "/base.6/layers.15/layer2/dwconv/Conv",
+  "timeMs": 147.806,
+  "averageMs": 0.144061,
+  "percentage": 1.26508
+ },
+ {
+  "name": "/base.7/conv/Conv + PWN(/base.7/relu/Clip)",
+  "timeMs": 960.527,
+  "averageMs": 0.936186,
+  "percentage": 8.22121
+ },
+ {
+  "name": "/base.8/dwconv/Conv",
+  "timeMs": 233.504,
+  "averageMs": 0.227587,
+  "percentage": 1.99858
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /base.8/dwconv/Conv",
+  "timeMs": 56.3251,
+  "averageMs": 0.0548977,
+  "percentage": 0.48209
+ },
+ {
+  "name": "/base.9/layers.0/layer1/conv/Conv + PWN(/base.9/layers.0/layer1/relu/Clip)",
+  "timeMs": 52.3666,
+  "averageMs": 0.0510396,
+  "percentage": 0.448209
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.9/layers.0/layer2/dwconv/Conv",
+  "timeMs": 12.6121,
+  "averageMs": 0.0122925,
+  "percentage": 0.107948
+ },
+ {
+  "name": "/base.9/layers.0/layer2/dwconv/Conv",
+  "timeMs": 37.9033,
+  "averageMs": 0.0369428,
+  "percentage": 0.324417
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /base.9/layers.0/layer2/dwconv/Conv",
+  "timeMs": 13.5733,
+  "averageMs": 0.0132293,
+  "percentage": 0.116174
+ },
+ {
+  "name": "/base.9/layers.0/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 5.03016,
+  "averageMs": 0.00490269,
+  "percentage": 0.0430534
+ },
+ {
+  "name": "/base.8/dwconv/Conv_output_0 copy",
+  "timeMs": 17.5179,
+  "averageMs": 0.017074,
+  "percentage": 0.149937
+ },
+ {
+  "name": "/base.9/layers.1/layer1/conv/Conv + PWN(/base.9/layers.1/layer1/relu/Clip)",
+  "timeMs": 87.3002,
+  "averageMs": 0.0850879,
+  "percentage": 0.747207
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.9/layers.1/layer2/dwconv/Conv",
+  "timeMs": 17.9761,
+  "averageMs": 0.0175206,
+  "percentage": 0.153859
+ },
+ {
+  "name": "/base.9/layers.1/layer2/dwconv/Conv",
+  "timeMs": 56.5441,
+  "averageMs": 0.0551112,
+  "percentage": 0.483964
+ },
+ {
+  "name": "/base.9/layers.2/layer1/conv/Conv + PWN(/base.9/layers.2/layer1/relu/Clip)",
+  "timeMs": 55.7988,
+  "averageMs": 0.0543847,
+  "percentage": 0.477585
+ },
+ {
+  "name": "/base.9/layers.2/layer2/dwconv/Conv",
+  "timeMs": 36.3616,
+  "averageMs": 0.0354402,
+  "percentage": 0.311221
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /base.9/layers.2/layer2/dwconv/Conv",
+  "timeMs": 13.9522,
+  "averageMs": 0.0135987,
+  "percentage": 0.119418
+ },
+ {
+  "name": "/base.9/layers.2/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 5.0029,
+  "averageMs": 0.00487612,
+  "percentage": 0.0428201
+ },
+ {
+  "name": "/base.9/layers.1/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 19.7383,
+  "averageMs": 0.0192381,
+  "percentage": 0.168941
+ },
+ {
+  "name": "/base.8/dwconv/Conv_output_0 copy",
+  "timeMs": 20.91,
+  "averageMs": 0.0203802,
+  "percentage": 0.17897
+ },
+ {
+  "name": "/base.9/layers.3/layer1/conv/Conv + PWN(/base.9/layers.3/layer1/relu/Clip)",
+  "timeMs": 156.069,
+  "averageMs": 0.152114,
+  "percentage": 1.3358
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.9/layers.3/layer2/dwconv/Conv",
+  "timeMs": 26.3359,
+  "averageMs": 0.0256685,
+  "percentage": 0.22541
+ },
+ {
+  "name": "/base.9/layers.3/layer2/dwconv/Conv",
+  "timeMs": 77.3525,
+  "averageMs": 0.0753923,
+  "percentage": 0.662065
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /base.9/layers.3/layer2/dwconv/Conv",
+  "timeMs": 29.7,
+  "averageMs": 0.0289474,
+  "percentage": 0.254204
+ },
+ {
+  "name": "/base.9/layers.4/layer1/conv/Conv + PWN(/base.9/layers.4/layer1/relu/Clip)",
+  "timeMs": 33.1801,
+  "averageMs": 0.0323393,
+  "percentage": 0.283991
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.9/layers.4/layer2/dwconv/Conv",
+  "timeMs": 11.8173,
+  "averageMs": 0.0115178,
+  "percentage": 0.101145
+ },
+ {
+  "name": "/base.9/layers.4/layer2/dwconv/Conv",
+  "timeMs": 32.0026,
+  "averageMs": 0.0311917,
+  "percentage": 0.273912
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /base.9/layers.4/layer2/dwconv/Conv",
+  "timeMs": 13.5858,
+  "averageMs": 0.0132416,
+  "percentage": 0.116282
+ },
+ {
+  "name": "/base.9/layers.4/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 5.19634,
+  "averageMs": 0.00506466,
+  "percentage": 0.0444758
+ },
+ {
+  "name": "/base.9/layers.5/layer1/conv/Conv + PWN(/base.9/layers.5/layer1/relu/Clip)",
+  "timeMs": 62.6708,
+  "averageMs": 0.0610827,
+  "percentage": 0.536403
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.9/layers.5/layer2/dwconv/Conv",
+  "timeMs": 17.7893,
+  "averageMs": 0.0173385,
+  "percentage": 0.152259
+ },
+ {
+  "name": "/base.9/layers.5/layer2/dwconv/Conv",
+  "timeMs": 56.5208,
+  "averageMs": 0.0550885,
+  "percentage": 0.483765
+ },
+ {
+  "name": "/base.9/layers.6/layer1/conv/Conv + PWN(/base.9/layers.6/layer1/relu/Clip)",
+  "timeMs": 55.6468,
+  "averageMs": 0.0542366,
+  "percentage": 0.476284
+ },
+ {
+  "name": "/base.9/layers.6/layer2/dwconv/Conv",
+  "timeMs": 36.8003,
+  "averageMs": 0.0358678,
+  "percentage": 0.314976
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /base.9/layers.6/layer2/dwconv/Conv",
+  "timeMs": 14.2168,
+  "averageMs": 0.0138565,
+  "percentage": 0.121682
+ },
+ {
+  "name": "/base.9/layers.6/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 5.27546,
+  "averageMs": 0.00514177,
+  "percentage": 0.0451529
+ },
+ {
+  "name": "/base.9/layers.5/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 20.0913,
+  "averageMs": 0.0195821,
+  "percentage": 0.171962
+ },
+ {
+  "name": "/base.9/layers.3/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 12.3656,
+  "averageMs": 0.0120522,
+  "percentage": 0.105838
+ },
+ {
+  "name": "/base.9/layers.7/layer1/conv/Conv + PWN(/base.9/layers.7/layer1/relu/Clip)",
+  "timeMs": 307.573,
+  "averageMs": 0.299778,
+  "percentage": 2.63253
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.9/layers.7/layer2/dwconv/Conv",
+  "timeMs": 40.3432,
+  "averageMs": 0.0393209,
+  "percentage": 0.3453
+ },
+ {
+  "name": "/base.9/layers.7/layer2/dwconv/Conv",
+  "timeMs": 113.682,
+  "averageMs": 0.110801,
+  "percentage": 0.973008
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /base.9/layers.7/layer2/dwconv/Conv",
+  "timeMs": 45.6062,
+  "averageMs": 0.0444505,
+  "percentage": 0.390346
+ },
+ {
+  "name": "/base.10/conv/Conv + PWN(/base.10/relu/Clip)",
+  "timeMs": 479.075,
+  "averageMs": 0.466934,
+  "percentage": 4.10043
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.11/dwconv/Conv",
+  "timeMs": 94.654,
+  "averageMs": 0.0922554,
+  "percentage": 0.810149
+ },
+ {
+  "name": "/base.11/dwconv/Conv",
+  "timeMs": 230.08,
+  "averageMs": 0.224249,
+  "percentage": 1.96927
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /base.11/dwconv/Conv",
+  "timeMs": 30.8105,
+  "averageMs": 0.0300298,
+  "percentage": 0.263709
+ },
+ {
+  "name": "/base.12/layers.0/layer1/conv/Conv + PWN(/base.12/layers.0/layer1/relu/Clip)",
+  "timeMs": 84.417,
+  "averageMs": 0.0822778,
+  "percentage": 0.72253
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.12/layers.0/layer2/dwconv/Conv",
+  "timeMs": 10.012,
+  "averageMs": 0.00975825,
+  "percentage": 0.085693
+ },
+ {
+  "name": "/base.12/layers.0/layer2/dwconv/Conv",
+  "timeMs": 51.449,
+  "averageMs": 0.0501452,
+  "percentage": 0.440355
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /base.12/layers.0/layer2/dwconv/Conv",
+  "timeMs": 10.5597,
+  "averageMs": 0.0102921,
+  "percentage": 0.0903814
+ },
+ {
+  "name": "/base.12/layers.0/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 4.65111,
+  "averageMs": 0.00453325,
+  "percentage": 0.0398091
+ },
+ {
+  "name": "/base.11/dwconv/Conv_output_0 copy",
+  "timeMs": 9.46362,
+  "averageMs": 0.0092238,
+  "percentage": 0.0809996
+ },
+ {
+  "name": "/base.12/layers.1/layer1/conv/Conv + PWN(/base.12/layers.1/layer1/relu/Clip)",
+  "timeMs": 134.808,
+  "averageMs": 0.131392,
+  "percentage": 1.15383
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.12/layers.1/layer2/dwconv/Conv",
+  "timeMs": 13.5182,
+  "averageMs": 0.0131757,
+  "percentage": 0.115703
+ },
+ {
+  "name": "/base.12/layers.1/layer2/dwconv/Conv",
+  "timeMs": 72.5119,
+  "averageMs": 0.0706744,
+  "percentage": 0.620634
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /base.12/layers.1/layer2/dwconv/Conv",
+  "timeMs": 14.4467,
+  "averageMs": 0.0140806,
+  "percentage": 0.12365
+ },
+ {
+  "name": "/base.12/layers.2/layer1/conv/Conv + PWN(/base.12/layers.2/layer1/relu/Clip)",
+  "timeMs": 41.7299,
+  "averageMs": 0.0406724,
+  "percentage": 0.357169
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.12/layers.2/layer2/dwconv/Conv",
+  "timeMs": 9.26439,
+  "averageMs": 0.00902962,
+  "percentage": 0.0792945
+ },
+ {
+  "name": "/base.12/layers.2/layer2/dwconv/Conv",
+  "timeMs": 48.5477,
+  "averageMs": 0.0473175,
+  "percentage": 0.415523
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /base.12/layers.2/layer2/dwconv/Conv",
+  "timeMs": 10.6822,
+  "averageMs": 0.0104115,
+  "percentage": 0.0914299
+ },
+ {
+  "name": "/base.12/layers.2/layer2/dwconv/Conv_output_0 copy",
+  "timeMs": 5.31796,
+  "averageMs": 0.00518319,
+  "percentage": 0.0455167
+ },
+ {
+  "name": "/base.12/layers.3/layer1/conv/Conv + PWN(/base.12/layers.3/layer1/relu/Clip)",
+  "timeMs": 295.409,
+  "averageMs": 0.287923,
+  "percentage": 2.52842
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /base.12/layers.3/layer2/dwconv/Conv",
+  "timeMs": 18.4645,
+  "averageMs": 0.0179966,
+  "percentage": 0.158039
+ },
+ {
+  "name": "/base.12/layers.3/layer2/dwconv/Conv",
+  "timeMs": 112.475,
+  "averageMs": 0.109625,
+  "percentage": 0.962678
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /base.12/layers.3/layer2/dwconv/Conv",
+  "timeMs": 20.1477,
+  "averageMs": 0.0196371,
+  "percentage": 0.172445
+ },
+ {
+  "name": "/base.13/conv/Conv + PWN(/base.13/relu/Clip)",
+  "timeMs": 524.568,
+  "averageMs": 0.511275,
+  "percentage": 4.48981
+ },
+ {
+  "name": "/base.14/base.14.0/GlobalAveragePool",
+  "timeMs": 30.5184,
+  "averageMs": 0.0297451,
+  "percentage": 0.261209
+ },
+ {
+  "name": "/base.14/base.14.3/Gemm",
+  "timeMs": 30.6787,
+  "averageMs": 0.0299012,
+  "percentage": 0.26258
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to (Unnamed Layer* 136) [Shuffle]",
+  "timeMs": 5.03401,
+  "averageMs": 0.00490644,
+  "percentage": 0.0430863
+ },
+ {
+  "name": "(Unnamed Layer* 136) [Shuffle]",
+  "timeMs": 0.521257,
+  "averageMs": 0.000508047,
+  "percentage": 0.00446146
+ }
+]

@@ -1,0 +1,18 @@
+{
+ "label": "repvgg",
+ "plan": "repvgg_a0.plan",
+ "pre": "fast",
+ "res": 224,
+ "workers": 3,
+ "dur_s": 15.0,
+ "pre_1_ms_median": 2.919481000020596,
+ "pre_1_ms_p99": 2.987116020030385,
+ "rate_w_fps": 911.3977348055573,
+ "gpu_ms_median": 9.111173000007966,
+ "gpu_ms_p99": 9.338776740011099,
+ "gpu_launches": 1643,
+ "gpu_mhz_mean": 921.6,
+ "k_gpu": 3,
+ "k_cpu": 30,
+ "k_pred": 3
+}

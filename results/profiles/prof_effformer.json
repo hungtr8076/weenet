@@ -1,0 +1,1301 @@
+[
+ {
+  "count": 579
+ },
+ {
+  "name": "{ForeignNode[stages.2.blocks.4.token_mixer.attention_biases...(Unnamed Layer* 269) [Shuffle]]}",
+  "timeMs": 153.856,
+  "averageMs": 0.265727,
+  "percentage": 1.30122
+ },
+ {
+  "name": "/stem/conv1/conv/Conv",
+  "timeMs": 228.297,
+  "averageMs": 0.394296,
+  "percentage": 1.9308
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(PWN(PWN(PWN(/stem/conv1/bn/act/Constant_output_0 + (Unnamed Layer* 4) [Shuffle], /stem/conv1/bn/act/Div), /stem/conv1/bn/act/Erf), /stem/conv1/bn/act/Constant_1_output_0 + (Unnamed Layer* 8) [Shuffle] + /stem/conv1/bn/act/Add), /stem/conv1/bn/act/Mul), /stem/conv1/bn/act/Constant_2_output_0 + (Unnamed Layer* 12) [Shuffle] + /stem/conv1/bn/act/Mul_1)",
+  "timeMs": 173.098,
+  "averageMs": 0.298961,
+  "percentage": 1.46396
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stem/conv1/bn/act/Constant_output_0 + (Unnamed Layer* 4) [Shuffle], /stem/conv1/bn/act/Div), /stem/conv1/bn/act/Erf), /stem/conv1/bn/act/Constant_1_output_0 + (Unnamed Layer* 8) [Shuffle] + /stem/conv1/bn/act/Add), /stem/conv1/bn/act/Mul), /stem/conv1/bn/act/Constant_2_output_0 + (Unnamed Layer* 12) [Shuffle] + /stem/conv1/bn/act/Mul_1)",
+  "timeMs": 86.6636,
+  "averageMs": 0.149678,
+  "percentage": 0.73295
+ },
+ {
+  "name": "/stem/conv2/conv/Conv",
+  "timeMs": 234.398,
+  "averageMs": 0.404832,
+  "percentage": 1.9824
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stem/conv2/bn/act/Constant_output_0 + (Unnamed Layer* 16) [Shuffle], /stem/conv2/bn/act/Div), /stem/conv2/bn/act/Erf), /stem/conv2/bn/act/Constant_1_output_0 + (Unnamed Layer* 20) [Shuffle] + /stem/conv2/bn/act/Add), /stem/conv2/bn/act/Mul), /stem/conv2/bn/act/Constant_2_output_0 + (Unnamed Layer* 24) [Shuffle] + /stem/conv2/bn/act/Mul_1)",
+  "timeMs": 45.8311,
+  "averageMs": 0.0791557,
+  "percentage": 0.387613
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to PWN(PWN(PWN(PWN(PWN(/stem/conv2/bn/act/Constant_output_0 + (Unnamed Layer* 16) [Shuffle], /stem/conv2/bn/act/Div), /stem/conv2/bn/act/Erf), /stem/conv2/bn/act/Constant_1_output_0 + (Unnamed Layer* 20) [Shuffle] + /stem/conv2/bn/act/Add), /stem/conv2/bn/act/Mul), /stem/conv2/bn/act/Constant_2_output_0 + (Unnamed Layer* 24) [Shuffle] + /stem/conv2/bn/act/Mul_1)",
+  "timeMs": 203.618,
+  "averageMs": 0.351672,
+  "percentage": 1.72208
+ },
+ {
+  "name": "/stages/stages.0/blocks/blocks.0/mlp/fc1/conv/Conv",
+  "timeMs": 166.978,
+  "averageMs": 0.28839,
+  "percentage": 1.4122
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.0/blocks/blocks.0/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 28) [Shuffle], /stages/stages.0/blocks/blocks.0/mlp/fc1/bn/act/Div), /stages/stages.0/blocks/blocks.0/mlp/fc1/bn/act/Erf), /stages/stages.0/blocks/blocks.0/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 32) [Shuffle] + /stages/stages.0/blocks/blocks.0/mlp/fc1/bn/act/Add), /stages/stages.0/blocks/blocks.0/mlp/fc1/bn/act/Mul), /stages/stages.0/blocks/blocks.0/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 36) [Shuffle] + /stages/stages.0/blocks/blocks.0/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 168.341,
+  "averageMs": 0.290744,
+  "percentage": 1.42373
+ },
+ {
+  "name": "/stages/stages.0/blocks/blocks.0/mlp/mid/conv/Conv",
+  "timeMs": 268.947,
+  "averageMs": 0.464503,
+  "percentage": 2.2746
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.0/blocks/blocks.0/mlp/mid/bn/act/Constant_output_0 + (Unnamed Layer* 40) [Shuffle], /stages/stages.0/blocks/blocks.0/mlp/mid/bn/act/Div), /stages/stages.0/blocks/blocks.0/mlp/mid/bn/act/Erf), /stages/stages.0/blocks/blocks.0/mlp/mid/bn/act/Constant_1_output_0 + (Unnamed Layer* 44) [Shuffle] + /stages/stages.0/blocks/blocks.0/mlp/mid/bn/act/Add), /stages/stages.0/blocks/blocks.0/mlp/mid/bn/act/Mul), /stages/stages.0/blocks/blocks.0/mlp/mid/bn/act/Constant_2_output_0 + (Unnamed Layer* 48) [Shuffle] + /stages/stages.0/blocks/blocks.0/mlp/mid/bn/act/Mul_1)",
+  "timeMs": 167.937,
+  "averageMs": 0.290046,
+  "percentage": 1.42031
+ },
+ {
+  "name": "/stages/stages.0/blocks/blocks.0/mlp/fc2/conv/Conv + /stages/stages.0/blocks/blocks.0/Add",
+  "timeMs": 139.444,
+  "averageMs": 0.240836,
+  "percentage": 1.17934
+ },
+ {
+  "name": "/stages/stages.0/blocks/blocks.1/mlp/fc1/conv/Conv",
+  "timeMs": 164.261,
+  "averageMs": 0.283698,
+  "percentage": 1.38923
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.0/blocks/blocks.1/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 56) [Shuffle], /stages/stages.0/blocks/blocks.1/mlp/fc1/bn/act/Div), /stages/stages.0/blocks/blocks.1/mlp/fc1/bn/act/Erf), /stages/stages.0/blocks/blocks.1/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 60) [Shuffle] + /stages/stages.0/blocks/blocks.1/mlp/fc1/bn/act/Add), /stages/stages.0/blocks/blocks.1/mlp/fc1/bn/act/Mul), /stages/stages.0/blocks/blocks.1/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 64) [Shuffle] + /stages/stages.0/blocks/blocks.1/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 168.179,
+  "averageMs": 0.290465,
+  "percentage": 1.42236
+ },
+ {
+  "name": "/stages/stages.0/blocks/blocks.1/mlp/mid/conv/Conv",
+  "timeMs": 269.168,
+  "averageMs": 0.464884,
+  "percentage": 2.27646
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.0/blocks/blocks.1/mlp/mid/bn/act/Constant_output_0 + (Unnamed Layer* 68) [Shuffle], /stages/stages.0/blocks/blocks.1/mlp/mid/bn/act/Div), /stages/stages.0/blocks/blocks.1/mlp/mid/bn/act/Erf), /stages/stages.0/blocks/blocks.1/mlp/mid/bn/act/Constant_1_output_0 + (Unnamed Layer* 72) [Shuffle] + /stages/stages.0/blocks/blocks.1/mlp/mid/bn/act/Add), /stages/stages.0/blocks/blocks.1/mlp/mid/bn/act/Mul), /stages/stages.0/blocks/blocks.1/mlp/mid/bn/act/Constant_2_output_0 + (Unnamed Layer* 76) [Shuffle] + /stages/stages.0/blocks/blocks.1/mlp/mid/bn/act/Mul_1)",
+  "timeMs": 167.828,
+  "averageMs": 0.289859,
+  "percentage": 1.41939
+ },
+ {
+  "name": "/stages/stages.0/blocks/blocks.1/mlp/fc2/conv/Conv + /stages/stages.0/blocks/blocks.1/Add",
+  "timeMs": 138.735,
+  "averageMs": 0.239612,
+  "percentage": 1.17334
+ },
+ {
+  "name": "/stages/stages.1/downsample/conv/conv/Conv",
+  "timeMs": 118.556,
+  "averageMs": 0.20476,
+  "percentage": 1.00268
+ },
+ {
+  "name": "/stages/stages.1/blocks/blocks.0/mlp/fc1/conv/Conv",
+  "timeMs": 91.1424,
+  "averageMs": 0.157413,
+  "percentage": 0.770829
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.1/blocks/blocks.0/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 85) [Shuffle], /stages/stages.1/blocks/blocks.0/mlp/fc1/bn/act/Div), /stages/stages.1/blocks/blocks.0/mlp/fc1/bn/act/Erf), /stages/stages.1/blocks/blocks.0/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 89) [Shuffle] + /stages/stages.1/blocks/blocks.0/mlp/fc1/bn/act/Add), /stages/stages.1/blocks/blocks.0/mlp/fc1/bn/act/Mul), /stages/stages.1/blocks/blocks.0/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 93) [Shuffle] + /stages/stages.1/blocks/blocks.0/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 66.6302,
+  "averageMs": 0.115078,
+  "percentage": 0.563519
+ },
+ {
+  "name": "/stages/stages.1/blocks/blocks.0/mlp/mid/conv/Conv",
+  "timeMs": 118.907,
+  "averageMs": 0.205366,
+  "percentage": 1.00564
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.1/blocks/blocks.0/mlp/mid/bn/act/Constant_output_0 + (Unnamed Layer* 97) [Shuffle], /stages/stages.1/blocks/blocks.0/mlp/mid/bn/act/Div), /stages/stages.1/blocks/blocks.0/mlp/mid/bn/act/Erf), /stages/stages.1/blocks/blocks.0/mlp/mid/bn/act/Constant_1_output_0 + (Unnamed Layer* 101) [Shuffle] + /stages/stages.1/blocks/blocks.0/mlp/mid/bn/act/Add), /stages/stages.1/blocks/blocks.0/mlp/mid/bn/act/Mul), /stages/stages.1/blocks/blocks.0/mlp/mid/bn/act/Constant_2_output_0 + (Unnamed Layer* 105) [Shuffle] + /stages/stages.1/blocks/blocks.0/mlp/mid/bn/act/Mul_1)",
+  "timeMs": 66.355,
+  "averageMs": 0.114603,
+  "percentage": 0.561192
+ },
+ {
+  "name": "/stages/stages.1/blocks/blocks.0/mlp/fc2/conv/Conv + /stages/stages.1/blocks/blocks.0/Add",
+  "timeMs": 84.3385,
+  "averageMs": 0.145662,
+  "percentage": 0.713285
+ },
+ {
+  "name": "/stages/stages.1/blocks/blocks.1/mlp/fc1/conv/Conv",
+  "timeMs": 84.8321,
+  "averageMs": 0.146515,
+  "percentage": 0.71746
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.1/blocks/blocks.1/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 113) [Shuffle], /stages/stages.1/blocks/blocks.1/mlp/fc1/bn/act/Div), /stages/stages.1/blocks/blocks.1/mlp/fc1/bn/act/Erf), /stages/stages.1/blocks/blocks.1/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 117) [Shuffle] + /stages/stages.1/blocks/blocks.1/mlp/fc1/bn/act/Add), /stages/stages.1/blocks/blocks.1/mlp/fc1/bn/act/Mul), /stages/stages.1/blocks/blocks.1/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 121) [Shuffle] + /stages/stages.1/blocks/blocks.1/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 66.6612,
+  "averageMs": 0.115132,
+  "percentage": 0.563781
+ },
+ {
+  "name": "/stages/stages.1/blocks/blocks.1/mlp/mid/conv/Conv",
+  "timeMs": 118.576,
+  "averageMs": 0.204794,
+  "percentage": 1.00284
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.1/blocks/blocks.1/mlp/mid/bn/act/Constant_output_0 + (Unnamed Layer* 125) [Shuffle], /stages/stages.1/blocks/blocks.1/mlp/mid/bn/act/Div), /stages/stages.1/blocks/blocks.1/mlp/mid/bn/act/Erf), /stages/stages.1/blocks/blocks.1/mlp/mid/bn/act/Constant_1_output_0 + (Unnamed Layer* 129) [Shuffle] + /stages/stages.1/blocks/blocks.1/mlp/mid/bn/act/Add), /stages/stages.1/blocks/blocks.1/mlp/mid/bn/act/Mul), /stages/stages.1/blocks/blocks.1/mlp/mid/bn/act/Constant_2_output_0 + (Unnamed Layer* 133) [Shuffle] + /stages/stages.1/blocks/blocks.1/mlp/mid/bn/act/Mul_1)",
+  "timeMs": 66.3364,
+  "averageMs": 0.114571,
+  "percentage": 0.561035
+ },
+ {
+  "name": "/stages/stages.1/blocks/blocks.1/mlp/fc2/conv/Conv + /stages/stages.1/blocks/blocks.1/Add",
+  "timeMs": 84.3882,
+  "averageMs": 0.145748,
+  "percentage": 0.713706
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.2/downsample/conv/conv/Conv",
+  "timeMs": 19.8525,
+  "averageMs": 0.0342875,
+  "percentage": 0.167901
+ },
+ {
+  "name": "/stages/stages.2/downsample/conv/conv/Conv",
+  "timeMs": 54.4202,
+  "averageMs": 0.09399,
+  "percentage": 0.460254
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.0/mlp/fc1/conv/Conv",
+  "timeMs": 48.7928,
+  "averageMs": 0.0842708,
+  "percentage": 0.412661
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.0/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 142) [Shuffle], /stages/stages.2/blocks/blocks.0/mlp/fc1/bn/act/Div), /stages/stages.2/blocks/blocks.0/mlp/fc1/bn/act/Erf), /stages/stages.2/blocks/blocks.0/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 146) [Shuffle] + /stages/stages.2/blocks/blocks.0/mlp/fc1/bn/act/Add), /stages/stages.2/blocks/blocks.0/mlp/fc1/bn/act/Mul), /stages/stages.2/blocks/blocks.0/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 150) [Shuffle] + /stages/stages.2/blocks/blocks.0/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 31.923,
+  "averageMs": 0.0551347,
+  "percentage": 0.269986
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.0/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 142) [Shuffle], /stages/stages.2/blocks/blocks.0/mlp/fc1/bn/act/Div), /stages/stages.2/blocks/blocks.0/mlp/fc1/bn/act/Erf), /stages/stages.2/blocks/blocks.0/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 146) [Shuffle] + /stages/stages.2/blocks/blocks.0/mlp/fc1/bn/act/Add), /stages/stages.2/blocks/blocks.0/mlp/fc1/bn/act/Mul), /stages/stages.2/blocks/blocks.0/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 150) [Shuffle] + /stages/stages.2/blocks/blocks.0/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 36.4471,
+  "averageMs": 0.0629483,
+  "percentage": 0.308248
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.0/mlp/mid/conv/Conv",
+  "timeMs": 88.407,
+  "averageMs": 0.152689,
+  "percentage": 0.747695
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.0/mlp/mid/bn/act/Constant_output_0 + (Unnamed Layer* 154) [Shuffle], /stages/stages.2/blocks/blocks.0/mlp/mid/bn/act/Div), /stages/stages.2/blocks/blocks.0/mlp/mid/bn/act/Erf), /stages/stages.2/blocks/blocks.0/mlp/mid/bn/act/Constant_1_output_0 + (Unnamed Layer* 158) [Shuffle] + /stages/stages.2/blocks/blocks.0/mlp/mid/bn/act/Add), /stages/stages.2/blocks/blocks.0/mlp/mid/bn/act/Mul), /stages/stages.2/blocks/blocks.0/mlp/mid/bn/act/Constant_2_output_0 + (Unnamed Layer* 162) [Shuffle] + /stages/stages.2/blocks/blocks.0/mlp/mid/bn/act/Mul_1)",
+  "timeMs": 35.9133,
+  "averageMs": 0.0620265,
+  "percentage": 0.303734
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.2/blocks/blocks.0/mlp/fc2/conv/Conv + /stages/stages.2/blocks/blocks.0/Add",
+  "timeMs": 36.9633,
+  "averageMs": 0.0638398,
+  "percentage": 0.312614
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.0/mlp/fc2/conv/Conv + /stages/stages.2/blocks/blocks.0/Add",
+  "timeMs": 48.3319,
+  "averageMs": 0.0834747,
+  "percentage": 0.408763
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.1/mlp/fc1/conv/Conv",
+  "timeMs": 43.6027,
+  "averageMs": 0.0753068,
+  "percentage": 0.368766
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.1/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 170) [Shuffle], /stages/stages.2/blocks/blocks.1/mlp/fc1/bn/act/Div), /stages/stages.2/blocks/blocks.1/mlp/fc1/bn/act/Erf), /stages/stages.2/blocks/blocks.1/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 174) [Shuffle] + /stages/stages.2/blocks/blocks.1/mlp/fc1/bn/act/Add), /stages/stages.2/blocks/blocks.1/mlp/fc1/bn/act/Mul), /stages/stages.2/blocks/blocks.1/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 178) [Shuffle] + /stages/stages.2/blocks/blocks.1/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 24.2561,
+  "averageMs": 0.041893,
+  "percentage": 0.205144
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.1/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 170) [Shuffle], /stages/stages.2/blocks/blocks.1/mlp/fc1/bn/act/Div), /stages/stages.2/blocks/blocks.1/mlp/fc1/bn/act/Erf), /stages/stages.2/blocks/blocks.1/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 174) [Shuffle] + /stages/stages.2/blocks/blocks.1/mlp/fc1/bn/act/Add), /stages/stages.2/blocks/blocks.1/mlp/fc1/bn/act/Mul), /stages/stages.2/blocks/blocks.1/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 178) [Shuffle] + /stages/stages.2/blocks/blocks.1/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 27.4647,
+  "averageMs": 0.0474347,
+  "percentage": 0.23228
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.1/mlp/mid/conv/Conv",
+  "timeMs": 67.2328,
+  "averageMs": 0.116119,
+  "percentage": 0.568616
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.1/mlp/mid/bn/act/Constant_output_0 + (Unnamed Layer* 182) [Shuffle], /stages/stages.2/blocks/blocks.1/mlp/mid/bn/act/Div), /stages/stages.2/blocks/blocks.1/mlp/mid/bn/act/Erf), /stages/stages.2/blocks/blocks.1/mlp/mid/bn/act/Constant_1_output_0 + (Unnamed Layer* 186) [Shuffle] + /stages/stages.2/blocks/blocks.1/mlp/mid/bn/act/Add), /stages/stages.2/blocks/blocks.1/mlp/mid/bn/act/Mul), /stages/stages.2/blocks/blocks.1/mlp/mid/bn/act/Constant_2_output_0 + (Unnamed Layer* 190) [Shuffle] + /stages/stages.2/blocks/blocks.1/mlp/mid/bn/act/Mul_1)",
+  "timeMs": 27.3374,
+  "averageMs": 0.0472148,
+  "percentage": 0.231203
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.2/blocks/blocks.1/mlp/fc2/conv/Conv + /stages/stages.2/blocks/blocks.1/Add",
+  "timeMs": 27.997,
+  "averageMs": 0.0483541,
+  "percentage": 0.236782
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.1/mlp/fc2/conv/Conv + /stages/stages.2/blocks/blocks.1/Add",
+  "timeMs": 40.3565,
+  "averageMs": 0.0697003,
+  "percentage": 0.341312
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.2/mlp/fc1/conv/Conv",
+  "timeMs": 43.9163,
+  "averageMs": 0.0758486,
+  "percentage": 0.371419
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.2/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 198) [Shuffle], /stages/stages.2/blocks/blocks.2/mlp/fc1/bn/act/Div), /stages/stages.2/blocks/blocks.2/mlp/fc1/bn/act/Erf), /stages/stages.2/blocks/blocks.2/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 202) [Shuffle] + /stages/stages.2/blocks/blocks.2/mlp/fc1/bn/act/Add), /stages/stages.2/blocks/blocks.2/mlp/fc1/bn/act/Mul), /stages/stages.2/blocks/blocks.2/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 206) [Shuffle] + /stages/stages.2/blocks/blocks.2/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 24.2541,
+  "averageMs": 0.0418896,
+  "percentage": 0.205127
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.2/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 198) [Shuffle], /stages/stages.2/blocks/blocks.2/mlp/fc1/bn/act/Div), /stages/stages.2/blocks/blocks.2/mlp/fc1/bn/act/Erf), /stages/stages.2/blocks/blocks.2/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 202) [Shuffle] + /stages/stages.2/blocks/blocks.2/mlp/fc1/bn/act/Add), /stages/stages.2/blocks/blocks.2/mlp/fc1/bn/act/Mul), /stages/stages.2/blocks/blocks.2/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 206) [Shuffle] + /stages/stages.2/blocks/blocks.2/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 27.5664,
+  "averageMs": 0.0476104,
+  "percentage": 0.233141
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.2/mlp/mid/conv/Conv",
+  "timeMs": 67.145,
+  "averageMs": 0.115967,
+  "percentage": 0.567873
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.2/mlp/mid/bn/act/Constant_output_0 + (Unnamed Layer* 210) [Shuffle], /stages/stages.2/blocks/blocks.2/mlp/mid/bn/act/Div), /stages/stages.2/blocks/blocks.2/mlp/mid/bn/act/Erf), /stages/stages.2/blocks/blocks.2/mlp/mid/bn/act/Constant_1_output_0 + (Unnamed Layer* 214) [Shuffle] + /stages/stages.2/blocks/blocks.2/mlp/mid/bn/act/Add), /stages/stages.2/blocks/blocks.2/mlp/mid/bn/act/Mul), /stages/stages.2/blocks/blocks.2/mlp/mid/bn/act/Constant_2_output_0 + (Unnamed Layer* 218) [Shuffle] + /stages/stages.2/blocks/blocks.2/mlp/mid/bn/act/Mul_1)",
+  "timeMs": 27.2606,
+  "averageMs": 0.0470822,
+  "percentage": 0.230554
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.2/blocks/blocks.2/mlp/fc2/conv/Conv + /stages/stages.2/blocks/blocks.2/Add",
+  "timeMs": 27.9961,
+  "averageMs": 0.0483526,
+  "percentage": 0.236775
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.2/mlp/fc2/conv/Conv + /stages/stages.2/blocks/blocks.2/Add",
+  "timeMs": 39.9733,
+  "averageMs": 0.0690385,
+  "percentage": 0.338071
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.3/mlp/fc1/conv/Conv",
+  "timeMs": 43.8262,
+  "averageMs": 0.0756929,
+  "percentage": 0.370656
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.3/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 226) [Shuffle], /stages/stages.2/blocks/blocks.3/mlp/fc1/bn/act/Div), /stages/stages.2/blocks/blocks.3/mlp/fc1/bn/act/Erf), /stages/stages.2/blocks/blocks.3/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 230) [Shuffle] + /stages/stages.2/blocks/blocks.3/mlp/fc1/bn/act/Add), /stages/stages.2/blocks/blocks.3/mlp/fc1/bn/act/Mul), /stages/stages.2/blocks/blocks.3/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 234) [Shuffle] + /stages/stages.2/blocks/blocks.3/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 24.255,
+  "averageMs": 0.0418912,
+  "percentage": 0.205135
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.3/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 226) [Shuffle], /stages/stages.2/blocks/blocks.3/mlp/fc1/bn/act/Div), /stages/stages.2/blocks/blocks.3/mlp/fc1/bn/act/Erf), /stages/stages.2/blocks/blocks.3/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 230) [Shuffle] + /stages/stages.2/blocks/blocks.3/mlp/fc1/bn/act/Add), /stages/stages.2/blocks/blocks.3/mlp/fc1/bn/act/Mul), /stages/stages.2/blocks/blocks.3/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 234) [Shuffle] + /stages/stages.2/blocks/blocks.3/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 27.4729,
+  "averageMs": 0.0474488,
+  "percentage": 0.232349
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.3/mlp/mid/conv/Conv",
+  "timeMs": 67.1868,
+  "averageMs": 0.116039,
+  "percentage": 0.568227
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.3/mlp/mid/bn/act/Constant_output_0 + (Unnamed Layer* 238) [Shuffle], /stages/stages.2/blocks/blocks.3/mlp/mid/bn/act/Div), /stages/stages.2/blocks/blocks.3/mlp/mid/bn/act/Erf), /stages/stages.2/blocks/blocks.3/mlp/mid/bn/act/Constant_1_output_0 + (Unnamed Layer* 242) [Shuffle] + /stages/stages.2/blocks/blocks.3/mlp/mid/bn/act/Add), /stages/stages.2/blocks/blocks.3/mlp/mid/bn/act/Mul), /stages/stages.2/blocks/blocks.3/mlp/mid/bn/act/Constant_2_output_0 + (Unnamed Layer* 246) [Shuffle] + /stages/stages.2/blocks/blocks.3/mlp/mid/bn/act/Mul_1)",
+  "timeMs": 27.3896,
+  "averageMs": 0.047305,
+  "percentage": 0.231645
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.2/blocks/blocks.3/mlp/fc2/conv/Conv + /stages/stages.2/blocks/blocks.3/Add",
+  "timeMs": 27.9973,
+  "averageMs": 0.0483545,
+  "percentage": 0.236784
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.3/mlp/fc2/conv/Conv + /stages/stages.2/blocks/blocks.3/Add",
+  "timeMs": 40.8626,
+  "averageMs": 0.0705745,
+  "percentage": 0.345592
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.2/blocks/blocks.4/token_mixer/stride_conv/conv/Conv",
+  "timeMs": 9.51589,
+  "averageMs": 0.016435,
+  "percentage": 0.0804798
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/token_mixer/stride_conv/conv/Conv",
+  "timeMs": 21.4812,
+  "averageMs": 0.0371004,
+  "percentage": 0.181675
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /stages/stages.2/blocks/blocks.4/token_mixer/stride_conv/conv/Conv",
+  "timeMs": 4.03994,
+  "averageMs": 0.00697745,
+  "percentage": 0.0341675
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/token_mixer/v/conv/Conv",
+  "timeMs": 62.0311,
+  "averageMs": 0.107135,
+  "percentage": 0.524623
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /stages/stages.2/blocks/blocks.4/token_mixer/v/conv/Conv",
+  "timeMs": 21.7674,
+  "averageMs": 0.0375949,
+  "percentage": 0.184096
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/token_mixer/k/conv/Conv || /stages/stages.2/blocks/blocks.4/token_mixer/q/conv/Conv",
+  "timeMs": 29.8626,
+  "averageMs": 0.0515762,
+  "percentage": 0.252561
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /stages/stages.2/blocks/blocks.4/token_mixer/k/conv/Conv || /stages/stages.2/blocks/blocks.4/token_mixer/q/conv/Conv",
+  "timeMs": 12.2394,
+  "averageMs": 0.0211388,
+  "percentage": 0.103513
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/token_mixer/Reshape + /stages/stages.2/blocks/blocks.4/token_mixer/Transpose",
+  "timeMs": 15.1666,
+  "averageMs": 0.0261944,
+  "percentage": 0.12827
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/token_mixer/Reshape_1",
+  "timeMs": 3.73467,
+  "averageMs": 0.0064502,
+  "percentage": 0.0315856
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/token_mixer/MatMul",
+  "timeMs": 23.9073,
+  "averageMs": 0.0412907,
+  "percentage": 0.202194
+ },
+ {
+  "name": "PWN(/stages/stages.2/blocks/blocks.4/token_mixer/Constant_3_output_0 + (Unnamed Layer* 264) [Shuffle] + /stages/stages.2/blocks/blocks.4/token_mixer/Mul, /stages/stages.2/blocks/blocks.4/token_mixer/Add)",
+  "timeMs": 8.50494,
+  "averageMs": 0.014689,
+  "percentage": 0.0719298
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/token_mixer/talking_head1/Conv",
+  "timeMs": 28.2706,
+  "averageMs": 0.0488266,
+  "percentage": 0.239096
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/token_mixer/Softmax",
+  "timeMs": 41.5467,
+  "averageMs": 0.0717559,
+  "percentage": 0.351377
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/token_mixer/talking_head2/Conv",
+  "timeMs": 23.2567,
+  "averageMs": 0.040167,
+  "percentage": 0.196691
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/token_mixer/Reshape_2 + /stages/stages.2/blocks/blocks.4/token_mixer/Transpose_1",
+  "timeMs": 43.7661,
+  "averageMs": 0.0755892,
+  "percentage": 0.370148
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.2/blocks/blocks.4/token_mixer/MatMul_1",
+  "timeMs": 15.1125,
+  "averageMs": 0.026101,
+  "percentage": 0.127812
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/token_mixer/MatMul_1",
+  "timeMs": 26.8268,
+  "averageMs": 0.046333,
+  "percentage": 0.226885
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/token_mixer/Transpose_2 + /stages/stages.2/blocks/blocks.4/token_mixer/Reshape_3",
+  "timeMs": 39.863,
+  "averageMs": 0.068848,
+  "percentage": 0.337138
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/token_mixer/v_local/conv/Conv + /stages/stages.2/blocks/blocks.4/token_mixer/Add_1",
+  "timeMs": 254.063,
+  "averageMs": 0.438797,
+  "percentage": 2.14872
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/token_mixer/upsample/Resize",
+  "timeMs": 140.974,
+  "averageMs": 0.243479,
+  "percentage": 1.19228
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.4/token_mixer/act/Constant_output_0 + (Unnamed Layer* 281) [Shuffle], /stages/stages.2/blocks/blocks.4/token_mixer/act/Div), /stages/stages.2/blocks/blocks.4/token_mixer/act/Erf), /stages/stages.2/blocks/blocks.4/token_mixer/act/Constant_1_output_0 + (Unnamed Layer* 285) [Shuffle] + /stages/stages.2/blocks/blocks.4/token_mixer/act/Add), /stages/stages.2/blocks/blocks.4/token_mixer/act/Mul), /stages/stages.2/blocks/blocks.4/token_mixer/act/Constant_2_output_0 + (Unnamed Layer* 289) [Shuffle] + /stages/stages.2/blocks/blocks.4/token_mixer/act/Mul_1)",
+  "timeMs": 94.6534,
+  "averageMs": 0.163477,
+  "percentage": 0.800523
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.4/token_mixer/act/Constant_output_0 + (Unnamed Layer* 281) [Shuffle], /stages/stages.2/blocks/blocks.4/token_mixer/act/Div), /stages/stages.2/blocks/blocks.4/token_mixer/act/Erf), /stages/stages.2/blocks/blocks.4/token_mixer/act/Constant_1_output_0 + (Unnamed Layer* 285) [Shuffle] + /stages/stages.2/blocks/blocks.4/token_mixer/act/Add), /stages/stages.2/blocks/blocks.4/token_mixer/act/Mul), /stages/stages.2/blocks/blocks.4/token_mixer/act/Constant_2_output_0 + (Unnamed Layer* 289) [Shuffle] + /stages/stages.2/blocks/blocks.4/token_mixer/act/Mul_1)",
+  "timeMs": 91.9075,
+  "averageMs": 0.158735,
+  "percentage": 0.7773
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/token_mixer/proj/conv/Conv + /stages/stages.2/blocks/blocks.4/Add",
+  "timeMs": 97.3994,
+  "averageMs": 0.16822,
+  "percentage": 0.823747
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/mlp/fc1/conv/Conv",
+  "timeMs": 49.1608,
+  "averageMs": 0.0849064,
+  "percentage": 0.415773
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.4/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 297) [Shuffle], /stages/stages.2/blocks/blocks.4/mlp/fc1/bn/act/Div), /stages/stages.2/blocks/blocks.4/mlp/fc1/bn/act/Erf), /stages/stages.2/blocks/blocks.4/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 301) [Shuffle] + /stages/stages.2/blocks/blocks.4/mlp/fc1/bn/act/Add), /stages/stages.2/blocks/blocks.4/mlp/fc1/bn/act/Mul), /stages/stages.2/blocks/blocks.4/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 305) [Shuffle] + /stages/stages.2/blocks/blocks.4/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 32.0156,
+  "averageMs": 0.0552946,
+  "percentage": 0.270769
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.4/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 297) [Shuffle], /stages/stages.2/blocks/blocks.4/mlp/fc1/bn/act/Div), /stages/stages.2/blocks/blocks.4/mlp/fc1/bn/act/Erf), /stages/stages.2/blocks/blocks.4/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 301) [Shuffle] + /stages/stages.2/blocks/blocks.4/mlp/fc1/bn/act/Add), /stages/stages.2/blocks/blocks.4/mlp/fc1/bn/act/Mul), /stages/stages.2/blocks/blocks.4/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 305) [Shuffle] + /stages/stages.2/blocks/blocks.4/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 36.3951,
+  "averageMs": 0.0628586,
+  "percentage": 0.307809
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/mlp/mid/conv/Conv",
+  "timeMs": 88.4374,
+  "averageMs": 0.152742,
+  "percentage": 0.747952
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.4/mlp/mid/bn/act/Constant_output_0 + (Unnamed Layer* 309) [Shuffle], /stages/stages.2/blocks/blocks.4/mlp/mid/bn/act/Div), /stages/stages.2/blocks/blocks.4/mlp/mid/bn/act/Erf), /stages/stages.2/blocks/blocks.4/mlp/mid/bn/act/Constant_1_output_0 + (Unnamed Layer* 313) [Shuffle] + /stages/stages.2/blocks/blocks.4/mlp/mid/bn/act/Add), /stages/stages.2/blocks/blocks.4/mlp/mid/bn/act/Mul), /stages/stages.2/blocks/blocks.4/mlp/mid/bn/act/Constant_2_output_0 + (Unnamed Layer* 317) [Shuffle] + /stages/stages.2/blocks/blocks.4/mlp/mid/bn/act/Mul_1)",
+  "timeMs": 35.9666,
+  "averageMs": 0.0621185,
+  "percentage": 0.304185
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.2/blocks/blocks.4/mlp/fc2/conv/Conv + /stages/stages.2/blocks/blocks.4/Add_1",
+  "timeMs": 36.9747,
+  "averageMs": 0.0638595,
+  "percentage": 0.31271
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/mlp/fc2/conv/Conv + /stages/stages.2/blocks/blocks.4/Add_1",
+  "timeMs": 47.4234,
+  "averageMs": 0.0819057,
+  "percentage": 0.401079
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.2/blocks/blocks.5/token_mixer/stride_conv/conv/Conv",
+  "timeMs": 9.51203,
+  "averageMs": 0.0164284,
+  "percentage": 0.0804472
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/token_mixer/stride_conv/conv/Conv",
+  "timeMs": 21.6612,
+  "averageMs": 0.0374113,
+  "percentage": 0.183197
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /stages/stages.2/blocks/blocks.5/token_mixer/stride_conv/conv/Conv",
+  "timeMs": 4.01218,
+  "averageMs": 0.00692949,
+  "percentage": 0.0339326
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/token_mixer/v/conv/Conv",
+  "timeMs": 61.9227,
+  "averageMs": 0.106948,
+  "percentage": 0.523706
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /stages/stages.2/blocks/blocks.5/token_mixer/v/conv/Conv",
+  "timeMs": 21.7961,
+  "averageMs": 0.0376445,
+  "percentage": 0.184339
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/token_mixer/k/conv/Conv || /stages/stages.2/blocks/blocks.5/token_mixer/q/conv/Conv",
+  "timeMs": 29.9918,
+  "averageMs": 0.0517993,
+  "percentage": 0.253653
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /stages/stages.2/blocks/blocks.5/token_mixer/k/conv/Conv || /stages/stages.2/blocks/blocks.5/token_mixer/q/conv/Conv",
+  "timeMs": 12.2241,
+  "averageMs": 0.0211124,
+  "percentage": 0.103384
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/token_mixer/Reshape + /stages/stages.2/blocks/blocks.5/token_mixer/Transpose",
+  "timeMs": 15.108,
+  "averageMs": 0.0260933,
+  "percentage": 0.127775
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/token_mixer/Reshape_1",
+  "timeMs": 3.71859,
+  "averageMs": 0.00642244,
+  "percentage": 0.0314497
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/token_mixer/MatMul",
+  "timeMs": 23.4661,
+  "averageMs": 0.0405287,
+  "percentage": 0.198462
+ },
+ {
+  "name": "PWN(/stages/stages.2/blocks/blocks.5/token_mixer/Constant_3_output_0 + (Unnamed Layer* 335) [Shuffle] + /stages/stages.2/blocks/blocks.5/token_mixer/Mul, /stages/stages.2/blocks/blocks.5/token_mixer/Add)",
+  "timeMs": 8.37241,
+  "averageMs": 0.0144601,
+  "percentage": 0.0708089
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/token_mixer/talking_head1/Conv",
+  "timeMs": 28.4902,
+  "averageMs": 0.0492059,
+  "percentage": 0.240954
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/token_mixer/Softmax",
+  "timeMs": 41.5026,
+  "averageMs": 0.0716797,
+  "percentage": 0.351004
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/token_mixer/talking_head2/Conv",
+  "timeMs": 23.3448,
+  "averageMs": 0.0403191,
+  "percentage": 0.197436
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/token_mixer/Reshape_2 + /stages/stages.2/blocks/blocks.5/token_mixer/Transpose_1",
+  "timeMs": 43.7324,
+  "averageMs": 0.075531,
+  "percentage": 0.369863
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.2/blocks/blocks.5/token_mixer/MatMul_1",
+  "timeMs": 15.1102,
+  "averageMs": 0.026097,
+  "percentage": 0.127793
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/token_mixer/MatMul_1",
+  "timeMs": 26.6658,
+  "averageMs": 0.0460548,
+  "percentage": 0.225523
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/token_mixer/Transpose_2 + /stages/stages.2/blocks/blocks.5/token_mixer/Reshape_3",
+  "timeMs": 39.8671,
+  "averageMs": 0.0688551,
+  "percentage": 0.337173
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/token_mixer/v_local/conv/Conv + /stages/stages.2/blocks/blocks.5/token_mixer/Add_1",
+  "timeMs": 254.245,
+  "averageMs": 0.43911,
+  "percentage": 2.15025
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/token_mixer/upsample/Resize",
+  "timeMs": 140.931,
+  "averageMs": 0.243404,
+  "percentage": 1.19191
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.5/token_mixer/act/Constant_output_0 + (Unnamed Layer* 352) [Shuffle], /stages/stages.2/blocks/blocks.5/token_mixer/act/Div), /stages/stages.2/blocks/blocks.5/token_mixer/act/Erf), /stages/stages.2/blocks/blocks.5/token_mixer/act/Constant_1_output_0 + (Unnamed Layer* 356) [Shuffle] + /stages/stages.2/blocks/blocks.5/token_mixer/act/Add), /stages/stages.2/blocks/blocks.5/token_mixer/act/Mul), /stages/stages.2/blocks/blocks.5/token_mixer/act/Constant_2_output_0 + (Unnamed Layer* 360) [Shuffle] + /stages/stages.2/blocks/blocks.5/token_mixer/act/Mul_1)",
+  "timeMs": 94.6144,
+  "averageMs": 0.16341,
+  "percentage": 0.800193
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.5/token_mixer/act/Constant_output_0 + (Unnamed Layer* 352) [Shuffle], /stages/stages.2/blocks/blocks.5/token_mixer/act/Div), /stages/stages.2/blocks/blocks.5/token_mixer/act/Erf), /stages/stages.2/blocks/blocks.5/token_mixer/act/Constant_1_output_0 + (Unnamed Layer* 356) [Shuffle] + /stages/stages.2/blocks/blocks.5/token_mixer/act/Add), /stages/stages.2/blocks/blocks.5/token_mixer/act/Mul), /stages/stages.2/blocks/blocks.5/token_mixer/act/Constant_2_output_0 + (Unnamed Layer* 360) [Shuffle] + /stages/stages.2/blocks/blocks.5/token_mixer/act/Mul_1)",
+  "timeMs": 91.2459,
+  "averageMs": 0.157592,
+  "percentage": 0.771704
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/token_mixer/proj/conv/Conv + /stages/stages.2/blocks/blocks.5/Add",
+  "timeMs": 104.941,
+  "averageMs": 0.181246,
+  "percentage": 0.887532
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/mlp/fc1/conv/Conv",
+  "timeMs": 49.66,
+  "averageMs": 0.0857685,
+  "percentage": 0.419995
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.5/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 368) [Shuffle], /stages/stages.2/blocks/blocks.5/mlp/fc1/bn/act/Div), /stages/stages.2/blocks/blocks.5/mlp/fc1/bn/act/Erf), /stages/stages.2/blocks/blocks.5/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 372) [Shuffle] + /stages/stages.2/blocks/blocks.5/mlp/fc1/bn/act/Add), /stages/stages.2/blocks/blocks.5/mlp/fc1/bn/act/Mul), /stages/stages.2/blocks/blocks.5/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 376) [Shuffle] + /stages/stages.2/blocks/blocks.5/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 32.6067,
+  "averageMs": 0.0563156,
+  "percentage": 0.275769
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.5/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 368) [Shuffle], /stages/stages.2/blocks/blocks.5/mlp/fc1/bn/act/Div), /stages/stages.2/blocks/blocks.5/mlp/fc1/bn/act/Erf), /stages/stages.2/blocks/blocks.5/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 372) [Shuffle] + /stages/stages.2/blocks/blocks.5/mlp/fc1/bn/act/Add), /stages/stages.2/blocks/blocks.5/mlp/fc1/bn/act/Mul), /stages/stages.2/blocks/blocks.5/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 376) [Shuffle] + /stages/stages.2/blocks/blocks.5/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 36.9803,
+  "averageMs": 0.0638692,
+  "percentage": 0.312757
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/mlp/mid/conv/Conv",
+  "timeMs": 89.897,
+  "averageMs": 0.155262,
+  "percentage": 0.760296
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.5/mlp/mid/bn/act/Constant_output_0 + (Unnamed Layer* 380) [Shuffle], /stages/stages.2/blocks/blocks.5/mlp/mid/bn/act/Div), /stages/stages.2/blocks/blocks.5/mlp/mid/bn/act/Erf), /stages/stages.2/blocks/blocks.5/mlp/mid/bn/act/Constant_1_output_0 + (Unnamed Layer* 384) [Shuffle] + /stages/stages.2/blocks/blocks.5/mlp/mid/bn/act/Add), /stages/stages.2/blocks/blocks.5/mlp/mid/bn/act/Mul), /stages/stages.2/blocks/blocks.5/mlp/mid/bn/act/Constant_2_output_0 + (Unnamed Layer* 388) [Shuffle] + /stages/stages.2/blocks/blocks.5/mlp/mid/bn/act/Mul_1)",
+  "timeMs": 36.7482,
+  "averageMs": 0.0634684,
+  "percentage": 0.310795
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.2/blocks/blocks.5/mlp/fc2/conv/Conv + /stages/stages.2/blocks/blocks.5/Add_1",
+  "timeMs": 37.578,
+  "averageMs": 0.0649016,
+  "percentage": 0.317813
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/mlp/fc2/conv/Conv + /stages/stages.2/blocks/blocks.5/Add_1",
+  "timeMs": 49.139,
+  "averageMs": 0.0848687,
+  "percentage": 0.415589
+ },
+ {
+  "name": "/stages/stages.3/downsample/attn/v/conv/Conv",
+  "timeMs": 62.0146,
+  "averageMs": 0.107106,
+  "percentage": 0.524483
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /stages/stages.3/downsample/attn/v/conv/Conv",
+  "timeMs": 42.6058,
+  "averageMs": 0.0735851,
+  "percentage": 0.360334
+ },
+ {
+  "name": "/stages/stages.3/downsample/attn/k/conv/Conv",
+  "timeMs": 17.8567,
+  "averageMs": 0.0308406,
+  "percentage": 0.151022
+ },
+ {
+  "name": "/stages/stages.3/downsample/attn/q/pool/AveragePool",
+  "timeMs": 5.17739,
+  "averageMs": 0.00894195,
+  "percentage": 0.0437873
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.3/downsample/attn/q/local/Conv + /stages/stages.3/downsample/attn/q/Add",
+  "timeMs": 10.3364,
+  "averageMs": 0.0178521,
+  "percentage": 0.0874189
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 1 to /stages/stages.3/downsample/attn/q/local/Conv + /stages/stages.3/downsample/attn/q/Add",
+  "timeMs": 4.42504,
+  "averageMs": 0.00764255,
+  "percentage": 0.0374244
+ },
+ {
+  "name": "/stages/stages.3/downsample/attn/q/local/Conv + /stages/stages.3/downsample/attn/q/Add",
+  "timeMs": 36.9451,
+  "averageMs": 0.0638085,
+  "percentage": 0.31246
+ },
+ {
+  "name": "/stages/stages.3/downsample/attn/q/proj/conv/Conv",
+  "timeMs": 26.0635,
+  "averageMs": 0.0450146,
+  "percentage": 0.220429
+ },
+ {
+  "name": "/stages/stages.3/downsample/attn/Reshape_2 + /stages/stages.3/downsample/attn/Transpose_1",
+  "timeMs": 84.8315,
+  "averageMs": 0.146514,
+  "percentage": 0.717455
+ },
+ {
+  "name": "/stages/stages.3/downsample/attn/Reshape + /stages/stages.3/downsample/attn/Transpose",
+  "timeMs": 10.5977,
+  "averageMs": 0.0183035,
+  "percentage": 0.0896294
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.3/downsample/attn/Reshape_1",
+  "timeMs": 13.7149,
+  "averageMs": 0.0236873,
+  "percentage": 0.115993
+ },
+ {
+  "name": "/stages/stages.3/downsample/attn/Reshape_1",
+  "timeMs": 0.907299,
+  "averageMs": 0.00156701,
+  "percentage": 0.0076734
+ },
+ {
+  "name": "/stages/stages.3/downsample/attn/MatMul",
+  "timeMs": 40.8949,
+  "averageMs": 0.0706302,
+  "percentage": 0.345865
+ },
+ {
+  "name": "PWN(/stages/stages.3/downsample/attn/Constant_3_output_0 + (Unnamed Layer* 409) [Shuffle] + /stages/stages.3/downsample/attn/Mul, /stages/stages.3/downsample/attn/Add)",
+  "timeMs": 34.8785,
+  "averageMs": 0.0602392,
+  "percentage": 0.294982
+ },
+ {
+  "name": "/stages/stages.3/downsample/attn/Softmax",
+  "timeMs": 114.082,
+  "averageMs": 0.197033,
+  "percentage": 0.964841
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.3/downsample/attn/MatMul_1",
+  "timeMs": 51.5452,
+  "averageMs": 0.0890245,
+  "percentage": 0.435939
+ },
+ {
+  "name": "/stages/stages.3/downsample/attn/MatMul_1",
+  "timeMs": 58.7169,
+  "averageMs": 0.101411,
+  "percentage": 0.496593
+ },
+ {
+  "name": "/stages/stages.3/downsample/attn/Transpose_2 + /stages/stages.3/downsample/attn/Reshape_3",
+  "timeMs": 22.025,
+  "averageMs": 0.0380398,
+  "percentage": 0.186275
+ },
+ {
+  "name": "/stages/stages.3/downsample/attn/v_local/conv/Conv + /stages/stages.3/downsample/attn/Add_1",
+  "timeMs": 146.42,
+  "averageMs": 0.252885,
+  "percentage": 1.23834
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(PWN(PWN(PWN(/stages/stages.3/downsample/attn/act/Constant_output_0 + (Unnamed Layer* 423) [Shuffle], /stages/stages.3/downsample/attn/act/Div), /stages/stages.3/downsample/attn/act/Erf), /stages/stages.3/downsample/attn/act/Constant_1_output_0 + (Unnamed Layer* 427) [Shuffle] + /stages/stages.3/downsample/attn/act/Add), /stages/stages.3/downsample/attn/act/Mul), /stages/stages.3/downsample/attn/act/Constant_2_output_0 + (Unnamed Layer* 431) [Shuffle] + /stages/stages.3/downsample/attn/act/Mul_1)",
+  "timeMs": 14.4053,
+  "averageMs": 0.0248796,
+  "percentage": 0.121832
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.3/downsample/attn/act/Constant_output_0 + (Unnamed Layer* 423) [Shuffle], /stages/stages.3/downsample/attn/act/Div), /stages/stages.3/downsample/attn/act/Erf), /stages/stages.3/downsample/attn/act/Constant_1_output_0 + (Unnamed Layer* 427) [Shuffle] + /stages/stages.3/downsample/attn/act/Add), /stages/stages.3/downsample/attn/act/Mul), /stages/stages.3/downsample/attn/act/Constant_2_output_0 + (Unnamed Layer* 431) [Shuffle] + /stages/stages.3/downsample/attn/act/Mul_1)",
+  "timeMs": 16.1368,
+  "averageMs": 0.0278702,
+  "percentage": 0.136476
+ },
+ {
+  "name": "/stages/stages.3/downsample/attn/proj/conv/Conv",
+  "timeMs": 40.3919,
+  "averageMs": 0.0697614,
+  "percentage": 0.341611
+ },
+ {
+  "name": "/stages/stages.3/downsample/conv/conv/Conv + /stages/stages.3/downsample/Add",
+  "timeMs": 81.5842,
+  "averageMs": 0.140905,
+  "percentage": 0.689991
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.0/mlp/fc1/conv/Conv",
+  "timeMs": 68.7917,
+  "averageMs": 0.118811,
+  "percentage": 0.5818
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(PWN(PWN(PWN(/stages/stages.3/blocks/blocks.0/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 437) [Shuffle], /stages/stages.3/blocks/blocks.0/mlp/fc1/bn/act/Div), /stages/stages.3/blocks/blocks.0/mlp/fc1/bn/act/Erf), /stages/stages.3/blocks/blocks.0/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 441) [Shuffle] + /stages/stages.3/blocks/blocks.0/mlp/fc1/bn/act/Add), /stages/stages.3/blocks/blocks.0/mlp/fc1/bn/act/Mul), /stages/stages.3/blocks/blocks.0/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 445) [Shuffle] + /stages/stages.3/blocks/blocks.0/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 16.8771,
+  "averageMs": 0.0291487,
+  "percentage": 0.142736
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.3/blocks/blocks.0/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 437) [Shuffle], /stages/stages.3/blocks/blocks.0/mlp/fc1/bn/act/Div), /stages/stages.3/blocks/blocks.0/mlp/fc1/bn/act/Erf), /stages/stages.3/blocks/blocks.0/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 441) [Shuffle] + /stages/stages.3/blocks/blocks.0/mlp/fc1/bn/act/Add), /stages/stages.3/blocks/blocks.0/mlp/fc1/bn/act/Mul), /stages/stages.3/blocks/blocks.0/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 445) [Shuffle] + /stages/stages.3/blocks/blocks.0/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 19.7435,
+  "averageMs": 0.0340993,
+  "percentage": 0.166979
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.0/mlp/mid/conv/Conv",
+  "timeMs": 107.618,
+  "averageMs": 0.185869,
+  "percentage": 0.910169
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.3/blocks/blocks.0/mlp/mid/bn/act/Constant_output_0 + (Unnamed Layer* 449) [Shuffle], /stages/stages.3/blocks/blocks.0/mlp/mid/bn/act/Div), /stages/stages.3/blocks/blocks.0/mlp/mid/bn/act/Erf), /stages/stages.3/blocks/blocks.0/mlp/mid/bn/act/Constant_1_output_0 + (Unnamed Layer* 453) [Shuffle] + /stages/stages.3/blocks/blocks.0/mlp/mid/bn/act/Add), /stages/stages.3/blocks/blocks.0/mlp/mid/bn/act/Mul), /stages/stages.3/blocks/blocks.0/mlp/mid/bn/act/Constant_2_output_0 + (Unnamed Layer* 457) [Shuffle] + /stages/stages.3/blocks/blocks.0/mlp/mid/bn/act/Mul_1)",
+  "timeMs": 19.3151,
+  "averageMs": 0.0333593,
+  "percentage": 0.163355
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.3/blocks/blocks.0/mlp/fc2/conv/Conv + /stages/stages.3/blocks/blocks.0/Add",
+  "timeMs": 18.6438,
+  "averageMs": 0.0322001,
+  "percentage": 0.157679
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.0/mlp/fc2/conv/Conv + /stages/stages.3/blocks/blocks.0/Add",
+  "timeMs": 66.0877,
+  "averageMs": 0.114141,
+  "percentage": 0.558931
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.1/mlp/fc1/conv/Conv",
+  "timeMs": 52.2164,
+  "averageMs": 0.0901837,
+  "percentage": 0.441615
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(PWN(PWN(PWN(/stages/stages.3/blocks/blocks.1/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 465) [Shuffle], /stages/stages.3/blocks/blocks.1/mlp/fc1/bn/act/Div), /stages/stages.3/blocks/blocks.1/mlp/fc1/bn/act/Erf), /stages/stages.3/blocks/blocks.1/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 469) [Shuffle] + /stages/stages.3/blocks/blocks.1/mlp/fc1/bn/act/Add), /stages/stages.3/blocks/blocks.1/mlp/fc1/bn/act/Mul), /stages/stages.3/blocks/blocks.1/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 473) [Shuffle] + /stages/stages.3/blocks/blocks.1/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 13.2834,
+  "averageMs": 0.022942,
+  "percentage": 0.112344
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.3/blocks/blocks.1/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 465) [Shuffle], /stages/stages.3/blocks/blocks.1/mlp/fc1/bn/act/Div), /stages/stages.3/blocks/blocks.1/mlp/fc1/bn/act/Erf), /stages/stages.3/blocks/blocks.1/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 469) [Shuffle] + /stages/stages.3/blocks/blocks.1/mlp/fc1/bn/act/Add), /stages/stages.3/blocks/blocks.1/mlp/fc1/bn/act/Mul), /stages/stages.3/blocks/blocks.1/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 473) [Shuffle] + /stages/stages.3/blocks/blocks.1/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 15.9206,
+  "averageMs": 0.0274967,
+  "percentage": 0.134647
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.1/mlp/mid/conv/Conv",
+  "timeMs": 82.5372,
+  "averageMs": 0.142551,
+  "percentage": 0.698051
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.3/blocks/blocks.1/mlp/mid/bn/act/Constant_output_0 + (Unnamed Layer* 477) [Shuffle], /stages/stages.3/blocks/blocks.1/mlp/mid/bn/act/Div), /stages/stages.3/blocks/blocks.1/mlp/mid/bn/act/Erf), /stages/stages.3/blocks/blocks.1/mlp/mid/bn/act/Constant_1_output_0 + (Unnamed Layer* 481) [Shuffle] + /stages/stages.3/blocks/blocks.1/mlp/mid/bn/act/Add), /stages/stages.3/blocks/blocks.1/mlp/mid/bn/act/Mul), /stages/stages.3/blocks/blocks.1/mlp/mid/bn/act/Constant_2_output_0 + (Unnamed Layer* 485) [Shuffle] + /stages/stages.3/blocks/blocks.1/mlp/mid/bn/act/Mul_1)",
+  "timeMs": 15.2691,
+  "averageMs": 0.0263715,
+  "percentage": 0.129137
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.3/blocks/blocks.1/mlp/fc2/conv/Conv + /stages/stages.3/blocks/blocks.1/Add",
+  "timeMs": 14.5668,
+  "averageMs": 0.0251586,
+  "percentage": 0.123198
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.1/mlp/fc2/conv/Conv + /stages/stages.3/blocks/blocks.1/Add",
+  "timeMs": 51.7607,
+  "averageMs": 0.0893966,
+  "percentage": 0.437761
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.2/token_mixer/v/conv/Conv",
+  "timeMs": 91.9841,
+  "averageMs": 0.158867,
+  "percentage": 0.777948
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /stages/stages.3/blocks/blocks.2/token_mixer/v/conv/Conv",
+  "timeMs": 23.0365,
+  "averageMs": 0.0397867,
+  "percentage": 0.194829
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.2/token_mixer/k/conv/Conv || /stages/stages.3/blocks/blocks.2/token_mixer/q/conv/Conv",
+  "timeMs": 50.4641,
+  "averageMs": 0.0871573,
+  "percentage": 0.426796
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /stages/stages.3/blocks/blocks.2/token_mixer/k/conv/Conv || /stages/stages.3/blocks/blocks.2/token_mixer/q/conv/Conv",
+  "timeMs": 13.2397,
+  "averageMs": 0.0228666,
+  "percentage": 0.111974
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.2/token_mixer/Reshape + /stages/stages.3/blocks/blocks.2/token_mixer/Transpose",
+  "timeMs": 16.5887,
+  "averageMs": 0.0286507,
+  "percentage": 0.140298
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.2/token_mixer/Reshape_1",
+  "timeMs": 5.11557,
+  "averageMs": 0.00883519,
+  "percentage": 0.0432645
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.2/token_mixer/MatMul",
+  "timeMs": 24.9454,
+  "averageMs": 0.0430837,
+  "percentage": 0.210974
+ },
+ {
+  "name": "PWN(/stages/stages.3/blocks/blocks.2/token_mixer/Constant_3_output_0 + (Unnamed Layer* 502) [Shuffle] + /stages/stages.3/blocks/blocks.2/token_mixer/Mul, /stages/stages.3/blocks/blocks.2/token_mixer/Add)",
+  "timeMs": 9.17339,
+  "averageMs": 0.0158435,
+  "percentage": 0.0775832
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.2/token_mixer/talking_head1/Conv",
+  "timeMs": 29.5131,
+  "averageMs": 0.0509725,
+  "percentage": 0.249604
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.2/token_mixer/Softmax",
+  "timeMs": 42.5579,
+  "averageMs": 0.0735023,
+  "percentage": 0.359929
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.2/token_mixer/talking_head2/Conv",
+  "timeMs": 23.8484,
+  "averageMs": 0.041189,
+  "percentage": 0.201696
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.2/token_mixer/Reshape_2 + /stages/stages.3/blocks/blocks.2/token_mixer/Transpose_1",
+  "timeMs": 45.2532,
+  "averageMs": 0.0781575,
+  "percentage": 0.382725
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.3/blocks/blocks.2/token_mixer/MatMul_1",
+  "timeMs": 16.1867,
+  "averageMs": 0.0279562,
+  "percentage": 0.136897
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.2/token_mixer/MatMul_1",
+  "timeMs": 27.8651,
+  "averageMs": 0.0481262,
+  "percentage": 0.235666
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.2/token_mixer/Transpose_2 + /stages/stages.3/blocks/blocks.2/token_mixer/Reshape_3",
+  "timeMs": 41.0067,
+  "averageMs": 0.0708233,
+  "percentage": 0.346811
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.2/token_mixer/v_local/conv/Conv + /stages/stages.3/blocks/blocks.2/token_mixer/Add_1",
+  "timeMs": 258.247,
+  "averageMs": 0.446022,
+  "percentage": 2.1841
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.3/blocks/blocks.2/token_mixer/act/Constant_output_0 + (Unnamed Layer* 518) [Shuffle], /stages/stages.3/blocks/blocks.2/token_mixer/act/Div), /stages/stages.3/blocks/blocks.2/token_mixer/act/Erf), /stages/stages.3/blocks/blocks.2/token_mixer/act/Constant_1_output_0 + (Unnamed Layer* 522) [Shuffle] + /stages/stages.3/blocks/blocks.2/token_mixer/act/Add), /stages/stages.3/blocks/blocks.2/token_mixer/act/Mul), /stages/stages.3/blocks/blocks.2/token_mixer/act/Constant_2_output_0 + (Unnamed Layer* 526) [Shuffle] + /stages/stages.3/blocks/blocks.2/token_mixer/act/Mul_1)",
+  "timeMs": 25.5497,
+  "averageMs": 0.0441273,
+  "percentage": 0.216085
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.3/blocks/blocks.2/token_mixer/proj/conv/Conv + /stages/stages.3/blocks/blocks.2/Add",
+  "timeMs": 26.1742,
+  "averageMs": 0.0452058,
+  "percentage": 0.221366
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.2/token_mixer/proj/conv/Conv + /stages/stages.3/blocks/blocks.2/Add",
+  "timeMs": 90.7585,
+  "averageMs": 0.15675,
+  "percentage": 0.767582
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.2/mlp/fc1/conv/Conv",
+  "timeMs": 51.9981,
+  "averageMs": 0.0898068,
+  "percentage": 0.43977
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(PWN(PWN(PWN(/stages/stages.3/blocks/blocks.2/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 534) [Shuffle], /stages/stages.3/blocks/blocks.2/mlp/fc1/bn/act/Div), /stages/stages.3/blocks/blocks.2/mlp/fc1/bn/act/Erf), /stages/stages.3/blocks/blocks.2/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 538) [Shuffle] + /stages/stages.3/blocks/blocks.2/mlp/fc1/bn/act/Add), /stages/stages.3/blocks/blocks.2/mlp/fc1/bn/act/Mul), /stages/stages.3/blocks/blocks.2/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 542) [Shuffle] + /stages/stages.3/blocks/blocks.2/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 13.2628,
+  "averageMs": 0.0229063,
+  "percentage": 0.112169
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.3/blocks/blocks.2/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 534) [Shuffle], /stages/stages.3/blocks/blocks.2/mlp/fc1/bn/act/Div), /stages/stages.3/blocks/blocks.2/mlp/fc1/bn/act/Erf), /stages/stages.3/blocks/blocks.2/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 538) [Shuffle] + /stages/stages.3/blocks/blocks.2/mlp/fc1/bn/act/Add), /stages/stages.3/blocks/blocks.2/mlp/fc1/bn/act/Mul), /stages/stages.3/blocks/blocks.2/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 542) [Shuffle] + /stages/stages.3/blocks/blocks.2/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 15.9516,
+  "averageMs": 0.0275502,
+  "percentage": 0.134909
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.2/mlp/mid/conv/Conv",
+  "timeMs": 82.553,
+  "averageMs": 0.142579,
+  "percentage": 0.698185
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.3/blocks/blocks.2/mlp/mid/bn/act/Constant_output_0 + (Unnamed Layer* 546) [Shuffle], /stages/stages.3/blocks/blocks.2/mlp/mid/bn/act/Div), /stages/stages.3/blocks/blocks.2/mlp/mid/bn/act/Erf), /stages/stages.3/blocks/blocks.2/mlp/mid/bn/act/Constant_1_output_0 + (Unnamed Layer* 550) [Shuffle] + /stages/stages.3/blocks/blocks.2/mlp/mid/bn/act/Add), /stages/stages.3/blocks/blocks.2/mlp/mid/bn/act/Mul), /stages/stages.3/blocks/blocks.2/mlp/mid/bn/act/Constant_2_output_0 + (Unnamed Layer* 554) [Shuffle] + /stages/stages.3/blocks/blocks.2/mlp/mid/bn/act/Mul_1)",
+  "timeMs": 15.2511,
+  "averageMs": 0.0263404,
+  "percentage": 0.128985
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.3/blocks/blocks.2/mlp/fc2/conv/Conv + /stages/stages.3/blocks/blocks.2/Add_1",
+  "timeMs": 14.4924,
+  "averageMs": 0.0250301,
+  "percentage": 0.122568
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.2/mlp/fc2/conv/Conv + /stages/stages.3/blocks/blocks.2/Add_1",
+  "timeMs": 52.9805,
+  "averageMs": 0.0915035,
+  "percentage": 0.448078
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.3/token_mixer/v/conv/Conv",
+  "timeMs": 92.0502,
+  "averageMs": 0.158981,
+  "percentage": 0.778507
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /stages/stages.3/blocks/blocks.3/token_mixer/v/conv/Conv",
+  "timeMs": 22.9764,
+  "averageMs": 0.0396828,
+  "percentage": 0.194321
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.3/token_mixer/k/conv/Conv || /stages/stages.3/blocks/blocks.3/token_mixer/q/conv/Conv",
+  "timeMs": 50.2618,
+  "averageMs": 0.0868079,
+  "percentage": 0.425085
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /stages/stages.3/blocks/blocks.3/token_mixer/k/conv/Conv || /stages/stages.3/blocks/blocks.3/token_mixer/q/conv/Conv",
+  "timeMs": 13.2242,
+  "averageMs": 0.0228397,
+  "percentage": 0.111842
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.3/token_mixer/Reshape + /stages/stages.3/blocks/blocks.3/token_mixer/Transpose",
+  "timeMs": 16.5245,
+  "averageMs": 0.0285398,
+  "percentage": 0.139755
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.3/token_mixer/Reshape_1",
+  "timeMs": 5.06843,
+  "averageMs": 0.00875377,
+  "percentage": 0.0428658
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.3/token_mixer/MatMul",
+  "timeMs": 25.2883,
+  "averageMs": 0.0436758,
+  "percentage": 0.213874
+ },
+ {
+  "name": "PWN(/stages/stages.3/blocks/blocks.3/token_mixer/Constant_3_output_0 + (Unnamed Layer* 571) [Shuffle] + /stages/stages.3/blocks/blocks.3/token_mixer/Mul, /stages/stages.3/blocks/blocks.3/token_mixer/Add)",
+  "timeMs": 9.39655,
+  "averageMs": 0.0162289,
+  "percentage": 0.0794705
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.3/token_mixer/talking_head1/Conv",
+  "timeMs": 29.5674,
+  "averageMs": 0.0510662,
+  "percentage": 0.250063
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.3/token_mixer/Softmax",
+  "timeMs": 42.5155,
+  "averageMs": 0.0734291,
+  "percentage": 0.359571
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.3/token_mixer/talking_head2/Conv",
+  "timeMs": 23.9871,
+  "averageMs": 0.0414284,
+  "percentage": 0.202869
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.3/token_mixer/Reshape_2 + /stages/stages.3/blocks/blocks.3/token_mixer/Transpose_1",
+  "timeMs": 45.2555,
+  "averageMs": 0.0781614,
+  "percentage": 0.382744
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.3/blocks/blocks.3/token_mixer/MatMul_1",
+  "timeMs": 16.1694,
+  "averageMs": 0.0279264,
+  "percentage": 0.136751
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.3/token_mixer/MatMul_1",
+  "timeMs": 28.0222,
+  "averageMs": 0.0483975,
+  "percentage": 0.236995
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.3/token_mixer/Transpose_2 + /stages/stages.3/blocks/blocks.3/token_mixer/Reshape_3",
+  "timeMs": 40.95,
+  "averageMs": 0.0707253,
+  "percentage": 0.346331
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.3/token_mixer/v_local/conv/Conv + /stages/stages.3/blocks/blocks.3/token_mixer/Add_1",
+  "timeMs": 258.135,
+  "averageMs": 0.44583,
+  "percentage": 2.18316
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.3/blocks/blocks.3/token_mixer/act/Constant_output_0 + (Unnamed Layer* 587) [Shuffle], /stages/stages.3/blocks/blocks.3/token_mixer/act/Div), /stages/stages.3/blocks/blocks.3/token_mixer/act/Erf), /stages/stages.3/blocks/blocks.3/token_mixer/act/Constant_1_output_0 + (Unnamed Layer* 591) [Shuffle] + /stages/stages.3/blocks/blocks.3/token_mixer/act/Add), /stages/stages.3/blocks/blocks.3/token_mixer/act/Mul), /stages/stages.3/blocks/blocks.3/token_mixer/act/Constant_2_output_0 + (Unnamed Layer* 595) [Shuffle] + /stages/stages.3/blocks/blocks.3/token_mixer/act/Mul_1)",
+  "timeMs": 25.7018,
+  "averageMs": 0.0443899,
+  "percentage": 0.21737
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.3/blocks/blocks.3/token_mixer/proj/conv/Conv + /stages/stages.3/blocks/blocks.3/Add",
+  "timeMs": 26.2067,
+  "averageMs": 0.0452621,
+  "percentage": 0.221641
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.3/token_mixer/proj/conv/Conv + /stages/stages.3/blocks/blocks.3/Add",
+  "timeMs": 90.7531,
+  "averageMs": 0.156741,
+  "percentage": 0.767536
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.3/mlp/fc1/conv/Conv",
+  "timeMs": 62.1579,
+  "averageMs": 0.107354,
+  "percentage": 0.525695
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(PWN(PWN(PWN(/stages/stages.3/blocks/blocks.3/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 603) [Shuffle], /stages/stages.3/blocks/blocks.3/mlp/fc1/bn/act/Div), /stages/stages.3/blocks/blocks.3/mlp/fc1/bn/act/Erf), /stages/stages.3/blocks/blocks.3/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 607) [Shuffle] + /stages/stages.3/blocks/blocks.3/mlp/fc1/bn/act/Add), /stages/stages.3/blocks/blocks.3/mlp/fc1/bn/act/Mul), /stages/stages.3/blocks/blocks.3/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 611) [Shuffle] + /stages/stages.3/blocks/blocks.3/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 16.8454,
+  "averageMs": 0.0290939,
+  "percentage": 0.142468
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.3/blocks/blocks.3/mlp/fc1/bn/act/Constant_output_0 + (Unnamed Layer* 603) [Shuffle], /stages/stages.3/blocks/blocks.3/mlp/fc1/bn/act/Div), /stages/stages.3/blocks/blocks.3/mlp/fc1/bn/act/Erf), /stages/stages.3/blocks/blocks.3/mlp/fc1/bn/act/Constant_1_output_0 + (Unnamed Layer* 607) [Shuffle] + /stages/stages.3/blocks/blocks.3/mlp/fc1/bn/act/Add), /stages/stages.3/blocks/blocks.3/mlp/fc1/bn/act/Mul), /stages/stages.3/blocks/blocks.3/mlp/fc1/bn/act/Constant_2_output_0 + (Unnamed Layer* 611) [Shuffle] + /stages/stages.3/blocks/blocks.3/mlp/fc1/bn/act/Mul_1)",
+  "timeMs": 19.5311,
+  "averageMs": 0.0337326,
+  "percentage": 0.165183
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.3/mlp/mid/conv/Conv",
+  "timeMs": 107.439,
+  "averageMs": 0.185559,
+  "percentage": 0.908654
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.3/blocks/blocks.3/mlp/mid/bn/act/Constant_output_0 + (Unnamed Layer* 615) [Shuffle], /stages/stages.3/blocks/blocks.3/mlp/mid/bn/act/Div), /stages/stages.3/blocks/blocks.3/mlp/mid/bn/act/Erf), /stages/stages.3/blocks/blocks.3/mlp/mid/bn/act/Constant_1_output_0 + (Unnamed Layer* 619) [Shuffle] + /stages/stages.3/blocks/blocks.3/mlp/mid/bn/act/Add), /stages/stages.3/blocks/blocks.3/mlp/mid/bn/act/Mul), /stages/stages.3/blocks/blocks.3/mlp/mid/bn/act/Constant_2_output_0 + (Unnamed Layer* 623) [Shuffle] + /stages/stages.3/blocks/blocks.3/mlp/mid/bn/act/Mul_1)",
+  "timeMs": 19.3043,
+  "averageMs": 0.0333407,
+  "percentage": 0.163264
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.3/blocks/blocks.3/mlp/fc2/conv/Conv + /stages/stages.3/blocks/blocks.3/Add_1",
+  "timeMs": 18.6549,
+  "averageMs": 0.0322192,
+  "percentage": 0.157772
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.3/mlp/fc2/conv/Conv + /stages/stages.3/blocks/blocks.3/Add_1",
+  "timeMs": 66.7023,
+  "averageMs": 0.115203,
+  "percentage": 0.564129
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /norm/BatchNormalization",
+  "timeMs": 6.52609,
+  "averageMs": 0.0112713,
+  "percentage": 0.0551939
+ },
+ {
+  "name": "/norm/BatchNormalization",
+  "timeMs": 7.79223,
+  "averageMs": 0.0134581,
+  "percentage": 0.0659021
+ },
+ {
+  "name": "/ReduceMean",
+  "timeMs": 10.64,
+  "averageMs": 0.0183764,
+  "percentage": 0.0899865
+ },
+ {
+  "name": "(Unnamed Layer* 631) [Shuffle]",
+  "timeMs": 0.938174,
+  "averageMs": 0.00162033,
+  "percentage": 0.00793452
+ },
+ {
+  "name": "/head/Gemm",
+  "timeMs": 31.6532,
+  "averageMs": 0.0546688,
+  "percentage": 0.267704
+ },
+ {
+  "name": "(Unnamed Layer* 633) [Shuffle]",
+  "timeMs": 0.791924,
+  "averageMs": 0.00136774,
+  "percentage": 0.00669763
+ },
+ {
+  "name": "head_dist.weight",
+  "timeMs": 0.28776,
+  "averageMs": 0.000496995,
+  "percentage": 0.00243371
+ },
+ {
+  "name": "/head_dist/Gemm",
+  "timeMs": 7.77458,
+  "averageMs": 0.0134276,
+  "percentage": 0.0657528
+ },
+ {
+  "name": "{ForeignNode[head.bias.../Div]}",
+  "timeMs": 3.61453,
+  "averageMs": 0.00624271,
+  "percentage": 0.0305696
+ }
+]

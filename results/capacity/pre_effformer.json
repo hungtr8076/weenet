@@ -1,0 +1,18 @@
+{
+ "label": "effformer",
+ "plan": "efficientformerv2_s0.plan",
+ "pre": "fast",
+ "res": 224,
+ "workers": 3,
+ "dur_s": 15.0,
+ "pre_1_ms_median": 2.917056999990564,
+ "pre_1_ms_p99": 2.97392599997238,
+ "rate_w_fps": 913.1667187838674,
+ "gpu_ms_median": 20.675803000017368,
+ "gpu_ms_p99": 20.806590679962937,
+ "gpu_launches": 725,
+ "gpu_mhz_mean": 921.6000000000001,
+ "k_gpu": 1,
+ "k_cpu": 30,
+ "k_pred": 1
+}

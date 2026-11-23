@@ -1,0 +1,1013 @@
+[
+ {
+  "count": 580
+ },
+ {
+  "name": "/stem/conv1/Conv",
+  "timeMs": 238.428,
+  "averageMs": 0.411082,
+  "percentage": 2.01772
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stem/act1/Constant_output_0 + (Unnamed Layer* 2) [Shuffle], /stem/act1/Div), /stem/act1/Erf), /stem/act1/Constant_1_output_0 + (Unnamed Layer* 6) [Shuffle] + /stem/act1/Add), /stem/act1/Mul), /stem/act1/Constant_2_output_0 + (Unnamed Layer* 10) [Shuffle] + /stem/act1/Mul_1)",
+  "timeMs": 128.516,
+  "averageMs": 0.221579,
+  "percentage": 1.08758
+ },
+ {
+  "name": "/stem/conv2/Conv",
+  "timeMs": 301.601,
+  "averageMs": 0.520002,
+  "percentage": 2.55233
+ },
+ {
+  "name": "/stages/stages.0/blocks/blocks.0/token_mixer/Conv",
+  "timeMs": 106.606,
+  "averageMs": 0.183804,
+  "percentage": 0.902166
+ },
+ {
+  "name": "/stages/stages.0/blocks/blocks.0/se/ReduceMean",
+  "timeMs": 39.5727,
+  "averageMs": 0.0682287,
+  "percentage": 0.334888
+ },
+ {
+  "name": "/stages/stages.0/blocks/blocks.0/se/fc1/Conv + /stages/stages.0/blocks/blocks.0/se/act/Relu",
+  "timeMs": 28.0615,
+  "averageMs": 0.0483819,
+  "percentage": 0.237473
+ },
+ {
+  "name": "/stages/stages.0/blocks/blocks.0/se/fc2/Conv",
+  "timeMs": 8.89207,
+  "averageMs": 0.0153312,
+  "percentage": 0.0752501
+ },
+ {
+  "name": "PWN(PWN(/stages/stages.0/blocks/blocks.0/se/gate/Sigmoid), /stages/stages.0/blocks/blocks.0/se/Mul)",
+  "timeMs": 111.833,
+  "averageMs": 0.192816,
+  "percentage": 0.946402
+ },
+ {
+  "name": "/stages/stages.0/blocks/blocks.0/channel_mixer/conv1/Conv",
+  "timeMs": 199.989,
+  "averageMs": 0.344809,
+  "percentage": 1.69243
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.0/blocks/blocks.0/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 22) [Shuffle], /stages/stages.0/blocks/blocks.0/channel_mixer/act/Div), /stages/stages.0/blocks/blocks.0/channel_mixer/act/Erf), /stages/stages.0/blocks/blocks.0/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 26) [Shuffle] + /stages/stages.0/blocks/blocks.0/channel_mixer/act/Add), /stages/stages.0/blocks/blocks.0/channel_mixer/act/Mul), /stages/stages.0/blocks/blocks.0/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 30) [Shuffle] + /stages/stages.0/blocks/blocks.0/channel_mixer/act/Mul_1)",
+  "timeMs": 127.644,
+  "averageMs": 0.220075,
+  "percentage": 1.0802
+ },
+ {
+  "name": "/stages/stages.0/blocks/blocks.0/channel_mixer/conv2/Conv + /stages/stages.0/blocks/blocks.0/Add",
+  "timeMs": 172.406,
+  "averageMs": 0.297252,
+  "percentage": 1.45901
+ },
+ {
+  "name": "/stages/stages.0/blocks/blocks.1/token_mixer/Conv",
+  "timeMs": 106.609,
+  "averageMs": 0.183808,
+  "percentage": 0.902187
+ },
+ {
+  "name": "/stages/stages.0/blocks/blocks.1/channel_mixer/conv1/Conv",
+  "timeMs": 201.194,
+  "averageMs": 0.346886,
+  "percentage": 1.70262
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.0/blocks/blocks.1/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 37) [Shuffle], /stages/stages.0/blocks/blocks.1/channel_mixer/act/Div), /stages/stages.0/blocks/blocks.1/channel_mixer/act/Erf), /stages/stages.0/blocks/blocks.1/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 41) [Shuffle] + /stages/stages.0/blocks/blocks.1/channel_mixer/act/Add), /stages/stages.0/blocks/blocks.1/channel_mixer/act/Mul), /stages/stages.0/blocks/blocks.1/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 45) [Shuffle] + /stages/stages.0/blocks/blocks.1/channel_mixer/act/Mul_1)",
+  "timeMs": 127.546,
+  "averageMs": 0.219907,
+  "percentage": 1.07937
+ },
+ {
+  "name": "/stages/stages.0/blocks/blocks.1/channel_mixer/conv2/Conv + /stages/stages.0/blocks/blocks.1/Add",
+  "timeMs": 172.097,
+  "averageMs": 0.296719,
+  "percentage": 1.45639
+ },
+ {
+  "name": "/stages/stages.1/downsample/pre_block/token_mixer/Conv",
+  "timeMs": 106.579,
+  "averageMs": 0.183758,
+  "percentage": 0.901941
+ },
+ {
+  "name": "/stages/stages.1/downsample/pre_block/channel_mixer/conv1/Conv",
+  "timeMs": 200.276,
+  "averageMs": 0.345304,
+  "percentage": 1.69486
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.1/downsample/pre_block/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 52) [Shuffle], /stages/stages.1/downsample/pre_block/channel_mixer/act/Div), /stages/stages.1/downsample/pre_block/channel_mixer/act/Erf), /stages/stages.1/downsample/pre_block/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 56) [Shuffle] + /stages/stages.1/downsample/pre_block/channel_mixer/act/Add), /stages/stages.1/downsample/pre_block/channel_mixer/act/Mul), /stages/stages.1/downsample/pre_block/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 60) [Shuffle] + /stages/stages.1/downsample/pre_block/channel_mixer/act/Mul_1)",
+  "timeMs": 127.659,
+  "averageMs": 0.220102,
+  "percentage": 1.08033
+ },
+ {
+  "name": "/stages/stages.1/downsample/pre_block/channel_mixer/conv2/Conv + /stages/stages.1/downsample/pre_block/Add",
+  "timeMs": 172.443,
+  "averageMs": 0.297316,
+  "percentage": 1.45932
+ },
+ {
+  "name": "/stages/stages.1/downsample/spatial_downsample/Conv",
+  "timeMs": 69.2907,
+  "averageMs": 0.119467,
+  "percentage": 0.58638
+ },
+ {
+  "name": "/stages/stages.1/downsample/channel_downsample/Conv",
+  "timeMs": 53.4856,
+  "averageMs": 0.0922165,
+  "percentage": 0.452627
+ },
+ {
+  "name": "/stages/stages.1/downsample/ffn/conv1/Conv",
+  "timeMs": 134.275,
+  "averageMs": 0.231508,
+  "percentage": 1.13632
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.1/downsample/ffn/act/Constant_output_0 + (Unnamed Layer* 68) [Shuffle], /stages/stages.1/downsample/ffn/act/Div), /stages/stages.1/downsample/ffn/act/Erf), /stages/stages.1/downsample/ffn/act/Constant_1_output_0 + (Unnamed Layer* 72) [Shuffle] + /stages/stages.1/downsample/ffn/act/Add), /stages/stages.1/downsample/ffn/act/Mul), /stages/stages.1/downsample/ffn/act/Constant_2_output_0 + (Unnamed Layer* 76) [Shuffle] + /stages/stages.1/downsample/ffn/act/Mul_1)",
+  "timeMs": 66.5674,
+  "averageMs": 0.114771,
+  "percentage": 0.563334
+ },
+ {
+  "name": "/stages/stages.1/downsample/ffn/conv2/Conv + /stages/stages.1/downsample/Add",
+  "timeMs": 160.081,
+  "averageMs": 0.276001,
+  "percentage": 1.3547
+ },
+ {
+  "name": "/stages/stages.1/blocks/blocks.0/token_mixer/Conv",
+  "timeMs": 61.7528,
+  "averageMs": 0.10647,
+  "percentage": 0.522589
+ },
+ {
+  "name": "/stages/stages.1/blocks/blocks.0/se/ReduceMean",
+  "timeMs": 23.5223,
+  "averageMs": 0.0405557,
+  "percentage": 0.19906
+ },
+ {
+  "name": "/stages/stages.1/blocks/blocks.0/se/fc1/Conv + /stages/stages.1/blocks/blocks.0/se/act/Relu",
+  "timeMs": 7.14976,
+  "averageMs": 0.0123272,
+  "percentage": 0.0605056
+ },
+ {
+  "name": "/stages/stages.1/blocks/blocks.0/se/fc2/Conv",
+  "timeMs": 6.20983,
+  "averageMs": 0.0107066,
+  "percentage": 0.0525513
+ },
+ {
+  "name": "PWN(PWN(/stages/stages.1/blocks/blocks.0/se/gate/Sigmoid), /stages/stages.1/blocks/blocks.0/se/Mul)",
+  "timeMs": 77.193,
+  "averageMs": 0.133091,
+  "percentage": 0.653254
+ },
+ {
+  "name": "/stages/stages.1/blocks/blocks.0/channel_mixer/conv1/Conv",
+  "timeMs": 137.999,
+  "averageMs": 0.23793,
+  "percentage": 1.16784
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.1/blocks/blocks.0/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 89) [Shuffle], /stages/stages.1/blocks/blocks.0/channel_mixer/act/Div), /stages/stages.1/blocks/blocks.0/channel_mixer/act/Erf), /stages/stages.1/blocks/blocks.0/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 93) [Shuffle] + /stages/stages.1/blocks/blocks.0/channel_mixer/act/Add), /stages/stages.1/blocks/blocks.0/channel_mixer/act/Mul), /stages/stages.1/blocks/blocks.0/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 97) [Shuffle] + /stages/stages.1/blocks/blocks.0/channel_mixer/act/Mul_1)",
+  "timeMs": 66.4763,
+  "averageMs": 0.114614,
+  "percentage": 0.562563
+ },
+ {
+  "name": "/stages/stages.1/blocks/blocks.0/channel_mixer/conv2/Conv + /stages/stages.1/blocks/blocks.0/Add",
+  "timeMs": 159.872,
+  "averageMs": 0.275641,
+  "percentage": 1.35293
+ },
+ {
+  "name": "/stages/stages.1/blocks/blocks.1/token_mixer/Conv",
+  "timeMs": 61.576,
+  "averageMs": 0.106165,
+  "percentage": 0.521093
+ },
+ {
+  "name": "/stages/stages.1/blocks/blocks.1/channel_mixer/conv1/Conv",
+  "timeMs": 138.276,
+  "averageMs": 0.238406,
+  "percentage": 1.17017
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.1/blocks/blocks.1/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 104) [Shuffle], /stages/stages.1/blocks/blocks.1/channel_mixer/act/Div), /stages/stages.1/blocks/blocks.1/channel_mixer/act/Erf), /stages/stages.1/blocks/blocks.1/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 108) [Shuffle] + /stages/stages.1/blocks/blocks.1/channel_mixer/act/Add), /stages/stages.1/blocks/blocks.1/channel_mixer/act/Mul), /stages/stages.1/blocks/blocks.1/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 112) [Shuffle] + /stages/stages.1/blocks/blocks.1/channel_mixer/act/Mul_1)",
+  "timeMs": 66.4565,
+  "averageMs": 0.11458,
+  "percentage": 0.562395
+ },
+ {
+  "name": "/stages/stages.1/blocks/blocks.1/channel_mixer/conv2/Conv + /stages/stages.1/blocks/blocks.1/Add",
+  "timeMs": 159.86,
+  "averageMs": 0.27562,
+  "percentage": 1.35283
+ },
+ {
+  "name": "/stages/stages.2/downsample/pre_block/token_mixer/Conv",
+  "timeMs": 61.4399,
+  "averageMs": 0.105931,
+  "percentage": 0.519942
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /stages/stages.2/downsample/pre_block/token_mixer/Conv",
+  "timeMs": 37.6547,
+  "averageMs": 0.0649219,
+  "percentage": 0.318657
+ },
+ {
+  "name": "/stages/stages.2/downsample/pre_block/channel_mixer/conv1/Conv",
+  "timeMs": 80.2237,
+  "averageMs": 0.138317,
+  "percentage": 0.678902
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/downsample/pre_block/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 119) [Shuffle], /stages/stages.2/downsample/pre_block/channel_mixer/act/Div), /stages/stages.2/downsample/pre_block/channel_mixer/act/Erf), /stages/stages.2/downsample/pre_block/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 123) [Shuffle] + /stages/stages.2/downsample/pre_block/channel_mixer/act/Add), /stages/stages.2/downsample/pre_block/channel_mixer/act/Mul), /stages/stages.2/downsample/pre_block/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 127) [Shuffle] + /stages/stages.2/downsample/pre_block/channel_mixer/act/Mul_1)",
+  "timeMs": 69.0721,
+  "averageMs": 0.11909,
+  "percentage": 0.58453
+ },
+ {
+  "name": "/stages/stages.2/downsample/pre_block/channel_mixer/conv2/Conv + /stages/stages.2/downsample/pre_block/Add",
+  "timeMs": 89.8863,
+  "averageMs": 0.154976,
+  "percentage": 0.760673
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.2/downsample/spatial_downsample/Conv",
+  "timeMs": 31.7618,
+  "averageMs": 0.0547616,
+  "percentage": 0.268787
+ },
+ {
+  "name": "/stages/stages.2/downsample/spatial_downsample/Conv",
+  "timeMs": 41.7913,
+  "averageMs": 0.072054,
+  "percentage": 0.353664
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.2/downsample/channel_downsample/Conv",
+  "timeMs": 10.6148,
+  "averageMs": 0.0183014,
+  "percentage": 0.0898288
+ },
+ {
+  "name": "/stages/stages.2/downsample/channel_downsample/Conv",
+  "timeMs": 30.3812,
+  "averageMs": 0.0523814,
+  "percentage": 0.257104
+ },
+ {
+  "name": "/stages/stages.2/downsample/ffn/conv1/Conv",
+  "timeMs": 74.829,
+  "averageMs": 0.129015,
+  "percentage": 0.633248
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/downsample/ffn/act/Constant_output_0 + (Unnamed Layer* 135) [Shuffle], /stages/stages.2/downsample/ffn/act/Div), /stages/stages.2/downsample/ffn/act/Erf), /stages/stages.2/downsample/ffn/act/Constant_1_output_0 + (Unnamed Layer* 139) [Shuffle] + /stages/stages.2/downsample/ffn/act/Add), /stages/stages.2/downsample/ffn/act/Mul), /stages/stages.2/downsample/ffn/act/Constant_2_output_0 + (Unnamed Layer* 143) [Shuffle] + /stages/stages.2/downsample/ffn/act/Mul_1)",
+  "timeMs": 37.01,
+  "averageMs": 0.0638103,
+  "percentage": 0.313201
+ },
+ {
+  "name": "/stages/stages.2/downsample/ffn/conv2/Conv + /stages/stages.2/downsample/Add",
+  "timeMs": 71.58,
+  "averageMs": 0.123414,
+  "percentage": 0.605753
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.2/blocks/blocks.0/token_mixer/Conv",
+  "timeMs": 16.894,
+  "averageMs": 0.0291276,
+  "percentage": 0.142967
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.0/token_mixer/Conv",
+  "timeMs": 47.5938,
+  "averageMs": 0.0820582,
+  "percentage": 0.402767
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.0/se/ReduceMean",
+  "timeMs": 11.6861,
+  "averageMs": 0.0201484,
+  "percentage": 0.0988949
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.2/blocks/blocks.0/se/fc1/Conv + /stages/stages.2/blocks/blocks.0/se/act/Relu",
+  "timeMs": 0.31406,
+  "averageMs": 0.000541483,
+  "percentage": 0.00265777
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.0/se/fc1/Conv + /stages/stages.2/blocks/blocks.0/se/act/Relu",
+  "timeMs": 8.0516,
+  "averageMs": 0.0138821,
+  "percentage": 0.0681376
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.0/se/fc2/Conv",
+  "timeMs": 7.33924,
+  "averageMs": 0.0126539,
+  "percentage": 0.0621091
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 1 to PWN(PWN(/stages/stages.2/blocks/blocks.0/se/gate/Sigmoid), /stages/stages.2/blocks/blocks.0/se/Mul)",
+  "timeMs": 19.3584,
+  "averageMs": 0.0333766,
+  "percentage": 0.163823
+ },
+ {
+  "name": "PWN(PWN(/stages/stages.2/blocks/blocks.0/se/gate/Sigmoid), /stages/stages.2/blocks/blocks.0/se/Mul)",
+  "timeMs": 27.6164,
+  "averageMs": 0.0476145,
+  "percentage": 0.233707
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.0/channel_mixer/conv1/Conv",
+  "timeMs": 75.1624,
+  "averageMs": 0.12959,
+  "percentage": 0.63607
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.0/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 156) [Shuffle], /stages/stages.2/blocks/blocks.0/channel_mixer/act/Div), /stages/stages.2/blocks/blocks.0/channel_mixer/act/Erf), /stages/stages.2/blocks/blocks.0/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 160) [Shuffle] + /stages/stages.2/blocks/blocks.0/channel_mixer/act/Add), /stages/stages.2/blocks/blocks.0/channel_mixer/act/Mul), /stages/stages.2/blocks/blocks.0/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 164) [Shuffle] + /stages/stages.2/blocks/blocks.0/channel_mixer/act/Mul_1)",
+  "timeMs": 36.9424,
+  "averageMs": 0.0636939,
+  "percentage": 0.312629
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.0/channel_mixer/conv2/Conv + /stages/stages.2/blocks/blocks.0/Add",
+  "timeMs": 73.4132,
+  "averageMs": 0.126574,
+  "percentage": 0.621267
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.2/blocks/blocks.1/token_mixer/Conv",
+  "timeMs": 17.2689,
+  "averageMs": 0.029774,
+  "percentage": 0.14614
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.1/token_mixer/Conv",
+  "timeMs": 58.3458,
+  "averageMs": 0.100596,
+  "percentage": 0.493758
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.1/channel_mixer/conv1/Conv",
+  "timeMs": 134.915,
+  "averageMs": 0.232612,
+  "percentage": 1.14173
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.1/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 171) [Shuffle], /stages/stages.2/blocks/blocks.1/channel_mixer/act/Div), /stages/stages.2/blocks/blocks.1/channel_mixer/act/Erf), /stages/stages.2/blocks/blocks.1/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 175) [Shuffle] + /stages/stages.2/blocks/blocks.1/channel_mixer/act/Add), /stages/stages.2/blocks/blocks.1/channel_mixer/act/Mul), /stages/stages.2/blocks/blocks.1/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 179) [Shuffle] + /stages/stages.2/blocks/blocks.1/channel_mixer/act/Mul_1)",
+  "timeMs": 35.5712,
+  "averageMs": 0.0613297,
+  "percentage": 0.301025
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.1/channel_mixer/conv2/Conv + /stages/stages.2/blocks/blocks.1/Add",
+  "timeMs": 134.919,
+  "averageMs": 0.232619,
+  "percentage": 1.14177
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.2/token_mixer/Conv",
+  "timeMs": 58.6414,
+  "averageMs": 0.101106,
+  "percentage": 0.496259
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.2/se/ReduceMean",
+  "timeMs": 12.8545,
+  "averageMs": 0.022163,
+  "percentage": 0.108783
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.2/se/fc1/Conv + /stages/stages.2/blocks/blocks.2/se/act/Relu",
+  "timeMs": 7.82729,
+  "averageMs": 0.0134953,
+  "percentage": 0.0662393
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.2/se/fc2/Conv",
+  "timeMs": 8.56625,
+  "averageMs": 0.0147694,
+  "percentage": 0.0724928
+ },
+ {
+  "name": "PWN(PWN(/stages/stages.2/blocks/blocks.2/se/gate/Sigmoid), /stages/stages.2/blocks/blocks.2/se/Mul)",
+  "timeMs": 40.0536,
+  "averageMs": 0.069058,
+  "percentage": 0.338958
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.2/channel_mixer/conv1/Conv",
+  "timeMs": 135.299,
+  "averageMs": 0.233274,
+  "percentage": 1.14498
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.2/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 192) [Shuffle], /stages/stages.2/blocks/blocks.2/channel_mixer/act/Div), /stages/stages.2/blocks/blocks.2/channel_mixer/act/Erf), /stages/stages.2/blocks/blocks.2/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 196) [Shuffle] + /stages/stages.2/blocks/blocks.2/channel_mixer/act/Add), /stages/stages.2/blocks/blocks.2/channel_mixer/act/Mul), /stages/stages.2/blocks/blocks.2/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 200) [Shuffle] + /stages/stages.2/blocks/blocks.2/channel_mixer/act/Mul_1)",
+  "timeMs": 35.5458,
+  "averageMs": 0.0612858,
+  "percentage": 0.30081
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.2/channel_mixer/conv2/Conv + /stages/stages.2/blocks/blocks.2/Add",
+  "timeMs": 135.026,
+  "averageMs": 0.232804,
+  "percentage": 1.14267
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.3/token_mixer/Conv",
+  "timeMs": 58.8237,
+  "averageMs": 0.10142,
+  "percentage": 0.497802
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.3/channel_mixer/conv1/Conv",
+  "timeMs": 134.505,
+  "averageMs": 0.231905,
+  "percentage": 1.13826
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.3/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 207) [Shuffle], /stages/stages.2/blocks/blocks.3/channel_mixer/act/Div), /stages/stages.2/blocks/blocks.3/channel_mixer/act/Erf), /stages/stages.2/blocks/blocks.3/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 211) [Shuffle] + /stages/stages.2/blocks/blocks.3/channel_mixer/act/Add), /stages/stages.2/blocks/blocks.3/channel_mixer/act/Mul), /stages/stages.2/blocks/blocks.3/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 215) [Shuffle] + /stages/stages.2/blocks/blocks.3/channel_mixer/act/Mul_1)",
+  "timeMs": 35.7529,
+  "averageMs": 0.061643,
+  "percentage": 0.302563
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.3/channel_mixer/conv2/Conv + /stages/stages.2/blocks/blocks.3/Add",
+  "timeMs": 135.106,
+  "averageMs": 0.232941,
+  "percentage": 1.14335
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/token_mixer/Conv",
+  "timeMs": 59.5026,
+  "averageMs": 0.102591,
+  "percentage": 0.503547
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/se/ReduceMean",
+  "timeMs": 13.2657,
+  "averageMs": 0.022872,
+  "percentage": 0.112263
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/se/fc1/Conv + /stages/stages.2/blocks/blocks.4/se/act/Relu",
+  "timeMs": 7.7675,
+  "averageMs": 0.0133922,
+  "percentage": 0.0657333
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/se/fc2/Conv",
+  "timeMs": 8.89385,
+  "averageMs": 0.0153342,
+  "percentage": 0.0752652
+ },
+ {
+  "name": "PWN(PWN(/stages/stages.2/blocks/blocks.4/se/gate/Sigmoid), /stages/stages.2/blocks/blocks.4/se/Mul)",
+  "timeMs": 40.3845,
+  "averageMs": 0.0696284,
+  "percentage": 0.341758
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/channel_mixer/conv1/Conv",
+  "timeMs": 135.54,
+  "averageMs": 0.23369,
+  "percentage": 1.14702
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.4/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 228) [Shuffle], /stages/stages.2/blocks/blocks.4/channel_mixer/act/Div), /stages/stages.2/blocks/blocks.4/channel_mixer/act/Erf), /stages/stages.2/blocks/blocks.4/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 232) [Shuffle] + /stages/stages.2/blocks/blocks.4/channel_mixer/act/Add), /stages/stages.2/blocks/blocks.4/channel_mixer/act/Mul), /stages/stages.2/blocks/blocks.4/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 236) [Shuffle] + /stages/stages.2/blocks/blocks.4/channel_mixer/act/Mul_1)",
+  "timeMs": 35.85,
+  "averageMs": 0.0618104,
+  "percentage": 0.303385
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.4/channel_mixer/conv2/Conv + /stages/stages.2/blocks/blocks.4/Add",
+  "timeMs": 135.284,
+  "averageMs": 0.233248,
+  "percentage": 1.14485
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/token_mixer/Conv",
+  "timeMs": 58.8508,
+  "averageMs": 0.101467,
+  "percentage": 0.498031
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/channel_mixer/conv1/Conv",
+  "timeMs": 134.555,
+  "averageMs": 0.231992,
+  "percentage": 1.13869
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.5/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 243) [Shuffle], /stages/stages.2/blocks/blocks.5/channel_mixer/act/Div), /stages/stages.2/blocks/blocks.5/channel_mixer/act/Erf), /stages/stages.2/blocks/blocks.5/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 247) [Shuffle] + /stages/stages.2/blocks/blocks.5/channel_mixer/act/Add), /stages/stages.2/blocks/blocks.5/channel_mixer/act/Mul), /stages/stages.2/blocks/blocks.5/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 251) [Shuffle] + /stages/stages.2/blocks/blocks.5/channel_mixer/act/Mul_1)",
+  "timeMs": 35.8266,
+  "averageMs": 0.0617701,
+  "percentage": 0.303187
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.5/channel_mixer/conv2/Conv + /stages/stages.2/blocks/blocks.5/Add",
+  "timeMs": 135.313,
+  "averageMs": 0.233298,
+  "percentage": 1.1451
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.6/token_mixer/Conv",
+  "timeMs": 59.5542,
+  "averageMs": 0.10268,
+  "percentage": 0.503984
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.6/se/ReduceMean",
+  "timeMs": 13.2955,
+  "averageMs": 0.0229233,
+  "percentage": 0.112515
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.6/se/fc1/Conv + /stages/stages.2/blocks/blocks.6/se/act/Relu",
+  "timeMs": 7.85614,
+  "averageMs": 0.0135451,
+  "percentage": 0.0664835
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.6/se/fc2/Conv",
+  "timeMs": 8.8161,
+  "averageMs": 0.0152002,
+  "percentage": 0.0746072
+ },
+ {
+  "name": "PWN(PWN(/stages/stages.2/blocks/blocks.6/se/gate/Sigmoid), /stages/stages.2/blocks/blocks.6/se/Mul)",
+  "timeMs": 40.3377,
+  "averageMs": 0.0695478,
+  "percentage": 0.341362
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.6/channel_mixer/conv1/Conv",
+  "timeMs": 136.273,
+  "averageMs": 0.234953,
+  "percentage": 1.15322
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.6/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 264) [Shuffle], /stages/stages.2/blocks/blocks.6/channel_mixer/act/Div), /stages/stages.2/blocks/blocks.6/channel_mixer/act/Erf), /stages/stages.2/blocks/blocks.6/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 268) [Shuffle] + /stages/stages.2/blocks/blocks.6/channel_mixer/act/Add), /stages/stages.2/blocks/blocks.6/channel_mixer/act/Mul), /stages/stages.2/blocks/blocks.6/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 272) [Shuffle] + /stages/stages.2/blocks/blocks.6/channel_mixer/act/Mul_1)",
+  "timeMs": 36.1844,
+  "averageMs": 0.062387,
+  "percentage": 0.306215
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.6/channel_mixer/conv2/Conv + /stages/stages.2/blocks/blocks.6/Add",
+  "timeMs": 135.475,
+  "averageMs": 0.233578,
+  "percentage": 1.14647
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.7/token_mixer/Conv",
+  "timeMs": 59.0013,
+  "averageMs": 0.101726,
+  "percentage": 0.499305
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.7/channel_mixer/conv1/Conv",
+  "timeMs": 134.956,
+  "averageMs": 0.232682,
+  "percentage": 1.14208
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.7/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 279) [Shuffle], /stages/stages.2/blocks/blocks.7/channel_mixer/act/Div), /stages/stages.2/blocks/blocks.7/channel_mixer/act/Erf), /stages/stages.2/blocks/blocks.7/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 283) [Shuffle] + /stages/stages.2/blocks/blocks.7/channel_mixer/act/Add), /stages/stages.2/blocks/blocks.7/channel_mixer/act/Mul), /stages/stages.2/blocks/blocks.7/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 287) [Shuffle] + /stages/stages.2/blocks/blocks.7/channel_mixer/act/Mul_1)",
+  "timeMs": 36.0137,
+  "averageMs": 0.0620926,
+  "percentage": 0.30477
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.7/channel_mixer/conv2/Conv + /stages/stages.2/blocks/blocks.7/Add",
+  "timeMs": 135.342,
+  "averageMs": 0.233348,
+  "percentage": 1.14535
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.8/token_mixer/Conv",
+  "timeMs": 59.9179,
+  "averageMs": 0.103307,
+  "percentage": 0.507062
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.8/se/ReduceMean",
+  "timeMs": 13.5014,
+  "averageMs": 0.0232783,
+  "percentage": 0.114257
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.8/se/fc1/Conv + /stages/stages.2/blocks/blocks.8/se/act/Relu",
+  "timeMs": 7.73469,
+  "averageMs": 0.0133357,
+  "percentage": 0.0654557
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.8/se/fc2/Conv",
+  "timeMs": 8.85535,
+  "averageMs": 0.0152678,
+  "percentage": 0.0749394
+ },
+ {
+  "name": "PWN(PWN(/stages/stages.2/blocks/blocks.8/se/gate/Sigmoid), /stages/stages.2/blocks/blocks.8/se/Mul)",
+  "timeMs": 40.3361,
+  "averageMs": 0.069545,
+  "percentage": 0.341349
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.8/channel_mixer/conv1/Conv",
+  "timeMs": 136.169,
+  "averageMs": 0.234774,
+  "percentage": 1.15235
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.8/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 300) [Shuffle], /stages/stages.2/blocks/blocks.8/channel_mixer/act/Div), /stages/stages.2/blocks/blocks.8/channel_mixer/act/Erf), /stages/stages.2/blocks/blocks.8/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 304) [Shuffle] + /stages/stages.2/blocks/blocks.8/channel_mixer/act/Add), /stages/stages.2/blocks/blocks.8/channel_mixer/act/Mul), /stages/stages.2/blocks/blocks.8/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 308) [Shuffle] + /stages/stages.2/blocks/blocks.8/channel_mixer/act/Mul_1)",
+  "timeMs": 36.0915,
+  "averageMs": 0.0622267,
+  "percentage": 0.305428
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.8/channel_mixer/conv2/Conv + /stages/stages.2/blocks/blocks.8/Add",
+  "timeMs": 135.495,
+  "averageMs": 0.233612,
+  "percentage": 1.14664
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.9/token_mixer/Conv",
+  "timeMs": 58.9285,
+  "averageMs": 0.101601,
+  "percentage": 0.498689
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.9/channel_mixer/conv1/Conv",
+  "timeMs": 134.766,
+  "averageMs": 0.232355,
+  "percentage": 1.14047
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.9/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 315) [Shuffle], /stages/stages.2/blocks/blocks.9/channel_mixer/act/Div), /stages/stages.2/blocks/blocks.9/channel_mixer/act/Erf), /stages/stages.2/blocks/blocks.9/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 319) [Shuffle] + /stages/stages.2/blocks/blocks.9/channel_mixer/act/Add), /stages/stages.2/blocks/blocks.9/channel_mixer/act/Mul), /stages/stages.2/blocks/blocks.9/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 323) [Shuffle] + /stages/stages.2/blocks/blocks.9/channel_mixer/act/Mul_1)",
+  "timeMs": 36.0161,
+  "averageMs": 0.0620967,
+  "percentage": 0.30479
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.9/channel_mixer/conv2/Conv + /stages/stages.2/blocks/blocks.9/Add",
+  "timeMs": 135.396,
+  "averageMs": 0.233441,
+  "percentage": 1.1458
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.10/token_mixer/Conv",
+  "timeMs": 59.8451,
+  "averageMs": 0.103181,
+  "percentage": 0.506446
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.10/se/ReduceMean",
+  "timeMs": 13.4119,
+  "averageMs": 0.023124,
+  "percentage": 0.1135
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.10/se/fc1/Conv + /stages/stages.2/blocks/blocks.10/se/act/Relu",
+  "timeMs": 7.85968,
+  "averageMs": 0.0135512,
+  "percentage": 0.0665134
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.10/se/fc2/Conv",
+  "timeMs": 8.83605,
+  "averageMs": 0.0152346,
+  "percentage": 0.074776
+ },
+ {
+  "name": "PWN(PWN(/stages/stages.2/blocks/blocks.10/se/gate/Sigmoid), /stages/stages.2/blocks/blocks.10/se/Mul)",
+  "timeMs": 40.3621,
+  "averageMs": 0.0695898,
+  "percentage": 0.341568
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.10/channel_mixer/conv1/Conv",
+  "timeMs": 136.095,
+  "averageMs": 0.234647,
+  "percentage": 1.15172
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.10/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 336) [Shuffle], /stages/stages.2/blocks/blocks.10/channel_mixer/act/Div), /stages/stages.2/blocks/blocks.10/channel_mixer/act/Erf), /stages/stages.2/blocks/blocks.10/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 340) [Shuffle] + /stages/stages.2/blocks/blocks.10/channel_mixer/act/Add), /stages/stages.2/blocks/blocks.10/channel_mixer/act/Mul), /stages/stages.2/blocks/blocks.10/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 344) [Shuffle] + /stages/stages.2/blocks/blocks.10/channel_mixer/act/Mul_1)",
+  "timeMs": 35.9777,
+  "averageMs": 0.0620305,
+  "percentage": 0.304465
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.10/channel_mixer/conv2/Conv + /stages/stages.2/blocks/blocks.10/Add",
+  "timeMs": 135.456,
+  "averageMs": 0.233545,
+  "percentage": 1.14631
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.11/token_mixer/Conv",
+  "timeMs": 59.1105,
+  "averageMs": 0.101915,
+  "percentage": 0.500229
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.11/channel_mixer/conv1/Conv",
+  "timeMs": 134.751,
+  "averageMs": 0.23233,
+  "percentage": 1.14035
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.11/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 351) [Shuffle], /stages/stages.2/blocks/blocks.11/channel_mixer/act/Div), /stages/stages.2/blocks/blocks.11/channel_mixer/act/Erf), /stages/stages.2/blocks/blocks.11/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 355) [Shuffle] + /stages/stages.2/blocks/blocks.11/channel_mixer/act/Add), /stages/stages.2/blocks/blocks.11/channel_mixer/act/Mul), /stages/stages.2/blocks/blocks.11/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 359) [Shuffle] + /stages/stages.2/blocks/blocks.11/channel_mixer/act/Mul_1)",
+  "timeMs": 35.9538,
+  "averageMs": 0.0619894,
+  "percentage": 0.304263
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.11/channel_mixer/conv2/Conv + /stages/stages.2/blocks/blocks.11/Add",
+  "timeMs": 135.438,
+  "averageMs": 0.233513,
+  "percentage": 1.14616
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.12/token_mixer/Conv",
+  "timeMs": 59.9146,
+  "averageMs": 0.103301,
+  "percentage": 0.507034
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.12/se/ReduceMean",
+  "timeMs": 13.4605,
+  "averageMs": 0.0232077,
+  "percentage": 0.113911
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.12/se/fc1/Conv + /stages/stages.2/blocks/blocks.12/se/act/Relu",
+  "timeMs": 7.80466,
+  "averageMs": 0.0134563,
+  "percentage": 0.0660478
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.12/se/fc2/Conv",
+  "timeMs": 8.79447,
+  "averageMs": 0.0151629,
+  "percentage": 0.0744242
+ },
+ {
+  "name": "PWN(PWN(/stages/stages.2/blocks/blocks.12/se/gate/Sigmoid), /stages/stages.2/blocks/blocks.12/se/Mul)",
+  "timeMs": 40.4288,
+  "averageMs": 0.0697048,
+  "percentage": 0.342133
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.12/channel_mixer/conv1/Conv",
+  "timeMs": 135.992,
+  "averageMs": 0.234469,
+  "percentage": 1.15085
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.12/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 372) [Shuffle], /stages/stages.2/blocks/blocks.12/channel_mixer/act/Div), /stages/stages.2/blocks/blocks.12/channel_mixer/act/Erf), /stages/stages.2/blocks/blocks.12/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 376) [Shuffle] + /stages/stages.2/blocks/blocks.12/channel_mixer/act/Add), /stages/stages.2/blocks/blocks.12/channel_mixer/act/Mul), /stages/stages.2/blocks/blocks.12/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 380) [Shuffle] + /stages/stages.2/blocks/blocks.12/channel_mixer/act/Mul_1)",
+  "timeMs": 35.9815,
+  "averageMs": 0.0620371,
+  "percentage": 0.304498
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.12/channel_mixer/conv2/Conv + /stages/stages.2/blocks/blocks.12/Add",
+  "timeMs": 135.667,
+  "averageMs": 0.233909,
+  "percentage": 1.1481
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.13/token_mixer/Conv",
+  "timeMs": 59.0765,
+  "averageMs": 0.101856,
+  "percentage": 0.499942
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.13/channel_mixer/conv1/Conv",
+  "timeMs": 134.948,
+  "averageMs": 0.232669,
+  "percentage": 1.14201
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.2/blocks/blocks.13/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 387) [Shuffle], /stages/stages.2/blocks/blocks.13/channel_mixer/act/Div), /stages/stages.2/blocks/blocks.13/channel_mixer/act/Erf), /stages/stages.2/blocks/blocks.13/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 391) [Shuffle] + /stages/stages.2/blocks/blocks.13/channel_mixer/act/Add), /stages/stages.2/blocks/blocks.13/channel_mixer/act/Mul), /stages/stages.2/blocks/blocks.13/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 395) [Shuffle] + /stages/stages.2/blocks/blocks.13/channel_mixer/act/Mul_1)",
+  "timeMs": 35.888,
+  "averageMs": 0.0618759,
+  "percentage": 0.303706
+ },
+ {
+  "name": "/stages/stages.2/blocks/blocks.13/channel_mixer/conv2/Conv + /stages/stages.2/blocks/blocks.13/Add",
+  "timeMs": 134.844,
+  "averageMs": 0.232489,
+  "percentage": 1.14113
+ },
+ {
+  "name": "/stages/stages.3/downsample/pre_block/token_mixer/Conv",
+  "timeMs": 58.9918,
+  "averageMs": 0.10171,
+  "percentage": 0.499225
+ },
+ {
+  "name": "/stages/stages.3/downsample/pre_block/channel_mixer/conv1/Conv",
+  "timeMs": 134.983,
+  "averageMs": 0.23273,
+  "percentage": 1.14231
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.3/downsample/pre_block/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 402) [Shuffle], /stages/stages.3/downsample/pre_block/channel_mixer/act/Div), /stages/stages.3/downsample/pre_block/channel_mixer/act/Erf), /stages/stages.3/downsample/pre_block/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 406) [Shuffle] + /stages/stages.3/downsample/pre_block/channel_mixer/act/Add), /stages/stages.3/downsample/pre_block/channel_mixer/act/Mul), /stages/stages.3/downsample/pre_block/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 410) [Shuffle] + /stages/stages.3/downsample/pre_block/channel_mixer/act/Mul_1)",
+  "timeMs": 35.792,
+  "averageMs": 0.0617103,
+  "percentage": 0.302893
+ },
+ {
+  "name": "/stages/stages.3/downsample/pre_block/channel_mixer/conv2/Conv + /stages/stages.3/downsample/pre_block/Add",
+  "timeMs": 135.488,
+  "averageMs": 0.233601,
+  "percentage": 1.14659
+ },
+ {
+  "name": "/stages/stages.3/downsample/spatial_downsample/Conv",
+  "timeMs": 42.2974,
+  "averageMs": 0.0729265,
+  "percentage": 0.357946
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.3/downsample/channel_downsample/Conv",
+  "timeMs": 6.77526,
+  "averageMs": 0.0116815,
+  "percentage": 0.0573364
+ },
+ {
+  "name": "/stages/stages.3/downsample/channel_downsample/Conv",
+  "timeMs": 36.5771,
+  "averageMs": 0.0630639,
+  "percentage": 0.309538
+ },
+ {
+  "name": "/stages/stages.3/downsample/ffn/conv1/Conv",
+  "timeMs": 130.607,
+  "averageMs": 0.225185,
+  "percentage": 1.10528
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.3/downsample/ffn/act/Constant_output_0 + (Unnamed Layer* 418) [Shuffle], /stages/stages.3/downsample/ffn/act/Div), /stages/stages.3/downsample/ffn/act/Erf), /stages/stages.3/downsample/ffn/act/Constant_1_output_0 + (Unnamed Layer* 422) [Shuffle] + /stages/stages.3/downsample/ffn/act/Add), /stages/stages.3/downsample/ffn/act/Mul), /stages/stages.3/downsample/ffn/act/Constant_2_output_0 + (Unnamed Layer* 426) [Shuffle] + /stages/stages.3/downsample/ffn/act/Mul_1)",
+  "timeMs": 21.6781,
+  "averageMs": 0.037376,
+  "percentage": 0.183453
+ },
+ {
+  "name": "/stages/stages.3/downsample/ffn/conv2/Conv + /stages/stages.3/downsample/Add",
+  "timeMs": 129.213,
+  "averageMs": 0.222782,
+  "percentage": 1.09348
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.3/blocks/blocks.0/token_mixer/Conv",
+  "timeMs": 10.0367,
+  "averageMs": 0.0173047,
+  "percentage": 0.0849368
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.0/token_mixer/Conv",
+  "timeMs": 61.2688,
+  "averageMs": 0.105636,
+  "percentage": 0.518494
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.0/se/ReduceMean",
+  "timeMs": 10.7515,
+  "averageMs": 0.0185371,
+  "percentage": 0.0909861
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.3/blocks/blocks.0/se/fc1/Conv + /stages/stages.3/blocks/blocks.0/se/act/Relu",
+  "timeMs": 0.313389,
+  "averageMs": 0.000540327,
+  "percentage": 0.00265209
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.0/se/fc1/Conv + /stages/stages.3/blocks/blocks.0/se/act/Relu",
+  "timeMs": 10.5658,
+  "averageMs": 0.018217,
+  "percentage": 0.0894145
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.0/se/fc2/Conv",
+  "timeMs": 8.65113,
+  "averageMs": 0.0149157,
+  "percentage": 0.0732111
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 1 to PWN(PWN(/stages/stages.3/blocks/blocks.0/se/gate/Sigmoid), /stages/stages.3/blocks/blocks.0/se/Mul)",
+  "timeMs": 11.0159,
+  "averageMs": 0.0189929,
+  "percentage": 0.0932232
+ },
+ {
+  "name": "PWN(PWN(/stages/stages.3/blocks/blocks.0/se/gate/Sigmoid), /stages/stages.3/blocks/blocks.0/se/Mul)",
+  "timeMs": 15.5708,
+  "averageMs": 0.0268463,
+  "percentage": 0.13177
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.0/channel_mixer/conv1/Conv",
+  "timeMs": 130.731,
+  "averageMs": 0.225398,
+  "percentage": 1.10633
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.3/blocks/blocks.0/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 439) [Shuffle], /stages/stages.3/blocks/blocks.0/channel_mixer/act/Div), /stages/stages.3/blocks/blocks.0/channel_mixer/act/Erf), /stages/stages.3/blocks/blocks.0/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 443) [Shuffle] + /stages/stages.3/blocks/blocks.0/channel_mixer/act/Add), /stages/stages.3/blocks/blocks.0/channel_mixer/act/Mul), /stages/stages.3/blocks/blocks.0/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 447) [Shuffle] + /stages/stages.3/blocks/blocks.0/channel_mixer/act/Mul_1)",
+  "timeMs": 21.629,
+  "averageMs": 0.0372913,
+  "percentage": 0.183037
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.0/channel_mixer/conv2/Conv + /stages/stages.3/blocks/blocks.0/Add",
+  "timeMs": 129.17,
+  "averageMs": 0.222706,
+  "percentage": 1.09311
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.3/blocks/blocks.1/token_mixer/Conv",
+  "timeMs": 10.0609,
+  "averageMs": 0.0173464,
+  "percentage": 0.0851418
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.1/token_mixer/Conv",
+  "timeMs": 60.9572,
+  "averageMs": 0.105099,
+  "percentage": 0.515857
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /stages/stages.3/blocks/blocks.1/token_mixer/Conv",
+  "timeMs": 11.1024,
+  "averageMs": 0.019142,
+  "percentage": 0.093955
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.1/channel_mixer/conv1/Conv",
+  "timeMs": 129.843,
+  "averageMs": 0.223868,
+  "percentage": 1.09881
+ },
+ {
+  "name": "PWN(PWN(PWN(PWN(PWN(/stages/stages.3/blocks/blocks.1/channel_mixer/act/Constant_output_0 + (Unnamed Layer* 454) [Shuffle], /stages/stages.3/blocks/blocks.1/channel_mixer/act/Div), /stages/stages.3/blocks/blocks.1/channel_mixer/act/Erf), /stages/stages.3/blocks/blocks.1/channel_mixer/act/Constant_1_output_0 + (Unnamed Layer* 458) [Shuffle] + /stages/stages.3/blocks/blocks.1/channel_mixer/act/Add), /stages/stages.3/blocks/blocks.1/channel_mixer/act/Mul), /stages/stages.3/blocks/blocks.1/channel_mixer/act/Constant_2_output_0 + (Unnamed Layer* 462) [Shuffle] + /stages/stages.3/blocks/blocks.1/channel_mixer/act/Mul_1)",
+  "timeMs": 21.8861,
+  "averageMs": 0.0377347,
+  "percentage": 0.185214
+ },
+ {
+  "name": "/stages/stages.3/blocks/blocks.1/channel_mixer/conv2/Conv + /stages/stages.3/blocks/blocks.1/Add",
+  "timeMs": 129.241,
+  "averageMs": 0.22283,
+  "percentage": 1.09372
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /ReduceMean",
+  "timeMs": 10.5409,
+  "averageMs": 0.018174,
+  "percentage": 0.0892037
+ },
+ {
+  "name": "/ReduceMean",
+  "timeMs": 11.8944,
+  "averageMs": 0.0205077,
+  "percentage": 0.100658
+ },
+ {
+  "name": "(Unnamed Layer* 467) [Shuffle]",
+  "timeMs": 0.287753,
+  "averageMs": 0.000496126,
+  "percentage": 0.00243514
+ },
+ {
+  "name": "/head/Gemm",
+  "timeMs": 7.59595,
+  "averageMs": 0.0130965,
+  "percentage": 0.0642816
+ },
+ {
+  "name": "(Unnamed Layer* 469) [Shuffle]",
+  "timeMs": 0.290744,
+  "averageMs": 0.000501283,
+  "percentage": 0.00246046
+ }
+]

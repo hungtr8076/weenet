@@ -1,0 +1,39 @@
+{
+ "label": "mobilenetv4_conv_small",
+ "round": 2,
+ "plan": "mobilenetv4_conv_small.plan",
+ "throughput_qps": 159.938,
+ "gpu_ms": {
+  "min": 6.07568,
+  "max": 7.53906,
+  "mean": 6.18353,
+  "median": 6.18652,
+  "p99": 6.22803
+ },
+ "latency_median_ms": 6.24414,
+ "window_s": 14.417262077331543,
+ "n_samples": 36,
+ "power_w": {
+  "POM_5V_IN": 6.588,
+  "POM_5V_GPU": 3.7055833333333337,
+  "POM_5V_CPU": 0.9594166666666666
+ },
+ "energy_mj": {
+  "board_in": 41.19096149758032,
+  "gpu_rail": 23.168873771919955
+ },
+ "gpu_temp_c_mean": 32.84722222222222,
+ "clocks": {
+  "gpu_mhz_median": 921.6,
+  "gpu_mhz_min": 921.6,
+  "cpu_mhz_median": 1326.0,
+  "cpu_mhz_min": 518.4,
+  "n": 143,
+  "gpu_below_921": false
+ },
+ "gpu_freq_hz": [
+  921600000,
+  921600000
+ ],
+ "time": "18:07:09"
+}

@@ -1,0 +1,18 @@
+{
+ "label": "shufflenet",
+ "plan": "shufflenet_v2_x1_0.plan",
+ "pre": "fast",
+ "res": 224,
+ "workers": 3,
+ "dur_s": 15.0,
+ "pre_1_ms_median": 2.9476824999985496,
+ "pre_1_ms_p99": 3.0181236399994305,
+ "rate_w_fps": 904.3982716922134,
+ "gpu_ms_median": 7.143958000000339,
+ "gpu_ms_p99": 8.403006850001162,
+ "gpu_launches": 2080,
+ "gpu_mhz_mean": 921.5999999999999,
+ "k_gpu": 4,
+ "k_cpu": 30,
+ "k_pred": 4
+}

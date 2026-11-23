@@ -1,0 +1,39 @@
+{
+ "label": "shufflenet_v2_x1_0",
+ "round": 1,
+ "plan": "shufflenet_v2_x1_0.plan",
+ "throughput_qps": 148.023,
+ "gpu_ms": {
+  "min": 6.59766,
+  "max": 8.50977,
+  "mean": 6.68278,
+  "median": 6.69043,
+  "p99": 6.72266
+ },
+ "latency_median_ms": 6.75293,
+ "window_s": 14.419699907302856,
+ "n_samples": 36,
+ "power_w": {
+  "POM_5V_IN": 6.637611111111111,
+  "POM_5V_GPU": 3.4144722222222224,
+  "POM_5V_CPU": 1.24325
+ },
+ "energy_mj": {
+  "board_in": 44.84175507259758,
+  "gpu_rail": 23.06717349480974
+ },
+ "gpu_temp_c_mean": 29.25,
+ "clocks": {
+  "gpu_mhz_median": 921.6,
+  "gpu_mhz_min": 921.6,
+  "cpu_mhz_median": 1479.0,
+  "cpu_mhz_min": 710.4,
+  "n": 143,
+  "gpu_below_921": false
+ },
+ "gpu_freq_hz": [
+  691200000,
+  921600000
+ ],
+ "time": "13:16:32"
+}

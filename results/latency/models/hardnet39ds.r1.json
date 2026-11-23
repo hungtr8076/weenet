@@ -1,0 +1,39 @@
+{
+ "label": "hardnet39ds",
+ "round": 1,
+ "plan": "hardnet39ds.plan",
+ "throughput_qps": 88.0868,
+ "gpu_ms": {
+  "min": 11.1475,
+  "max": 13.0898,
+  "mean": 11.2821,
+  "median": 11.2817,
+  "p99": 11.3613
+ },
+ "latency_median_ms": 11.3403,
+ "window_s": 14.426405906677246,
+ "n_samples": 40,
+ "power_w": {
+  "POM_5V_IN": 6.876875,
+  "POM_5V_GPU": 3.7071,
+  "POM_5V_CPU": 1.0653
+ },
+ "energy_mj": {
+  "board_in": 78.0693020974766,
+  "gpu_rail": 42.084625619275535
+ },
+ "gpu_temp_c_mean": 31.975,
+ "clocks": {
+  "gpu_mhz_median": 921.6,
+  "gpu_mhz_min": 921.6,
+  "cpu_mhz_median": 1479.0,
+  "cpu_mhz_min": 518.4,
+  "n": 144,
+  "gpu_below_921": false
+ },
+ "gpu_freq_hz": [
+  921600000,
+  921600000
+ ],
+ "time": "13:19:05"
+}

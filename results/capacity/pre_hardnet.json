@@ -1,0 +1,18 @@
+{
+ "label": "hardnet",
+ "plan": "hardnet39ds.plan",
+ "pre": "fast",
+ "res": 224,
+ "workers": 3,
+ "dur_s": 15.0,
+ "pre_1_ms_median": 2.8960569999867403,
+ "pre_1_ms_p99": 2.960577319979052,
+ "rate_w_fps": 911.3433695256886,
+ "gpu_ms_median": 11.701795500016487,
+ "gpu_ms_p99": 11.766905820035163,
+ "gpu_launches": 1280,
+ "gpu_mhz_mean": 921.5999999999999,
+ "k_gpu": 2,
+ "k_cpu": 30,
+ "k_pred": 2
+}

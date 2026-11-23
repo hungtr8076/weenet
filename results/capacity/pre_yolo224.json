@@ -1,0 +1,18 @@
+{
+ "label": "yolo224",
+ "plan": "yolo11n_cls_r224.plan",
+ "pre": "fast",
+ "res": 224,
+ "workers": 3,
+ "dur_s": 15.0,
+ "pre_1_ms_median": 2.924252000013894,
+ "pre_1_ms_p99": 3.006040830023835,
+ "rate_w_fps": 915.5700556429499,
+ "gpu_ms_median": 4.667279999978291,
+ "gpu_ms_p99": 6.032287959967562,
+ "gpu_launches": 3185,
+ "gpu_mhz_mean": 920.4000000000001,
+ "k_gpu": 7,
+ "k_cpu": 30,
+ "k_pred": 7
+}

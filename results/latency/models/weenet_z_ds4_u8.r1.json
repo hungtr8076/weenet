@@ -1,0 +1,39 @@
+{
+ "label": "weenet_z_ds4_u8",
+ "round": 1,
+ "plan": "weenet_z_ds4_u8.plan",
+ "throughput_qps": 373.461,
+ "gpu_ms": {
+  "min": 2.59668,
+  "max": 3.76025,
+  "mean": 2.65051,
+  "median": 2.65137,
+  "p99": 2.67773
+ },
+ "latency_median_ms": 2.66699,
+ "window_s": 14.413369417190552,
+ "n_samples": 35,
+ "power_w": {
+  "POM_5V_IN": 6.504142857142857,
+  "POM_5V_GPU": 3.805685714285714,
+  "POM_5V_CPU": 0.7012571428571429
+ },
+ "energy_mj": {
+  "board_in": 17.41585562386128,
+  "gpu_rail": 10.190316296174739
+ },
+ "gpu_temp_c_mean": 32.857142857142854,
+ "clocks": {
+  "gpu_mhz_median": 921.6,
+  "gpu_mhz_min": 921.6,
+  "cpu_mhz_median": 1036.8,
+  "cpu_mhz_min": 403.2,
+  "n": 142,
+  "gpu_below_921": false
+ },
+ "gpu_freq_hz": [
+  76800000,
+  921600000
+ ],
+ "time": "13:25:53"
+}

@@ -1,0 +1,383 @@
+[
+ {
+  "count": 1827
+ },
+ {
+  "name": "/conv_stem/Conv + /bn1/act/Relu",
+  "timeMs": 716.239,
+  "averageMs": 0.39203,
+  "percentage": 6.26422
+ },
+ {
+  "name": "/blocks/blocks.0/blocks.0.0/conv/Conv + /blocks/blocks.0/blocks.0.0/bn1/act/Relu",
+  "timeMs": 781.425,
+  "averageMs": 0.427709,
+  "percentage": 6.83434
+ },
+ {
+  "name": "/blocks/blocks.0/blocks.0.1/conv/Conv + /blocks/blocks.0/blocks.0.1/bn1/act/Relu",
+  "timeMs": 178.488,
+  "averageMs": 0.0976945,
+  "percentage": 1.56105
+ },
+ {
+  "name": "/blocks/blocks.1/blocks.1.0/conv/Conv + /blocks/blocks.1/blocks.1.0/bn1/act/Relu",
+  "timeMs": 646.878,
+  "averageMs": 0.354065,
+  "percentage": 5.65759
+ },
+ {
+  "name": "/blocks/blocks.1/blocks.1.1/conv/Conv + /blocks/blocks.1/blocks.1.1/bn1/act/Relu",
+  "timeMs": 173.135,
+  "averageMs": 0.0947645,
+  "percentage": 1.51424
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.0/dw_start/conv/Conv",
+  "timeMs": 437.654,
+  "averageMs": 0.239548,
+  "percentage": 3.82772
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.0/pw_exp/conv/Conv + /blocks/blocks.2/blocks.2.0/pw_exp/bn/act/Relu",
+  "timeMs": 318.361,
+  "averageMs": 0.174254,
+  "percentage": 2.78439
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.0/dw_mid/conv/Conv + /blocks/blocks.2/blocks.2.0/dw_mid/bn/act/Relu",
+  "timeMs": 481.217,
+  "averageMs": 0.263392,
+  "percentage": 4.20872
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.0/pw_proj/conv/Conv",
+  "timeMs": 138.386,
+  "averageMs": 0.0757447,
+  "percentage": 1.21032
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.1/pw_exp/conv/Conv + /blocks/blocks.2/blocks.2.1/pw_exp/bn/act/Relu",
+  "timeMs": 135.472,
+  "averageMs": 0.0741501,
+  "percentage": 1.18484
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.1/dw_mid/conv/Conv + /blocks/blocks.2/blocks.2.1/dw_mid/bn/act/Relu",
+  "timeMs": 184.018,
+  "averageMs": 0.100721,
+  "percentage": 1.60942
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.1/pw_proj/conv/Conv + /blocks/blocks.2/blocks.2.1/Add",
+  "timeMs": 142.084,
+  "averageMs": 0.0777692,
+  "percentage": 1.24267
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.2/pw_exp/conv/Conv + /blocks/blocks.2/blocks.2.2/pw_exp/bn/act/Relu",
+  "timeMs": 133.346,
+  "averageMs": 0.0729864,
+  "percentage": 1.16625
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.2/dw_mid/conv/Conv + /blocks/blocks.2/blocks.2.2/dw_mid/bn/act/Relu",
+  "timeMs": 182.605,
+  "averageMs": 0.0999479,
+  "percentage": 1.59706
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.2/pw_proj/conv/Conv + /blocks/blocks.2/blocks.2.2/Add",
+  "timeMs": 139.168,
+  "averageMs": 0.0761731,
+  "percentage": 1.21716
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.3/pw_exp/conv/Conv + /blocks/blocks.2/blocks.2.3/pw_exp/bn/act/Relu",
+  "timeMs": 134.026,
+  "averageMs": 0.0733586,
+  "percentage": 1.17219
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.3/dw_mid/conv/Conv + /blocks/blocks.2/blocks.2.3/dw_mid/bn/act/Relu",
+  "timeMs": 182.48,
+  "averageMs": 0.0998797,
+  "percentage": 1.59597
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.3/pw_proj/conv/Conv + /blocks/blocks.2/blocks.2.3/Add",
+  "timeMs": 140.876,
+  "averageMs": 0.0771077,
+  "percentage": 1.2321
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.4/pw_exp/conv/Conv + /blocks/blocks.2/blocks.2.4/pw_exp/bn/act/Relu",
+  "timeMs": 133.393,
+  "averageMs": 0.073012,
+  "percentage": 1.16665
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.4/dw_mid/conv/Conv + /blocks/blocks.2/blocks.2.4/dw_mid/bn/act/Relu",
+  "timeMs": 182.533,
+  "averageMs": 0.0999088,
+  "percentage": 1.59644
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.4/pw_proj/conv/Conv + /blocks/blocks.2/blocks.2.4/Add",
+  "timeMs": 140.179,
+  "averageMs": 0.0767263,
+  "percentage": 1.226
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.5/dw_start/conv/Conv",
+  "timeMs": 93.5055,
+  "averageMs": 0.0511798,
+  "percentage": 0.817799
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.5/pw_exp/conv/Conv + /blocks/blocks.2/blocks.2.5/pw_exp/bn/act/Relu",
+  "timeMs": 256.102,
+  "averageMs": 0.140176,
+  "percentage": 2.23987
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.5/pw_proj/conv/Conv + /blocks/blocks.2/blocks.2.5/Add",
+  "timeMs": 256.314,
+  "averageMs": 0.140292,
+  "percentage": 2.24172
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.0/dw_start/conv/Conv",
+  "timeMs": 94.6839,
+  "averageMs": 0.0518248,
+  "percentage": 0.828105
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.0/pw_exp/conv/Conv + /blocks/blocks.3/blocks.3.0/pw_exp/bn/act/Relu",
+  "timeMs": 370.671,
+  "averageMs": 0.202885,
+  "percentage": 3.24189
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.0/dw_mid/conv/Conv + /blocks/blocks.3/blocks.3.0/dw_mid/bn/act/Relu",
+  "timeMs": 408.948,
+  "averageMs": 0.223836,
+  "percentage": 3.57666
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.3/blocks.3.0/pw_proj/conv/Conv",
+  "timeMs": 48.1993,
+  "averageMs": 0.0263817,
+  "percentage": 0.421551
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.0/pw_proj/conv/Conv",
+  "timeMs": 95.2613,
+  "averageMs": 0.0521409,
+  "percentage": 0.833156
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.3/blocks.3.1/dw_start/conv/Conv",
+  "timeMs": 15.2162,
+  "averageMs": 0.00832854,
+  "percentage": 0.133081
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.1/dw_start/conv/Conv",
+  "timeMs": 98.7215,
+  "averageMs": 0.0540348,
+  "percentage": 0.863418
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.3/blocks.3.1/pw_exp/conv/Conv + /blocks/blocks.3/blocks.3.1/pw_exp/bn/act/Relu",
+  "timeMs": 17.4652,
+  "averageMs": 0.00955947,
+  "percentage": 0.15275
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.1/pw_exp/conv/Conv + /blocks/blocks.3/blocks.3.1/pw_exp/bn/act/Relu",
+  "timeMs": 122.815,
+  "averageMs": 0.0672224,
+  "percentage": 1.07414
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.3/blocks.3.1/dw_mid/conv/Conv + /blocks/blocks.3/blocks.3.1/dw_mid/bn/act/Relu",
+  "timeMs": 37.6008,
+  "averageMs": 0.0205806,
+  "percentage": 0.328857
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.1/dw_mid/conv/Conv + /blocks/blocks.3/blocks.3.1/dw_mid/bn/act/Relu",
+  "timeMs": 340.304,
+  "averageMs": 0.186264,
+  "percentage": 2.9763
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.3/blocks.3.1/pw_proj/conv/Conv + /blocks/blocks.3/blocks.3.1/Add",
+  "timeMs": 42.7125,
+  "averageMs": 0.0233785,
+  "percentage": 0.373563
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.1/pw_proj/conv/Conv + /blocks/blocks.3/blocks.3.1/Add",
+  "timeMs": 135.588,
+  "averageMs": 0.0742135,
+  "percentage": 1.18585
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.2/pw_exp/conv/Conv + /blocks/blocks.3/blocks.3.2/pw_exp/bn/act/Relu",
+  "timeMs": 121.468,
+  "averageMs": 0.0664848,
+  "percentage": 1.06236
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.3/blocks.3.2/dw_mid/conv/Conv + /blocks/blocks.3/blocks.3.2/dw_mid/bn/act/Relu",
+  "timeMs": 38.3126,
+  "averageMs": 0.0209702,
+  "percentage": 0.335082
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.2/dw_mid/conv/Conv + /blocks/blocks.3/blocks.3.2/dw_mid/bn/act/Relu",
+  "timeMs": 346.482,
+  "averageMs": 0.189646,
+  "percentage": 3.03033
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.3/blocks.3.2/pw_proj/conv/Conv + /blocks/blocks.3/blocks.3.2/Add",
+  "timeMs": 43.6551,
+  "averageMs": 0.0238944,
+  "percentage": 0.381807
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.2/pw_proj/conv/Conv + /blocks/blocks.3/blocks.3.2/Add",
+  "timeMs": 124.26,
+  "averageMs": 0.0680131,
+  "percentage": 1.08678
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.3/pw_exp/conv/Conv + /blocks/blocks.3/blocks.3.3/pw_exp/bn/act/Relu",
+  "timeMs": 96.02,
+  "averageMs": 0.0525561,
+  "percentage": 0.83979
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.3/blocks.3.3/dw_mid/conv/Conv + /blocks/blocks.3/blocks.3.3/dw_mid/bn/act/Relu",
+  "timeMs": 30.6831,
+  "averageMs": 0.0167942,
+  "percentage": 0.268354
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.3/dw_mid/conv/Conv + /blocks/blocks.3/blocks.3.3/dw_mid/bn/act/Relu",
+  "timeMs": 273.629,
+  "averageMs": 0.149769,
+  "percentage": 2.39316
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.3/blocks.3.3/pw_proj/conv/Conv + /blocks/blocks.3/blocks.3.3/Add",
+  "timeMs": 35.1854,
+  "averageMs": 0.0192586,
+  "percentage": 0.307731
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.3/pw_proj/conv/Conv + /blocks/blocks.3/blocks.3.3/Add",
+  "timeMs": 101.889,
+  "averageMs": 0.0557685,
+  "percentage": 0.891121
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.4/pw_exp/conv/Conv + /blocks/blocks.3/blocks.3.4/pw_exp/bn/act/Relu",
+  "timeMs": 122.613,
+  "averageMs": 0.0671118,
+  "percentage": 1.07238
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.3/blocks.3.4/dw_mid/conv/Conv + /blocks/blocks.3/blocks.3.4/dw_mid/bn/act/Relu",
+  "timeMs": 39.6378,
+  "averageMs": 0.0216955,
+  "percentage": 0.346672
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.4/dw_mid/conv/Conv + /blocks/blocks.3/blocks.3.4/dw_mid/bn/act/Relu",
+  "timeMs": 322.763,
+  "averageMs": 0.176663,
+  "percentage": 2.82289
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.3/blocks.3.4/pw_proj/conv/Conv + /blocks/blocks.3/blocks.3.4/Add",
+  "timeMs": 45.0119,
+  "averageMs": 0.024637,
+  "percentage": 0.393674
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.4/pw_proj/conv/Conv + /blocks/blocks.3/blocks.3.4/Add",
+  "timeMs": 124.676,
+  "averageMs": 0.0682406,
+  "percentage": 1.09041
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.5/pw_exp/conv/Conv + /blocks/blocks.3/blocks.3.5/pw_exp/bn/act/Relu",
+  "timeMs": 125.219,
+  "averageMs": 0.0685382,
+  "percentage": 1.09517
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.3/blocks.3.5/dw_mid/conv/Conv + /blocks/blocks.3/blocks.3.5/dw_mid/bn/act/Relu",
+  "timeMs": 39.6849,
+  "averageMs": 0.0217214,
+  "percentage": 0.347084
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.5/dw_mid/conv/Conv + /blocks/blocks.3/blocks.3.5/dw_mid/bn/act/Relu",
+  "timeMs": 321.944,
+  "averageMs": 0.176215,
+  "percentage": 2.81572
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.3/blocks.3.5/pw_proj/conv/Conv + /blocks/blocks.3/blocks.3.5/Add",
+  "timeMs": 45.1316,
+  "averageMs": 0.0247026,
+  "percentage": 0.394721
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.5/pw_proj/conv/Conv + /blocks/blocks.3/blocks.3.5/Add",
+  "timeMs": 124.177,
+  "averageMs": 0.0679678,
+  "percentage": 1.08605
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.0/conv/Conv + /blocks/blocks.4/blocks.4.0/bn1/act/Relu",
+  "timeMs": 227.502,
+  "averageMs": 0.124522,
+  "percentage": 1.98973
+ },
+ {
+  "name": "/global_pool/pool/GlobalAveragePool",
+  "timeMs": 49.6844,
+  "averageMs": 0.0271945,
+  "percentage": 0.434539
+ },
+ {
+  "name": "/conv_head/Conv + /norm_head/act/Relu",
+  "timeMs": 409.505,
+  "averageMs": 0.224141,
+  "percentage": 3.58153
+ },
+ {
+  "name": "/classifier/Gemm",
+  "timeMs": 78.7039,
+  "averageMs": 0.0430782,
+  "percentage": 0.688344
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to (Unnamed Layer* 90) [Shuffle]",
+  "timeMs": 8.96537,
+  "averageMs": 0.00490715,
+  "percentage": 0.0784111
+ },
+ {
+  "name": "(Unnamed Layer* 90) [Shuffle]",
+  "timeMs": 0.924338,
+  "averageMs": 0.000505932,
+  "percentage": 0.00808426
+ }
+]

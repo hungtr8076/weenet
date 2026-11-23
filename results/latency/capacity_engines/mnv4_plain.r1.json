@@ -1,0 +1,88 @@
+{
+ "label": "mnv4_plain",
+ "round": 1,
+ "plan": "mobilenetv4_conv_small.plan",
+ "throughput_qps": 159.853,
+ "gpu_ms": {
+  "min": 6.073,
+  "max": 7.95459,
+  "mean": 6.18536,
+  "median": 6.18652,
+  "p99": 6.26416
+ },
+ "latency_median_ms": 6.24512,
+ "extra": {
+  "latency_ms": {
+   "min": 6.1311,
+   "max": 8.01318,
+   "mean": 6.24487,
+   "median": 6.24512,
+   "p99": 6.38721
+  },
+  "e2e_host_ms": {
+   "min": 6.13525,
+   "max": 8.02246,
+   "mean": 6.25454,
+   "median": 6.25415,
+   "p99": 6.40527
+  },
+  "enqueue_ms": {
+   "min": 2.49707,
+   "max": 8.11133,
+   "mean": 3.64088,
+   "median": 3.43652,
+   "p99": 6.22705
+  },
+  "h2d_ms": {
+   "min": 0.0537109,
+   "max": 0.136719,
+   "mean": 0.0563516,
+   "median": 0.0556641,
+   "p99": 0.105957
+  },
+  "d2h_ms": {
+   "min": 0.0,
+   "max": 0.106445,
+   "mean": 0.00316355,
+   "median": 0.00292969,
+   "p99": 0.00390625
+  },
+  "cuda_graph_requested": false,
+  "cuda_graph_line": [
+   "[11/16/2026-09:25:49] [I] CUDA Graph: Disabled"
+  ],
+  "graph_messages": [],
+  "enqueue_bound_warning": false
+ },
+ "cmd": [
+  "/usr/src/tensorrt/bin/trtexec",
+  "--loadEngine=mobilenetv4_conv_small.plan",
+  "--warmUp=3000",
+  "--duration=15"
+ ],
+ "window_s": 14.425117492675781,
+ "n_samples": 36,
+ "power_w": {
+  "POM_5V_IN": 6.643055555555556,
+  "POM_5V_GPU": 3.6801388888888886,
+  "POM_5V_CPU": 1.0249722222222222
+ },
+ "energy_mj": {
+  "board_in": 41.55727797135841,
+  "gpu_rail": 23.022019536004255
+ },
+ "gpu_temp_c_mean": 29.875,
+ "clocks": {
+  "gpu_mhz_median": 921.6,
+  "gpu_mhz_min": 921.6,
+  "cpu_mhz_median": 1326.0,
+  "cpu_mhz_min": 518.4,
+  "n": 143,
+  "gpu_below_921": false
+ },
+ "gpu_freq_hz": [
+  921600000,
+  921600000
+ ],
+ "time": "09:26:13"
+}

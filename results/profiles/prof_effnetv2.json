@@ -1,0 +1,1355 @@
+[
+ {
+  "count": 572
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /conv_stem/Conv",
+  "timeMs": 134.167,
+  "averageMs": 0.234557,
+  "percentage": 1.13372
+ },
+ {
+  "name": "/conv_stem/Conv",
+  "timeMs": 152.202,
+  "averageMs": 0.266087,
+  "percentage": 1.28611
+ },
+ {
+  "name": "PWN(PWN(/bn1/act/Sigmoid), /bn1/act/Mul)",
+  "timeMs": 135.695,
+  "averageMs": 0.23723,
+  "percentage": 1.14663
+ },
+ {
+  "name": "/blocks/blocks.0/blocks.0.0/conv/Conv",
+  "timeMs": 339.263,
+  "averageMs": 0.593118,
+  "percentage": 2.86679
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.0/blocks.0.0/bn1/act/Sigmoid), /blocks/blocks.0/blocks.0.0/bn1/act/Mul)",
+  "timeMs": 71.4997,
+  "averageMs": 0.125,
+  "percentage": 0.604176
+ },
+ {
+  "name": "/blocks/blocks.1/blocks.1.0/conv_exp/Conv",
+  "timeMs": 120.834,
+  "averageMs": 0.211249,
+  "percentage": 1.02106
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.1/blocks.1.0/bn1/act/Sigmoid), /blocks/blocks.1/blocks.1.0/bn1/act/Mul)",
+  "timeMs": 65.6924,
+  "averageMs": 0.114847,
+  "percentage": 0.555104
+ },
+ {
+  "name": "/blocks/blocks.1/blocks.1.0/conv_pwl/Conv",
+  "timeMs": 60.0958,
+  "averageMs": 0.105063,
+  "percentage": 0.507812
+ },
+ {
+  "name": "/blocks/blocks.1/blocks.1.1/conv_exp/Conv",
+  "timeMs": 387.176,
+  "averageMs": 0.676882,
+  "percentage": 3.27166
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.1/blocks.1.1/bn1/act/Sigmoid), /blocks/blocks.1/blocks.1.1/bn1/act/Mul)",
+  "timeMs": 128.561,
+  "averageMs": 0.224757,
+  "percentage": 1.08635
+ },
+ {
+  "name": "/blocks/blocks.1/blocks.1.1/conv_pwl/Conv + /blocks/blocks.1/blocks.1.1/Add",
+  "timeMs": 85.534,
+  "averageMs": 0.149535,
+  "percentage": 0.722766
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.0/conv_exp/Conv",
+  "timeMs": 114.471,
+  "averageMs": 0.200124,
+  "percentage": 0.967286
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.2/blocks.2.0/bn1/act/Sigmoid), /blocks/blocks.2/blocks.2.0/bn1/act/Mul)",
+  "timeMs": 34.45,
+  "averageMs": 0.0602272,
+  "percentage": 0.291104
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.0/conv_pwl/Conv",
+  "timeMs": 39.9563,
+  "averageMs": 0.0698537,
+  "percentage": 0.337633
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.1/conv_exp/Conv",
+  "timeMs": 233.212,
+  "averageMs": 0.407714,
+  "percentage": 1.97066
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.2/blocks.2.1/bn1/act/Sigmoid), /blocks/blocks.2/blocks.2.1/bn1/act/Mul)",
+  "timeMs": 49.8038,
+  "averageMs": 0.0870696,
+  "percentage": 0.420845
+ },
+ {
+  "name": "/blocks/blocks.2/blocks.2.1/conv_pwl/Conv + /blocks/blocks.2/blocks.2.1/Add",
+  "timeMs": 49.4184,
+  "averageMs": 0.0863959,
+  "percentage": 0.417588
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.3/blocks.3.0/conv_pw/Conv",
+  "timeMs": 17.0741,
+  "averageMs": 0.0298497,
+  "percentage": 0.144277
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.0/conv_pw/Conv",
+  "timeMs": 91.1023,
+  "averageMs": 0.15927,
+  "percentage": 0.769819
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.3/blocks.3.0/bn1/act/Sigmoid), /blocks/blocks.3/blocks.3.0/bn1/act/Mul)",
+  "timeMs": 41.9009,
+  "averageMs": 0.0732533,
+  "percentage": 0.354065
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.0/conv_dw/Conv",
+  "timeMs": 81.0972,
+  "averageMs": 0.141778,
+  "percentage": 0.685275
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.3/blocks.3.0/bn2/act/Sigmoid), /blocks/blocks.3/blocks.3.0/bn2/act/Mul)",
+  "timeMs": 13.5375,
+  "averageMs": 0.023667,
+  "percentage": 0.114393
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.0/se/ReduceMean",
+  "timeMs": 12.2949,
+  "averageMs": 0.0214946,
+  "percentage": 0.103893
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.0/se/conv_reduce/Conv",
+  "timeMs": 29.4675,
+  "averageMs": 0.0515166,
+  "percentage": 0.249002
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(/blocks/blocks.3/blocks.3.0/se/act1/Sigmoid), /blocks/blocks.3/blocks.3.0/se/act1/Mul)",
+  "timeMs": 2.68584,
+  "averageMs": 0.00469552,
+  "percentage": 0.0226955
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.3/blocks.3.0/se/act1/Sigmoid), /blocks/blocks.3/blocks.3.0/se/act1/Mul)",
+  "timeMs": 3.51764,
+  "averageMs": 0.00614971,
+  "percentage": 0.0297242
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.0/se/conv_expand/Conv",
+  "timeMs": 8.07554,
+  "averageMs": 0.0141181,
+  "percentage": 0.0682387
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 1 to PWN(PWN(/blocks/blocks.3/blocks.3.0/se/gate/Sigmoid), /blocks/blocks.3/blocks.3.0/se/Mul)",
+  "timeMs": 19.3891,
+  "averageMs": 0.033897,
+  "percentage": 0.163839
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.3/blocks.3.0/se/gate/Sigmoid), /blocks/blocks.3/blocks.3.0/se/Mul)",
+  "timeMs": 27.3169,
+  "averageMs": 0.0477567,
+  "percentage": 0.230829
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.0/conv_pwl/Conv",
+  "timeMs": 31.005,
+  "averageMs": 0.0542046,
+  "percentage": 0.261994
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.1/conv_pw/Conv",
+  "timeMs": 48.9882,
+  "averageMs": 0.0856437,
+  "percentage": 0.413953
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(/blocks/blocks.3/blocks.3.1/bn1/act/Sigmoid), /blocks/blocks.3/blocks.3.1/bn1/act/Mul)",
+  "timeMs": 31.5431,
+  "averageMs": 0.0551453,
+  "percentage": 0.266541
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.3/blocks.3.1/bn1/act/Sigmoid), /blocks/blocks.3/blocks.3.1/bn1/act/Mul)",
+  "timeMs": 23.256,
+  "averageMs": 0.0406573,
+  "percentage": 0.196514
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.1/conv_dw/Conv",
+  "timeMs": 87.2188,
+  "averageMs": 0.152481,
+  "percentage": 0.737003
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.3/blocks.3.1/bn2/act/Sigmoid), /blocks/blocks.3/blocks.3.1/bn2/act/Mul)",
+  "timeMs": 23.9749,
+  "averageMs": 0.0419142,
+  "percentage": 0.202589
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.1/se/ReduceMean",
+  "timeMs": 17.998,
+  "averageMs": 0.0314651,
+  "percentage": 0.152084
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.1/se/conv_reduce/Conv",
+  "timeMs": 9.20136,
+  "averageMs": 0.0160863,
+  "percentage": 0.077752
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.3/blocks.3.1/se/act1/Sigmoid), /blocks/blocks.3/blocks.3.1/se/act1/Mul)",
+  "timeMs": 2.88947,
+  "averageMs": 0.00505152,
+  "percentage": 0.0244162
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.3/blocks.3.1/se/conv_expand/Conv",
+  "timeMs": 0.340838,
+  "averageMs": 0.000595871,
+  "percentage": 0.0028801
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.1/se/conv_expand/Conv",
+  "timeMs": 6.97823,
+  "averageMs": 0.0121997,
+  "percentage": 0.0589664
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 1 to PWN(PWN(/blocks/blocks.3/blocks.3.1/se/gate/Sigmoid), /blocks/blocks.3/blocks.3.1/se/Mul)",
+  "timeMs": 36.7119,
+  "averageMs": 0.0641816,
+  "percentage": 0.310217
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.3/blocks.3.1/se/gate/Sigmoid), /blocks/blocks.3/blocks.3.1/se/Mul)",
+  "timeMs": 51.7674,
+  "averageMs": 0.0905025,
+  "percentage": 0.437437
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.1/conv_pwl/Conv + /blocks/blocks.3/blocks.3.1/Add",
+  "timeMs": 49.3184,
+  "averageMs": 0.086221,
+  "percentage": 0.416743
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.2/conv_pw/Conv",
+  "timeMs": 49.1448,
+  "averageMs": 0.0859174,
+  "percentage": 0.415276
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(/blocks/blocks.3/blocks.3.2/bn1/act/Sigmoid), /blocks/blocks.3/blocks.3.2/bn1/act/Mul)",
+  "timeMs": 31.4689,
+  "averageMs": 0.0550156,
+  "percentage": 0.265914
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.3/blocks.3.2/bn1/act/Sigmoid), /blocks/blocks.3/blocks.3.2/bn1/act/Mul)",
+  "timeMs": 23.1777,
+  "averageMs": 0.0405205,
+  "percentage": 0.195853
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.2/conv_dw/Conv",
+  "timeMs": 87.1886,
+  "averageMs": 0.152428,
+  "percentage": 0.736748
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.3/blocks.3.2/bn2/act/Sigmoid), /blocks/blocks.3/blocks.3.2/bn2/act/Mul)",
+  "timeMs": 23.5737,
+  "averageMs": 0.0412128,
+  "percentage": 0.199199
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.2/se/ReduceMean",
+  "timeMs": 17.9163,
+  "averageMs": 0.0313221,
+  "percentage": 0.151393
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.2/se/conv_reduce/Conv",
+  "timeMs": 9.10031,
+  "averageMs": 0.0159096,
+  "percentage": 0.0768981
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.3/blocks.3.2/se/act1/Sigmoid), /blocks/blocks.3/blocks.3.2/se/act1/Mul)",
+  "timeMs": 2.82504,
+  "averageMs": 0.00493889,
+  "percentage": 0.0238718
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.3/blocks.3.2/se/conv_expand/Conv",
+  "timeMs": 0.326056,
+  "averageMs": 0.000570028,
+  "percentage": 0.00275519
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.2/se/conv_expand/Conv",
+  "timeMs": 6.91433,
+  "averageMs": 0.012088,
+  "percentage": 0.0584264
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 1 to PWN(PWN(/blocks/blocks.3/blocks.3.2/se/gate/Sigmoid), /blocks/blocks.3/blocks.3.2/se/Mul)",
+  "timeMs": 36.6944,
+  "averageMs": 0.064151,
+  "percentage": 0.310069
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.3/blocks.3.2/se/gate/Sigmoid), /blocks/blocks.3/blocks.3.2/se/Mul)",
+  "timeMs": 51.5376,
+  "averageMs": 0.0901006,
+  "percentage": 0.435495
+ },
+ {
+  "name": "/blocks/blocks.3/blocks.3.2/conv_pwl/Conv + /blocks/blocks.3/blocks.3.2/Add",
+  "timeMs": 50.9234,
+  "averageMs": 0.0890269,
+  "percentage": 0.430305
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.4/blocks.4.0/conv_pw/Conv",
+  "timeMs": 9.54733,
+  "averageMs": 0.0166911,
+  "percentage": 0.0806754
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.0/conv_pw/Conv",
+  "timeMs": 116.566,
+  "averageMs": 0.203787,
+  "percentage": 0.984992
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.0/bn1/act/Sigmoid), /blocks/blocks.4/blocks.4.0/bn1/act/Mul)",
+  "timeMs": 31.9396,
+  "averageMs": 0.0558385,
+  "percentage": 0.269891
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.0/conv_dw/Conv",
+  "timeMs": 167.863,
+  "averageMs": 0.293466,
+  "percentage": 1.41845
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.0/bn2/act/Sigmoid), /blocks/blocks.4/blocks.4.0/bn2/act/Mul)",
+  "timeMs": 33.8436,
+  "averageMs": 0.0591671,
+  "percentage": 0.28598
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.0/se/ReduceMean",
+  "timeMs": 33.3974,
+  "averageMs": 0.0583871,
+  "percentage": 0.28221
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.0/se/conv_reduce/Conv",
+  "timeMs": 10.6676,
+  "averageMs": 0.0186496,
+  "percentage": 0.0901416
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.0/se/act1/Sigmoid), /blocks/blocks.4/blocks.4.0/se/act1/Mul)",
+  "timeMs": 3.03844,
+  "averageMs": 0.00531196,
+  "percentage": 0.025675
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.0/se/conv_expand/Conv",
+  "timeMs": 14.1839,
+  "averageMs": 0.0247971,
+  "percentage": 0.119855
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.0/se/gate/Sigmoid), /blocks/blocks.4/blocks.4.0/se/Mul)",
+  "timeMs": 113.202,
+  "averageMs": 0.197906,
+  "percentage": 0.956566
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.0/conv_pwl/Conv",
+  "timeMs": 119.004,
+  "averageMs": 0.208049,
+  "percentage": 1.00559
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.1/conv_pw/Conv",
+  "timeMs": 153.615,
+  "averageMs": 0.268557,
+  "percentage": 1.29805
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.1/bn1/act/Sigmoid), /blocks/blocks.4/blocks.4.1/bn1/act/Mul)",
+  "timeMs": 37.0134,
+  "averageMs": 0.0647088,
+  "percentage": 0.312765
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.1/conv_dw/Conv",
+  "timeMs": 195.297,
+  "averageMs": 0.341428,
+  "percentage": 1.65027
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.1/bn2/act/Sigmoid), /blocks/blocks.4/blocks.4.1/bn2/act/Mul)",
+  "timeMs": 38.6891,
+  "averageMs": 0.0676383,
+  "percentage": 0.326925
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.1/se/ReduceMean",
+  "timeMs": 37.3465,
+  "averageMs": 0.065291,
+  "percentage": 0.315579
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.1/se/conv_reduce/Conv",
+  "timeMs": 10.6459,
+  "averageMs": 0.0186118,
+  "percentage": 0.0899586
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.1/se/act1/Sigmoid), /blocks/blocks.4/blocks.4.1/se/act1/Mul)",
+  "timeMs": 2.88219,
+  "averageMs": 0.0050388,
+  "percentage": 0.0243547
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.1/se/conv_expand/Conv",
+  "timeMs": 15.1308,
+  "averageMs": 0.0264525,
+  "percentage": 0.127856
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.1/se/gate/Sigmoid), /blocks/blocks.4/blocks.4.1/se/Mul)",
+  "timeMs": 130.009,
+  "averageMs": 0.227288,
+  "percentage": 1.09858
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.1/conv_pwl/Conv + /blocks/blocks.4/blocks.4.1/Add",
+  "timeMs": 137.438,
+  "averageMs": 0.240277,
+  "percentage": 1.16136
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.2/conv_pw/Conv",
+  "timeMs": 153.587,
+  "averageMs": 0.268508,
+  "percentage": 1.29781
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.2/bn1/act/Sigmoid), /blocks/blocks.4/blocks.4.2/bn1/act/Mul)",
+  "timeMs": 37.4388,
+  "averageMs": 0.0654524,
+  "percentage": 0.31636
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.2/conv_dw/Conv",
+  "timeMs": 195.369,
+  "averageMs": 0.341555,
+  "percentage": 1.65088
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.2/bn2/act/Sigmoid), /blocks/blocks.4/blocks.4.2/bn2/act/Mul)",
+  "timeMs": 38.3388,
+  "averageMs": 0.0670258,
+  "percentage": 0.323964
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.2/se/ReduceMean",
+  "timeMs": 37.2749,
+  "averageMs": 0.065166,
+  "percentage": 0.314975
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.2/se/conv_reduce/Conv",
+  "timeMs": 10.5892,
+  "averageMs": 0.0185126,
+  "percentage": 0.0894793
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.2/se/act1/Sigmoid), /blocks/blocks.4/blocks.4.2/se/act1/Mul)",
+  "timeMs": 2.89089,
+  "averageMs": 0.005054,
+  "percentage": 0.0244282
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.2/se/conv_expand/Conv",
+  "timeMs": 15.0654,
+  "averageMs": 0.0263381,
+  "percentage": 0.127303
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.2/se/gate/Sigmoid), /blocks/blocks.4/blocks.4.2/se/Mul)",
+  "timeMs": 130.423,
+  "averageMs": 0.228013,
+  "percentage": 1.10208
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.2/conv_pwl/Conv + /blocks/blocks.4/blocks.4.2/Add",
+  "timeMs": 137.588,
+  "averageMs": 0.240538,
+  "percentage": 1.16262
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.3/conv_pw/Conv",
+  "timeMs": 153.378,
+  "averageMs": 0.268143,
+  "percentage": 1.29605
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.3/bn1/act/Sigmoid), /blocks/blocks.4/blocks.4.3/bn1/act/Mul)",
+  "timeMs": 37.6929,
+  "averageMs": 0.0658966,
+  "percentage": 0.318507
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.3/conv_dw/Conv",
+  "timeMs": 195.326,
+  "averageMs": 0.341479,
+  "percentage": 1.65051
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.3/bn2/act/Sigmoid), /blocks/blocks.4/blocks.4.3/bn2/act/Mul)",
+  "timeMs": 37.5935,
+  "averageMs": 0.065723,
+  "percentage": 0.317667
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.3/se/ReduceMean",
+  "timeMs": 37.289,
+  "averageMs": 0.0651906,
+  "percentage": 0.315094
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.3/se/conv_reduce/Conv",
+  "timeMs": 10.5881,
+  "averageMs": 0.0185106,
+  "percentage": 0.0894698
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.3/se/act1/Sigmoid), /blocks/blocks.4/blocks.4.3/se/act1/Mul)",
+  "timeMs": 2.87428,
+  "averageMs": 0.00502497,
+  "percentage": 0.0242878
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.3/se/conv_expand/Conv",
+  "timeMs": 15.1348,
+  "averageMs": 0.0264594,
+  "percentage": 0.12789
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.3/se/gate/Sigmoid), /blocks/blocks.4/blocks.4.3/se/Mul)",
+  "timeMs": 130.354,
+  "averageMs": 0.227891,
+  "percentage": 1.1015
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.3/conv_pwl/Conv + /blocks/blocks.4/blocks.4.3/Add",
+  "timeMs": 137.465,
+  "averageMs": 0.240323,
+  "percentage": 1.16158
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.4/conv_pw/Conv",
+  "timeMs": 153.581,
+  "averageMs": 0.268499,
+  "percentage": 1.29777
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.4/bn1/act/Sigmoid), /blocks/blocks.4/blocks.4.4/bn1/act/Mul)",
+  "timeMs": 37.7468,
+  "averageMs": 0.065991,
+  "percentage": 0.318963
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.4/conv_dw/Conv",
+  "timeMs": 195.222,
+  "averageMs": 0.341298,
+  "percentage": 1.64964
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.4/bn2/act/Sigmoid), /blocks/blocks.4/blocks.4.4/bn2/act/Mul)",
+  "timeMs": 37.6005,
+  "averageMs": 0.0657352,
+  "percentage": 0.317726
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.4/se/ReduceMean",
+  "timeMs": 37.2628,
+  "averageMs": 0.0651448,
+  "percentage": 0.314873
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.4/se/conv_reduce/Conv",
+  "timeMs": 10.6925,
+  "averageMs": 0.0186932,
+  "percentage": 0.090352
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.4/se/act1/Sigmoid), /blocks/blocks.4/blocks.4.4/se/act1/Mul)",
+  "timeMs": 2.88907,
+  "averageMs": 0.00505082,
+  "percentage": 0.0244128
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.4/se/conv_expand/Conv",
+  "timeMs": 15.1258,
+  "averageMs": 0.0264437,
+  "percentage": 0.127814
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.4/blocks.4.4/se/gate/Sigmoid), /blocks/blocks.4/blocks.4.4/se/Mul)",
+  "timeMs": 130.531,
+  "averageMs": 0.228201,
+  "percentage": 1.10299
+ },
+ {
+  "name": "/blocks/blocks.4/blocks.4.4/conv_pwl/Conv + /blocks/blocks.4/blocks.4.4/Add",
+  "timeMs": 137.391,
+  "averageMs": 0.240195,
+  "percentage": 1.16096
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.0/conv_pw/Conv",
+  "timeMs": 153.842,
+  "averageMs": 0.268955,
+  "percentage": 1.29997
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.0/bn1/act/Sigmoid), /blocks/blocks.5/blocks.5.0/bn1/act/Mul)",
+  "timeMs": 38.906,
+  "averageMs": 0.0680176,
+  "percentage": 0.328758
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.0/conv_dw/Conv",
+  "timeMs": 153.559,
+  "averageMs": 0.268459,
+  "percentage": 1.29758
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.0/bn2/act/Sigmoid), /blocks/blocks.5/blocks.5.0/bn2/act/Mul)",
+  "timeMs": 12.7521,
+  "averageMs": 0.0222938,
+  "percentage": 0.107756
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.0/bn2/act/Sigmoid), /blocks/blocks.5/blocks.5.0/bn2/act/Mul)",
+  "timeMs": 17.5153,
+  "averageMs": 0.0306211,
+  "percentage": 0.148005
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.0/se/ReduceMean",
+  "timeMs": 11.7489,
+  "averageMs": 0.0205401,
+  "percentage": 0.099279
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.5/blocks.5.0/se/conv_reduce/Conv",
+  "timeMs": 0.293838,
+  "averageMs": 0.000513703,
+  "percentage": 0.00248295
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.0/se/conv_reduce/Conv",
+  "timeMs": 10.8265,
+  "averageMs": 0.0189274,
+  "percentage": 0.0914841
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.0/se/act1/Sigmoid), /blocks/blocks.5/blocks.5.0/se/act1/Mul)",
+  "timeMs": 2.83876,
+  "averageMs": 0.00496287,
+  "percentage": 0.0239877
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.5/blocks.5.0/se/conv_expand/Conv",
+  "timeMs": 0.297067,
+  "averageMs": 0.000519348,
+  "percentage": 0.00251023
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.0/se/conv_expand/Conv",
+  "timeMs": 10.2424,
+  "averageMs": 0.0179063,
+  "percentage": 0.0865488
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.0/se/gate/Sigmoid), /blocks/blocks.5/blocks.5.0/se/Mul)",
+  "timeMs": 24.4781,
+  "averageMs": 0.0427938,
+  "percentage": 0.206841
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.0/conv_pwl/Conv",
+  "timeMs": 51.6692,
+  "averageMs": 0.0903307,
+  "percentage": 0.436607
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.1/conv_pw/Conv",
+  "timeMs": 106.659,
+  "averageMs": 0.186467,
+  "percentage": 0.901276
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.1/bn1/act/Sigmoid), /blocks/blocks.5/blocks.5.1/bn1/act/Mul)",
+  "timeMs": 25.2404,
+  "averageMs": 0.0441266,
+  "percentage": 0.213283
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.1/bn1/act/Sigmoid), /blocks/blocks.5/blocks.5.1/bn1/act/Mul)",
+  "timeMs": 20.0529,
+  "averageMs": 0.0350575,
+  "percentage": 0.169448
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.1/conv_dw/Conv",
+  "timeMs": 192.086,
+  "averageMs": 0.335814,
+  "percentage": 1.62313
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.1/bn2/act/Sigmoid), /blocks/blocks.5/blocks.5.1/bn2/act/Mul)",
+  "timeMs": 20.2505,
+  "averageMs": 0.0354029,
+  "percentage": 0.171117
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.1/bn2/act/Sigmoid), /blocks/blocks.5/blocks.5.1/bn2/act/Mul)",
+  "timeMs": 29.1803,
+  "averageMs": 0.0510145,
+  "percentage": 0.246575
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.1/se/ReduceMean",
+  "timeMs": 18.0079,
+  "averageMs": 0.0314823,
+  "percentage": 0.152167
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.5/blocks.5.1/se/conv_reduce/Conv",
+  "timeMs": 0.292349,
+  "averageMs": 0.0005111,
+  "percentage": 0.00247037
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.1/se/conv_reduce/Conv",
+  "timeMs": 15.3257,
+  "averageMs": 0.0267932,
+  "percentage": 0.129503
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.1/se/act1/Sigmoid), /blocks/blocks.5/blocks.5.1/se/act1/Mul)",
+  "timeMs": 0.437397,
+  "averageMs": 0.000764681,
+  "percentage": 0.00369603
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.1/se/act1/Sigmoid), /blocks/blocks.5/blocks.5.1/se/act1/Mul)",
+  "timeMs": 3.0238,
+  "averageMs": 0.00528636,
+  "percentage": 0.0255512
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.1/se/conv_expand/Conv",
+  "timeMs": 16.0371,
+  "averageMs": 0.028037,
+  "percentage": 0.135515
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.1/se/gate/Sigmoid), /blocks/blocks.5/blocks.5.1/se/Mul)",
+  "timeMs": 40.9567,
+  "averageMs": 0.0716026,
+  "percentage": 0.346086
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.1/conv_pwl/Conv + /blocks/blocks.5/blocks.5.1/Add",
+  "timeMs": 99.4593,
+  "averageMs": 0.17388,
+  "percentage": 0.840436
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.2/conv_pw/Conv",
+  "timeMs": 107.15,
+  "averageMs": 0.187325,
+  "percentage": 0.905421
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.2/bn1/act/Sigmoid), /blocks/blocks.5/blocks.5.2/bn1/act/Mul)",
+  "timeMs": 25.4793,
+  "averageMs": 0.0445442,
+  "percentage": 0.215301
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.2/bn1/act/Sigmoid), /blocks/blocks.5/blocks.5.2/bn1/act/Mul)",
+  "timeMs": 20.4868,
+  "averageMs": 0.0358161,
+  "percentage": 0.173114
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.2/conv_dw/Conv",
+  "timeMs": 192.451,
+  "averageMs": 0.336453,
+  "percentage": 1.62622
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.2/bn2/act/Sigmoid), /blocks/blocks.5/blocks.5.2/bn2/act/Mul)",
+  "timeMs": 20.5141,
+  "averageMs": 0.0358638,
+  "percentage": 0.173345
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.2/bn2/act/Sigmoid), /blocks/blocks.5/blocks.5.2/bn2/act/Mul)",
+  "timeMs": 29.2547,
+  "averageMs": 0.0511446,
+  "percentage": 0.247204
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.2/se/ReduceMean",
+  "timeMs": 18.1259,
+  "averageMs": 0.0316886,
+  "percentage": 0.153165
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.5/blocks.5.2/se/conv_reduce/Conv",
+  "timeMs": 0.305154,
+  "averageMs": 0.000533486,
+  "percentage": 0.00257857
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.2/se/conv_reduce/Conv",
+  "timeMs": 15.7314,
+  "averageMs": 0.0275024,
+  "percentage": 0.132931
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.2/se/act1/Sigmoid), /blocks/blocks.5/blocks.5.2/se/act1/Mul)",
+  "timeMs": 0.455591,
+  "averageMs": 0.000796488,
+  "percentage": 0.00384977
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.2/se/act1/Sigmoid), /blocks/blocks.5/blocks.5.2/se/act1/Mul)",
+  "timeMs": 2.94901,
+  "averageMs": 0.00515562,
+  "percentage": 0.0249193
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.2/se/conv_expand/Conv",
+  "timeMs": 15.9633,
+  "averageMs": 0.0279078,
+  "percentage": 0.134891
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.2/se/gate/Sigmoid), /blocks/blocks.5/blocks.5.2/se/Mul)",
+  "timeMs": 40.9799,
+  "averageMs": 0.0716432,
+  "percentage": 0.346282
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.2/conv_pwl/Conv + /blocks/blocks.5/blocks.5.2/Add",
+  "timeMs": 99.3956,
+  "averageMs": 0.173768,
+  "percentage": 0.839897
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.3/conv_pw/Conv",
+  "timeMs": 107.168,
+  "averageMs": 0.187356,
+  "percentage": 0.905572
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.3/bn1/act/Sigmoid), /blocks/blocks.5/blocks.5.3/bn1/act/Mul)",
+  "timeMs": 25.4943,
+  "averageMs": 0.0445704,
+  "percentage": 0.215428
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.3/bn1/act/Sigmoid), /blocks/blocks.5/blocks.5.3/bn1/act/Mul)",
+  "timeMs": 20.5285,
+  "averageMs": 0.035889,
+  "percentage": 0.173467
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.3/conv_dw/Conv",
+  "timeMs": 192.54,
+  "averageMs": 0.336608,
+  "percentage": 1.62697
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.3/bn2/act/Sigmoid), /blocks/blocks.5/blocks.5.3/bn2/act/Mul)",
+  "timeMs": 20.5635,
+  "averageMs": 0.0359501,
+  "percentage": 0.173762
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.3/bn2/act/Sigmoid), /blocks/blocks.5/blocks.5.3/bn2/act/Mul)",
+  "timeMs": 29.2236,
+  "averageMs": 0.0510902,
+  "percentage": 0.246941
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.3/se/ReduceMean",
+  "timeMs": 18.0712,
+  "averageMs": 0.031593,
+  "percentage": 0.152702
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.5/blocks.5.3/se/conv_reduce/Conv",
+  "timeMs": 0.308995,
+  "averageMs": 0.000540201,
+  "percentage": 0.00261102
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.3/se/conv_reduce/Conv",
+  "timeMs": 15.4102,
+  "averageMs": 0.0269409,
+  "percentage": 0.130217
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.3/se/act1/Sigmoid), /blocks/blocks.5/blocks.5.3/se/act1/Mul)",
+  "timeMs": 0.436204,
+  "averageMs": 0.000762595,
+  "percentage": 0.00368595
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.3/se/act1/Sigmoid), /blocks/blocks.5/blocks.5.3/se/act1/Mul)",
+  "timeMs": 2.95745,
+  "averageMs": 0.00517037,
+  "percentage": 0.0249906
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.3/se/conv_expand/Conv",
+  "timeMs": 15.9827,
+  "averageMs": 0.0279417,
+  "percentage": 0.135054
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.3/se/gate/Sigmoid), /blocks/blocks.5/blocks.5.3/se/Mul)",
+  "timeMs": 41.1677,
+  "averageMs": 0.0719715,
+  "percentage": 0.347869
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.3/conv_pwl/Conv + /blocks/blocks.5/blocks.5.3/Add",
+  "timeMs": 99.3592,
+  "averageMs": 0.173705,
+  "percentage": 0.83959
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.4/conv_pw/Conv",
+  "timeMs": 107.178,
+  "averageMs": 0.187374,
+  "percentage": 0.905659
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.4/bn1/act/Sigmoid), /blocks/blocks.5/blocks.5.4/bn1/act/Mul)",
+  "timeMs": 25.5403,
+  "averageMs": 0.0446508,
+  "percentage": 0.215816
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.4/bn1/act/Sigmoid), /blocks/blocks.5/blocks.5.4/bn1/act/Mul)",
+  "timeMs": 20.6376,
+  "averageMs": 0.0360797,
+  "percentage": 0.174388
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.4/conv_dw/Conv",
+  "timeMs": 192.617,
+  "averageMs": 0.336744,
+  "percentage": 1.62763
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.4/bn2/act/Sigmoid), /blocks/blocks.5/blocks.5.4/bn2/act/Mul)",
+  "timeMs": 20.789,
+  "averageMs": 0.0363444,
+  "percentage": 0.175668
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.4/bn2/act/Sigmoid), /blocks/blocks.5/blocks.5.4/bn2/act/Mul)",
+  "timeMs": 29.2699,
+  "averageMs": 0.0511711,
+  "percentage": 0.247332
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.4/se/ReduceMean",
+  "timeMs": 18.1184,
+  "averageMs": 0.0316756,
+  "percentage": 0.153102
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.5/blocks.5.4/se/conv_reduce/Conv",
+  "timeMs": 0.313135,
+  "averageMs": 0.00054744,
+  "percentage": 0.00264601
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.4/se/conv_reduce/Conv",
+  "timeMs": 15.3721,
+  "averageMs": 0.0268744,
+  "percentage": 0.129895
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.4/se/act1/Sigmoid), /blocks/blocks.5/blocks.5.4/se/act1/Mul)",
+  "timeMs": 0.424109,
+  "averageMs": 0.00074145,
+  "percentage": 0.00358374
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.4/se/act1/Sigmoid), /blocks/blocks.5/blocks.5.4/se/act1/Mul)",
+  "timeMs": 2.92151,
+  "averageMs": 0.00510753,
+  "percentage": 0.0246869
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.4/se/conv_expand/Conv",
+  "timeMs": 15.9634,
+  "averageMs": 0.0279081,
+  "percentage": 0.134892
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.4/se/gate/Sigmoid), /blocks/blocks.5/blocks.5.4/se/Mul)",
+  "timeMs": 41.0724,
+  "averageMs": 0.0718049,
+  "percentage": 0.347064
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.4/conv_pwl/Conv + /blocks/blocks.5/blocks.5.4/Add",
+  "timeMs": 99.1047,
+  "averageMs": 0.17326,
+  "percentage": 0.837439
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.5/conv_pw/Conv",
+  "timeMs": 107.316,
+  "averageMs": 0.187616,
+  "percentage": 0.906828
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.5/bn1/act/Sigmoid), /blocks/blocks.5/blocks.5.5/bn1/act/Mul)",
+  "timeMs": 25.5629,
+  "averageMs": 0.0446903,
+  "percentage": 0.216007
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.5/bn1/act/Sigmoid), /blocks/blocks.5/blocks.5.5/bn1/act/Mul)",
+  "timeMs": 20.6007,
+  "averageMs": 0.0360152,
+  "percentage": 0.174077
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.5/conv_dw/Conv",
+  "timeMs": 192.726,
+  "averageMs": 0.336933,
+  "percentage": 1.62854
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.5/bn2/act/Sigmoid), /blocks/blocks.5/blocks.5.5/bn2/act/Mul)",
+  "timeMs": 20.6288,
+  "averageMs": 0.0360643,
+  "percentage": 0.174314
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.5/bn2/act/Sigmoid), /blocks/blocks.5/blocks.5.5/bn2/act/Mul)",
+  "timeMs": 29.2142,
+  "averageMs": 0.0510737,
+  "percentage": 0.246861
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.5/se/ReduceMean",
+  "timeMs": 18.0841,
+  "averageMs": 0.0316156,
+  "percentage": 0.152812
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.5/blocks.5.5/se/conv_reduce/Conv",
+  "timeMs": 0.32146,
+  "averageMs": 0.000561993,
+  "percentage": 0.00271635
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.5/se/conv_reduce/Conv",
+  "timeMs": 15.2448,
+  "averageMs": 0.0266518,
+  "percentage": 0.12882
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.5/se/act1/Sigmoid), /blocks/blocks.5/blocks.5.5/se/act1/Mul)",
+  "timeMs": 0.423689,
+  "averageMs": 0.000740716,
+  "percentage": 0.0035802
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.5/se/act1/Sigmoid), /blocks/blocks.5/blocks.5.5/se/act1/Mul)",
+  "timeMs": 2.96599,
+  "averageMs": 0.0051853,
+  "percentage": 0.0250628
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.5/se/conv_expand/Conv",
+  "timeMs": 15.9522,
+  "averageMs": 0.0278884,
+  "percentage": 0.134797
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.5/se/gate/Sigmoid), /blocks/blocks.5/blocks.5.5/se/Mul)",
+  "timeMs": 41.1686,
+  "averageMs": 0.0719731,
+  "percentage": 0.347877
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.5/conv_pwl/Conv + /blocks/blocks.5/blocks.5.5/Add",
+  "timeMs": 99.3107,
+  "averageMs": 0.17362,
+  "percentage": 0.839181
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.6/conv_pw/Conv",
+  "timeMs": 107.516,
+  "averageMs": 0.187965,
+  "percentage": 0.908514
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.6/bn1/act/Sigmoid), /blocks/blocks.5/blocks.5.6/bn1/act/Mul)",
+  "timeMs": 25.5406,
+  "averageMs": 0.0446514,
+  "percentage": 0.215819
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.6/bn1/act/Sigmoid), /blocks/blocks.5/blocks.5.6/bn1/act/Mul)",
+  "timeMs": 20.4515,
+  "averageMs": 0.0357543,
+  "percentage": 0.172816
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.6/conv_dw/Conv",
+  "timeMs": 192.654,
+  "averageMs": 0.336808,
+  "percentage": 1.62794
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.6/bn2/act/Sigmoid), /blocks/blocks.5/blocks.5.6/bn2/act/Mul)",
+  "timeMs": 20.7171,
+  "averageMs": 0.0362187,
+  "percentage": 0.175061
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.6/bn2/act/Sigmoid), /blocks/blocks.5/blocks.5.6/bn2/act/Mul)",
+  "timeMs": 29.2303,
+  "averageMs": 0.0511018,
+  "percentage": 0.246997
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.6/se/ReduceMean",
+  "timeMs": 18.1282,
+  "averageMs": 0.0316927,
+  "percentage": 0.153184
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.5/blocks.5.6/se/conv_reduce/Conv",
+  "timeMs": 0.315824,
+  "averageMs": 0.00055214,
+  "percentage": 0.00266873
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.6/se/conv_reduce/Conv",
+  "timeMs": 15.9305,
+  "averageMs": 0.0278506,
+  "percentage": 0.134614
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.6/se/act1/Sigmoid), /blocks/blocks.5/blocks.5.6/se/act1/Mul)",
+  "timeMs": 0.437715,
+  "averageMs": 0.000765236,
+  "percentage": 0.00369872
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.6/se/act1/Sigmoid), /blocks/blocks.5/blocks.5.6/se/act1/Mul)",
+  "timeMs": 2.94333,
+  "averageMs": 0.00514568,
+  "percentage": 0.0248713
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.6/se/conv_expand/Conv",
+  "timeMs": 15.8814,
+  "averageMs": 0.0277646,
+  "percentage": 0.134198
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.6/se/gate/Sigmoid), /blocks/blocks.5/blocks.5.6/se/Mul)",
+  "timeMs": 40.9421,
+  "averageMs": 0.0715771,
+  "percentage": 0.345963
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.6/conv_pwl/Conv + /blocks/blocks.5/blocks.5.6/Add",
+  "timeMs": 99.2404,
+  "averageMs": 0.173497,
+  "percentage": 0.838586
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.7/conv_pw/Conv",
+  "timeMs": 107.475,
+  "averageMs": 0.187893,
+  "percentage": 0.908165
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.7/bn1/act/Sigmoid), /blocks/blocks.5/blocks.5.7/bn1/act/Mul)",
+  "timeMs": 25.5316,
+  "averageMs": 0.0446357,
+  "percentage": 0.215744
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.7/bn1/act/Sigmoid), /blocks/blocks.5/blocks.5.7/bn1/act/Mul)",
+  "timeMs": 20.648,
+  "averageMs": 0.0360979,
+  "percentage": 0.174477
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.7/conv_dw/Conv",
+  "timeMs": 192.525,
+  "averageMs": 0.336583,
+  "percentage": 1.62685
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.7/bn2/act/Sigmoid), /blocks/blocks.5/blocks.5.7/bn2/act/Mul)",
+  "timeMs": 20.6567,
+  "averageMs": 0.0361131,
+  "percentage": 0.17455
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.7/bn2/act/Sigmoid), /blocks/blocks.5/blocks.5.7/bn2/act/Mul)",
+  "timeMs": 29.1823,
+  "averageMs": 0.051018,
+  "percentage": 0.246592
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.7/se/ReduceMean",
+  "timeMs": 18.1066,
+  "averageMs": 0.0316549,
+  "percentage": 0.153002
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /blocks/blocks.5/blocks.5.7/se/conv_reduce/Conv",
+  "timeMs": 0.314564,
+  "averageMs": 0.000549937,
+  "percentage": 0.00265808
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.7/se/conv_reduce/Conv",
+  "timeMs": 15.3199,
+  "averageMs": 0.026783,
+  "percentage": 0.129454
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to PWN(PWN(/blocks/blocks.5/blocks.5.7/se/act1/Sigmoid), /blocks/blocks.5/blocks.5.7/se/act1/Mul)",
+  "timeMs": 0.427826,
+  "averageMs": 0.000747948,
+  "percentage": 0.00361515
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.7/se/act1/Sigmoid), /blocks/blocks.5/blocks.5.7/se/act1/Mul)",
+  "timeMs": 2.87031,
+  "averageMs": 0.00501802,
+  "percentage": 0.0242542
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.7/se/conv_expand/Conv",
+  "timeMs": 15.8562,
+  "averageMs": 0.0277206,
+  "percentage": 0.133986
+ },
+ {
+  "name": "PWN(PWN(/blocks/blocks.5/blocks.5.7/se/gate/Sigmoid), /blocks/blocks.5/blocks.5.7/se/Mul)",
+  "timeMs": 40.9511,
+  "averageMs": 0.0715928,
+  "percentage": 0.346039
+ },
+ {
+  "name": "/blocks/blocks.5/blocks.5.7/conv_pwl/Conv + /blocks/blocks.5/blocks.5.7/Add",
+  "timeMs": 99.2359,
+  "averageMs": 0.173489,
+  "percentage": 0.838548
+ },
+ {
+  "name": "/conv_head/Conv",
+  "timeMs": 118.298,
+  "averageMs": 0.206815,
+  "percentage": 0.999623
+ },
+ {
+  "name": "PWN(PWN(/bn2/act/Sigmoid), /bn2/act/Mul)",
+  "timeMs": 23.8432,
+  "averageMs": 0.041684,
+  "percentage": 0.201476
+ },
+ {
+  "name": "/global_pool/pool/GlobalAveragePool",
+  "timeMs": 16.8719,
+  "averageMs": 0.0294964,
+  "percentage": 0.142569
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /classifier/Gemm",
+  "timeMs": 0.350572,
+  "averageMs": 0.000612889,
+  "percentage": 0.00296235
+ },
+ {
+  "name": "/classifier/Gemm",
+  "timeMs": 11.0564,
+  "averageMs": 0.0193293,
+  "percentage": 0.0934268
+ },
+ {
+  "name": "(Unnamed Layer* 268) [Shuffle]",
+  "timeMs": 0.296724,
+  "averageMs": 0.000518748,
+  "percentage": 0.00250733
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to (Unnamed Layer* 268) [Shuffle]",
+  "timeMs": 4.13406,
+  "averageMs": 0.00722738,
+  "percentage": 0.034933
+ }
+]

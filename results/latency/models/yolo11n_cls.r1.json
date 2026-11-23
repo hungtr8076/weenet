@@ -1,0 +1,39 @@
+{
+ "label": "yolo11n_cls",
+ "round": 1,
+ "plan": "yolo11n_cls_r224.plan",
+ "throughput_qps": 230.359,
+ "gpu_ms": {
+  "min": 4.13184,
+  "max": 5.875,
+  "mean": 4.25782,
+  "median": 4.17505,
+  "p99": 5.45312
+ },
+ "latency_median_ms": 4.2373,
+ "window_s": 14.412035703659058,
+ "n_samples": 40,
+ "power_w": {
+  "POM_5V_IN": 6.53215,
+  "POM_5V_GPU": 3.192275,
+  "POM_5V_CPU": 1.37285
+ },
+ "energy_mj": {
+  "board_in": 28.35639154537048,
+  "gpu_rail": 13.857826262485945
+ },
+ "gpu_temp_c_mean": 31.5,
+ "clocks": {
+  "gpu_mhz_median": 921.6,
+  "gpu_mhz_min": 921.6,
+  "cpu_mhz_median": 1479.0,
+  "cpu_mhz_min": 825.6,
+  "n": 143,
+  "gpu_below_921": false
+ },
+ "gpu_freq_hz": [
+  921600000,
+  921600000
+ ],
+ "time": "13:18:40"
+}

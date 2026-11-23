@@ -1,0 +1,39 @@
+{
+ "label": "resnet18",
+ "round": 2,
+ "plan": "resnet18.plan",
+ "throughput_qps": 84.723,
+ "gpu_ms": {
+  "min": 11.5889,
+  "max": 13.4058,
+  "mean": 11.7324,
+  "median": 11.728,
+  "p99": 11.8364
+ },
+ "latency_median_ms": 11.7871,
+ "window_s": 14.433167219161987,
+ "n_samples": 40,
+ "power_w": {
+  "POM_5V_IN": 7.09285,
+  "POM_5V_GPU": 4.435875,
+  "POM_5V_CPU": 0.37065
+ },
+ "energy_mj": {
+  "board_in": 83.7181166861419,
+  "gpu_rail": 52.35738819446904
+ },
+ "gpu_temp_c_mean": 33.425,
+ "clocks": {
+  "gpu_mhz_median": 921.6,
+  "gpu_mhz_min": 921.6,
+  "cpu_mhz_median": 518.4,
+  "cpu_mhz_min": 204.0,
+  "n": 142,
+  "gpu_below_921": false
+ },
+ "gpu_freq_hz": [
+  921600000,
+  921600000
+ ],
+ "time": "13:34:44"
+}

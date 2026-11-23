@@ -1,0 +1,18 @@
+{
+ "label": "mnv4",
+ "plan": "mobilenetv4_conv_small.plan",
+ "pre": "fast",
+ "res": 224,
+ "workers": 3,
+ "dur_s": 15.0,
+ "pre_1_ms_median": 2.9209430000207703,
+ "pre_1_ms_p99": 3.54616879999071,
+ "rate_w_fps": 912.9008922077761,
+ "gpu_ms_median": 6.624302999966858,
+ "gpu_ms_p99": 6.82035649998852,
+ "gpu_launches": 2254,
+ "gpu_mhz_mean": 921.5999999999998,
+ "k_gpu": 5,
+ "k_cpu": 30,
+ "k_pred": 5
+}

@@ -1,0 +1,18 @@
+{
+ "label": "wee_u8",
+ "plan": "weenet_z_ds4_u8.plan",
+ "pre": "u8",
+ "res": 224,
+ "workers": 3,
+ "dur_s": 15.0,
+ "pre_1_ms_median": 1.7791190000053803,
+ "pre_1_ms_p99": 1.8325859800100375,
+ "rate_w_fps": 1625.4712116102266,
+ "gpu_ms_median": 2.9190930000027038,
+ "gpu_ms_p99": 2.9933397999968747,
+ "gpu_launches": 5106,
+ "gpu_mhz_mean": 921.6000000000006,
+ "k_gpu": 11,
+ "k_cpu": 54,
+ "k_pred": 11
+}

@@ -1,0 +1,39 @@
+{
+ "label": "repvit_m0_9",
+ "round": 2,
+ "plan": "repvit_m0_9.plan",
+ "throughput_qps": 49.17,
+ "gpu_ms": {
+  "min": 20.1484,
+  "max": 22.0276,
+  "mean": 20.2654,
+  "median": 20.2607,
+  "p99": 20.3555
+ },
+ "latency_median_ms": 20.3232,
+ "window_s": 14.450811386108398,
+ "n_samples": 35,
+ "power_w": {
+  "POM_5V_IN": 6.904942857142857,
+  "POM_5V_GPU": 4.018628571428572,
+  "POM_5V_CPU": 0.6972857142857143
+ },
+ "energy_mj": {
+  "board_in": 140.42999506086753,
+  "gpu_rail": 81.72927743397543
+ },
+ "gpu_temp_c_mean": 32.81428571428572,
+ "clocks": {
+  "gpu_mhz_median": 921.6,
+  "gpu_mhz_min": 921.6,
+  "cpu_mhz_median": 1036.8,
+  "cpu_mhz_min": 403.2,
+  "n": 143,
+  "gpu_below_921": false
+ },
+ "gpu_freq_hz": [
+  921600000,
+  921600000
+ ],
+ "time": "18:09:14"
+}

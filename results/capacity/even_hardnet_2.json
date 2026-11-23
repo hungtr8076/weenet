@@ -1,0 +1,135 @@
+{
+ "label": "hardnet_even2",
+ "plan": "hardnet39ds.plan",
+ "plans": {
+  "1": "hardnet39ds.plan"
+ },
+ "policy": "b1",
+ "phase": "even",
+ "seed": 1611,
+ "resize": "a2l",
+ "res": 224,
+ "pre": "fast",
+ "workers": 3,
+ "fps": 30.0,
+ "dur_s": 180.0,
+ "warm_s": 5.0,
+ "frames": "64 test JPEGs resized to 640x480 BGR in memory",
+ "nvpmodel": "NVPM WARN: fan mode is not set!\nNV Power Mode: MAXN\n0\nNVPM ERROR: Error opening /sys/kernel/nvpmodel_emc_cap/emc_iso_cap: 13\nNVPM ERROR: failed to read PARAM EMC: ARG MAX_FREQ: PATH /sys/kernel/nvpmodel_emc_cap/emc_iso_cap",
+ "runs": [
+  {
+   "K": 2,
+   "fps_per_stream": 30.0,
+   "phase": "even",
+   "offsets_ms": [
+    0.0,
+    16.666666666666668
+   ],
+   "seed": null,
+   "policy": "b1",
+   "due": 10800,
+   "done": 10800,
+   "dropped": 0,
+   "late": 0,
+   "unaccounted": 0,
+   "miss_rate": 0.0,
+   "legacy": {
+    "due": 10800,
+    "done": 10800,
+    "dropped": 0,
+    "late": 0,
+    "miss_rate": 0.0
+   },
+   "lat_ms": {
+    "median": 15.332251332438318,
+    "p95": 15.65284859843814,
+    "p99": 16.492289907982922,
+    "max": 24.284078997879988,
+    "mean": 15.38469940027729
+   },
+   "infer_ms_median": 11.956084999837913,
+   "launches": 10800,
+   "frames_per_launch_mean": 1.0,
+   "frames_per_launch_hist": {
+    "1": 10800
+   },
+   "achieved_fps": 60.0,
+   "gpu_busy": 0.7182390813285464,
+   "cpu_util": 0.31106646102471947,
+   "gpu_mhz_mean": 921.6000000000001,
+   "board_w_mean": 5.773830706363106,
+   "fan_start": {
+    "cur_pwm": 0,
+    "target_pwm": 0,
+    "temp_control": 1,
+    "rpm_measured": 0,
+    "gpu_temp_c": 35.0
+   },
+   "fan_end": {
+    "cur_pwm": 0,
+    "target_pwm": 0,
+    "temp_control": 1,
+    "rpm_measured": 0,
+    "gpu_temp_c": 34.5
+   }
+  },
+  {
+   "K": 3,
+   "fps_per_stream": 30.0,
+   "phase": "even",
+   "offsets_ms": [
+    0.0,
+    11.11111111111111,
+    22.22222222222222
+   ],
+   "seed": null,
+   "policy": "b1",
+   "due": 16200,
+   "done": 14998,
+   "dropped": 1202,
+   "late": 14998,
+   "unaccounted": 0,
+   "miss_rate": 1.0,
+   "legacy": {
+    "due": 16200,
+    "done": 14998,
+    "dropped": 1202,
+    "late": 14998,
+    "miss_rate": 1.0
+   },
+   "lat_ms": {
+    "median": 43.02031922270544,
+    "p95": 48.22837715764763,
+    "p99": 48.6946147512208,
+    "max": 58.50129044483765,
+    "mean": 43.11134575187234
+   },
+   "infer_ms_median": 11.902749000000767,
+   "launches": 14998,
+   "frames_per_launch_mean": 1.0,
+   "frames_per_launch_hist": {
+    "1": 14998
+   },
+   "achieved_fps": 83.32222222222222,
+   "gpu_busy": 0.9934801534484602,
+   "cpu_util": 0.44737545547911484,
+   "gpu_mhz_mean": 921.6000000000003,
+   "board_w_mean": 7.130432464107822,
+   "fan_start": {
+    "cur_pwm": 0,
+    "target_pwm": 0,
+    "temp_control": 1,
+    "rpm_measured": 0,
+    "gpu_temp_c": 34.0
+   },
+   "fan_end": {
+    "cur_pwm": 0,
+    "target_pwm": 0,
+    "temp_control": 1,
+    "rpm_measured": 0,
+    "gpu_temp_c": 37.0
+   }
+  }
+ ],
+ "ts": 1794811717
+}

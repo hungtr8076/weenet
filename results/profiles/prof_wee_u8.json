@@ -1,0 +1,143 @@
+[
+ {
+  "count": 3886
+ },
+ {
+  "name": "stem_csmstem",
+  "timeMs": 532.403,
+  "averageMs": 0.137005,
+  "percentage": 5.02906
+ },
+ {
+  "name": "/body/body.0/c1/conv/Conv + /body/body.0/c1/act/Relu",
+  "timeMs": 750.714,
+  "averageMs": 0.193184,
+  "percentage": 7.09122
+ },
+ {
+  "name": "/body/body.0/c2/conv/Conv + /body/body.0/c2/act/Relu",
+  "timeMs": 649.113,
+  "averageMs": 0.167039,
+  "percentage": 6.1315
+ },
+ {
+  "name": "/body/body.0/Add + /body/body.0/act/Relu",
+  "timeMs": 189.96,
+  "averageMs": 0.0488832,
+  "percentage": 1.79436
+ },
+ {
+  "name": "/body/body.1/c1/conv/Conv + /body/body.1/c1/act/Relu",
+  "timeMs": 698.546,
+  "averageMs": 0.17976,
+  "percentage": 6.59844
+ },
+ {
+  "name": "/body/body.1/c2/conv/Conv + /body/body.1/c2/act/Relu",
+  "timeMs": 608.717,
+  "averageMs": 0.156644,
+  "percentage": 5.74992
+ },
+ {
+  "name": "/body/body.1/proj/proj.0/Conv + /body/body.1/Add + /body/body.1/act/Relu",
+  "timeMs": 284.303,
+  "averageMs": 0.0731609,
+  "percentage": 2.68552
+ },
+ {
+  "name": "/body/body.2/c1/conv/Conv + /body/body.2/c1/act/Relu",
+  "timeMs": 589.172,
+  "averageMs": 0.151614,
+  "percentage": 5.5653
+ },
+ {
+  "name": "/body/body.2/c2/conv/Conv + /body/body.2/c2/act/Relu",
+  "timeMs": 577.148,
+  "averageMs": 0.14852,
+  "percentage": 5.45172
+ },
+ {
+  "name": "/body/body.2/Add + /body/body.2/act/Relu",
+  "timeMs": 104.589,
+  "averageMs": 0.0269143,
+  "percentage": 0.987945
+ },
+ {
+  "name": "/body/body.3/c1/conv/Conv + /body/body.3/c1/act/Relu",
+  "timeMs": 723.742,
+  "averageMs": 0.186244,
+  "percentage": 6.83645
+ },
+ {
+  "name": "/body/body.3/c2/conv/Conv + /body/body.3/c2/act/Relu",
+  "timeMs": 547.851,
+  "averageMs": 0.140981,
+  "percentage": 5.17498
+ },
+ {
+  "name": "/body/body.3/proj/proj.0/Conv + /body/body.3/Add + /body/body.3/act/Relu",
+  "timeMs": 253.932,
+  "averageMs": 0.0653453,
+  "percentage": 2.39863
+ },
+ {
+  "name": "/body/body.4/c1/conv/Conv + /body/body.4/c1/act/Relu",
+  "timeMs": 536.16,
+  "averageMs": 0.137972,
+  "percentage": 5.06455
+ },
+ {
+  "name": "/body/body.4/c2/conv/Conv + /body/body.4/c2/act/Relu",
+  "timeMs": 530.716,
+  "averageMs": 0.136571,
+  "percentage": 5.01313
+ },
+ {
+  "name": "/body/body.4/Add + /body/body.4/act/Relu",
+  "timeMs": 59.9775,
+  "averageMs": 0.0154343,
+  "percentage": 0.566546
+ },
+ {
+  "name": "/body/body.5/c1/conv/Conv + /body/body.5/c1/act/Relu",
+  "timeMs": 1350.79,
+  "averageMs": 0.347604,
+  "percentage": 12.7595
+ },
+ {
+  "name": "/body/body.5/c2/conv/Conv + /body/body.5/c2/act/Relu",
+  "timeMs": 856.931,
+  "averageMs": 0.220517,
+  "percentage": 8.09454
+ },
+ {
+  "name": "/body/body.5/proj/proj.0/Conv + /body/body.5/Add + /body/body.5/act/Relu",
+  "timeMs": 415.042,
+  "averageMs": 0.106804,
+  "percentage": 3.92047
+ },
+ {
+  "name": "/pool/GlobalAveragePool",
+  "timeMs": 68.5301,
+  "averageMs": 0.0176351,
+  "percentage": 0.647333
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /head/Gemm",
+  "timeMs": 19.6513,
+  "averageMs": 0.00505695,
+  "percentage": 0.185626
+ },
+ {
+  "name": "/head/Gemm",
+  "timeMs": 234.499,
+  "averageMs": 0.0603445,
+  "percentage": 2.21507
+ },
+ {
+  "name": "(Unnamed Layer* 44) [Shuffle]",
+  "timeMs": 4.04205,
+  "averageMs": 0.00104016,
+  "percentage": 0.0381811
+ }
+]

@@ -1,0 +1,167 @@
+[
+ {
+  "count": 1275
+ },
+ {
+  "name": "/stem/reparam_conv/Conv + /stem/act/Relu",
+  "timeMs": 789.353,
+  "averageMs": 0.6191,
+  "percentage": 7.0295
+ },
+ {
+  "name": "/stages/stages.0/stages.0.0/reparam_conv/Conv + /stages/stages.0/stages.0.0/act/Relu",
+  "timeMs": 1193.27,
+  "averageMs": 0.935901,
+  "percentage": 10.6266
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /stages/stages.0/stages.0.1/reparam_conv/Conv + /stages/stages.0/stages.0.1/act/Relu",
+  "timeMs": 159.989,
+  "averageMs": 0.125481,
+  "percentage": 1.42476
+ },
+ {
+  "name": "/stages/stages.0/stages.0.1/reparam_conv/Conv + /stages/stages.0/stages.0.1/act/Relu",
+  "timeMs": 549.053,
+  "averageMs": 0.43063,
+  "percentage": 4.88953
+ },
+ {
+  "name": "/stages/stages.1/stages.1.0/reparam_conv/Conv + /stages/stages.1/stages.1.0/act/Relu",
+  "timeMs": 351.47,
+  "averageMs": 0.275663,
+  "percentage": 3.12998
+ },
+ {
+  "name": "/stages/stages.1/stages.1.1/reparam_conv/Conv + /stages/stages.1/stages.1.1/act/Relu",
+  "timeMs": 422.826,
+  "averageMs": 0.331628,
+  "percentage": 3.76543
+ },
+ {
+  "name": "/stages/stages.1/stages.1.2/reparam_conv/Conv + /stages/stages.1/stages.1.2/act/Relu",
+  "timeMs": 415.728,
+  "averageMs": 0.326062,
+  "percentage": 3.70222
+ },
+ {
+  "name": "/stages/stages.1/stages.1.3/reparam_conv/Conv + /stages/stages.1/stages.1.3/act/Relu",
+  "timeMs": 414.792,
+  "averageMs": 0.325327,
+  "percentage": 3.69389
+ },
+ {
+  "name": "/stages/stages.2/stages.2.0/reparam_conv/Conv + /stages/stages.2/stages.2.0/act/Relu",
+  "timeMs": 314.604,
+  "averageMs": 0.246748,
+  "percentage": 2.80167
+ },
+ {
+  "name": "/stages/stages.2/stages.2.1/reparam_conv/Conv + /stages/stages.2/stages.2.1/act/Relu",
+  "timeMs": 367.42,
+  "averageMs": 0.288173,
+  "percentage": 3.27202
+ },
+ {
+  "name": "/stages/stages.2/stages.2.2/reparam_conv/Conv + /stages/stages.2/stages.2.2/act/Relu",
+  "timeMs": 360.22,
+  "averageMs": 0.282526,
+  "percentage": 3.2079
+ },
+ {
+  "name": "/stages/stages.2/stages.2.3/reparam_conv/Conv + /stages/stages.2/stages.2.3/act/Relu",
+  "timeMs": 361.733,
+  "averageMs": 0.283712,
+  "percentage": 3.22137
+ },
+ {
+  "name": "/stages/stages.2/stages.2.4/reparam_conv/Conv + /stages/stages.2/stages.2.4/act/Relu",
+  "timeMs": 363.835,
+  "averageMs": 0.285361,
+  "percentage": 3.24009
+ },
+ {
+  "name": "/stages/stages.2/stages.2.5/reparam_conv/Conv + /stages/stages.2/stages.2.5/act/Relu",
+  "timeMs": 362.687,
+  "averageMs": 0.28446,
+  "percentage": 3.22987
+ },
+ {
+  "name": "/stages/stages.2/stages.2.6/reparam_conv/Conv + /stages/stages.2/stages.2.6/act/Relu",
+  "timeMs": 361.369,
+  "averageMs": 0.283427,
+  "percentage": 3.21813
+ },
+ {
+  "name": "/stages/stages.2/stages.2.7/reparam_conv/Conv + /stages/stages.2/stages.2.7/act/Relu",
+  "timeMs": 361.896,
+  "averageMs": 0.28384,
+  "percentage": 3.22282
+ },
+ {
+  "name": "/stages/stages.2/stages.2.8/reparam_conv/Conv + /stages/stages.2/stages.2.8/act/Relu",
+  "timeMs": 362.798,
+  "averageMs": 0.284547,
+  "percentage": 3.23086
+ },
+ {
+  "name": "/stages/stages.2/stages.2.9/reparam_conv/Conv + /stages/stages.2/stages.2.9/act/Relu",
+  "timeMs": 362.2,
+  "averageMs": 0.284079,
+  "percentage": 3.22554
+ },
+ {
+  "name": "/stages/stages.2/stages.2.10/reparam_conv/Conv + /stages/stages.2/stages.2.10/act/Relu",
+  "timeMs": 360.986,
+  "averageMs": 0.283127,
+  "percentage": 3.21473
+ },
+ {
+  "name": "/stages/stages.2/stages.2.11/reparam_conv/Conv + /stages/stages.2/stages.2.11/act/Relu",
+  "timeMs": 362.439,
+  "averageMs": 0.284266,
+  "percentage": 3.22766
+ },
+ {
+  "name": "/stages/stages.2/stages.2.12/reparam_conv/Conv + /stages/stages.2/stages.2.12/act/Relu",
+  "timeMs": 364.301,
+  "averageMs": 0.285726,
+  "percentage": 3.24424
+ },
+ {
+  "name": "/stages/stages.2/stages.2.13/reparam_conv/Conv + /stages/stages.2/stages.2.13/act/Relu",
+  "timeMs": 362.691,
+  "averageMs": 0.284464,
+  "percentage": 3.2299
+ },
+ {
+  "name": "/stages/stages.3/stages.3.0/reparam_conv/Conv + /stages/stages.3/stages.3.0/act/Relu",
+  "timeMs": 1812.06,
+  "averageMs": 1.42122,
+  "percentage": 16.1371
+ },
+ {
+  "name": "/head/global_pool/pool/GlobalAveragePool",
+  "timeMs": 42.0067,
+  "averageMs": 0.0329464,
+  "percentage": 0.374086
+ },
+ {
+  "name": "/head/fc/Gemm",
+  "timeMs": 43.3622,
+  "averageMs": 0.0340095,
+  "percentage": 0.386157
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to (Unnamed Layer* 48) [Shuffle]",
+  "timeMs": 5.42857,
+  "averageMs": 0.0042577,
+  "percentage": 0.0483436
+ },
+ {
+  "name": "(Unnamed Layer* 48) [Shuffle]",
+  "timeMs": 0.633307,
+  "averageMs": 0.000496712,
+  "percentage": 0.00563985
+ }
+]

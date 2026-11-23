@@ -1,0 +1,233 @@
+[
+ {
+  "count": 3645
+ },
+ {
+  "name": "/stem/stem.0/Conv + /stem/stem.1/Relu",
+  "timeMs": 1369.65,
+  "averageMs": 0.375762,
+  "percentage": 12.4801
+ },
+ {
+  "name": "/stem/stem.2/Conv + /stem/stem.3/Relu",
+  "timeMs": 647.341,
+  "averageMs": 0.177597,
+  "percentage": 5.89846
+ },
+ {
+  "name": "/body/body.0/c1/dw/Conv + /body/body.0/c1/act/Relu",
+  "timeMs": 461.411,
+  "averageMs": 0.126588,
+  "percentage": 4.20431
+ },
+ {
+  "name": "/body/body.0/c1/pw/Conv + /body/body.0/c1/act_1/Relu",
+  "timeMs": 325.467,
+  "averageMs": 0.0892913,
+  "percentage": 2.9656
+ },
+ {
+  "name": "/body/body.0/c2/dw/Conv + /body/body.0/c2/act/Relu",
+  "timeMs": 460.683,
+  "averageMs": 0.126388,
+  "percentage": 4.19767
+ },
+ {
+  "name": "/body/body.0/c2/pw/Conv + /body/body.0/c2/act_1/Relu",
+  "timeMs": 324.771,
+  "averageMs": 0.0891005,
+  "percentage": 2.95926
+ },
+ {
+  "name": "/body/body.0/Add + /body/body.0/act/Relu",
+  "timeMs": 265.149,
+  "averageMs": 0.0727433,
+  "percentage": 2.416
+ },
+ {
+  "name": "/body/body.1/c1/dw/Conv + /body/body.1/c1/act/Relu",
+  "timeMs": 498.68,
+  "averageMs": 0.136812,
+  "percentage": 4.54389
+ },
+ {
+  "name": "/body/body.1/c1/pw/Conv + /body/body.1/c1/act_1/Relu",
+  "timeMs": 209.272,
+  "averageMs": 0.0574135,
+  "percentage": 1.90685
+ },
+ {
+  "name": "/body/body.1/c2/dw/Conv + /body/body.1/c2/act/Relu",
+  "timeMs": 261.78,
+  "averageMs": 0.071819,
+  "percentage": 2.3853
+ },
+ {
+  "name": "/body/body.1/c2/pw/Conv + /body/body.1/c2/act_1/Relu",
+  "timeMs": 239.971,
+  "averageMs": 0.0658356,
+  "percentage": 2.18658
+ },
+ {
+  "name": "/body/body.1/proj/proj.0/Conv + /body/body.1/Add + /body/body.1/act/Relu",
+  "timeMs": 440.5,
+  "averageMs": 0.120851,
+  "percentage": 4.01376
+ },
+ {
+  "name": "/body/body.2/c1/dw/Conv + /body/body.2/c1/act/Relu",
+  "timeMs": 263.925,
+  "averageMs": 0.0724073,
+  "percentage": 2.40484
+ },
+ {
+  "name": "/body/body.2/c1/pw/Conv + /body/body.2/c1/act_1/Relu",
+  "timeMs": 261.116,
+  "averageMs": 0.0716368,
+  "percentage": 2.37925
+ },
+ {
+  "name": "/body/body.2/c2/dw/Conv + /body/body.2/c2/act/Relu",
+  "timeMs": 259.904,
+  "averageMs": 0.0713044,
+  "percentage": 2.36821
+ },
+ {
+  "name": "/body/body.2/c2/pw/Conv + /body/body.2/c2/act_1/Relu",
+  "timeMs": 239.324,
+  "averageMs": 0.0656582,
+  "percentage": 2.18068
+ },
+ {
+  "name": "/body/body.2/Add + /body/body.2/act/Relu",
+  "timeMs": 141.958,
+  "averageMs": 0.038946,
+  "percentage": 1.2935
+ },
+ {
+  "name": "/body/body.3/c1/dw/Conv + /body/body.3/c1/act/Relu",
+  "timeMs": 286.731,
+  "averageMs": 0.0786643,
+  "percentage": 2.61265
+ },
+ {
+  "name": "/body/body.3/c1/pw/Conv + /body/body.3/c1/act_1/Relu",
+  "timeMs": 171.646,
+  "averageMs": 0.0470908,
+  "percentage": 1.56401
+ },
+ {
+  "name": "/body/body.3/c2/dw/Conv + /body/body.3/c2/act/Relu",
+  "timeMs": 252.404,
+  "averageMs": 0.0692466,
+  "percentage": 2.29986
+ },
+ {
+  "name": "/body/body.3/c2/pw/Conv + /body/body.3/c2/act_1/Relu",
+  "timeMs": 216.337,
+  "averageMs": 0.0593517,
+  "percentage": 1.97123
+ },
+ {
+  "name": "/body/body.3/proj/proj.0/Conv + /body/body.3/Add + /body/body.3/act/Relu",
+  "timeMs": 372.62,
+  "averageMs": 0.102228,
+  "percentage": 3.39525
+ },
+ {
+  "name": "/body/body.4/c1/dw/Conv + /body/body.4/c1/act/Relu",
+  "timeMs": 248.187,
+  "averageMs": 0.0680898,
+  "percentage": 2.26144
+ },
+ {
+  "name": "/body/body.4/c1/pw/Conv + /body/body.4/c1/act_1/Relu",
+  "timeMs": 212.441,
+  "averageMs": 0.0582829,
+  "percentage": 1.93573
+ },
+ {
+  "name": "/body/body.4/c2/dw/Conv + /body/body.4/c2/act/Relu",
+  "timeMs": 249.604,
+  "averageMs": 0.0684785,
+  "percentage": 2.27435
+ },
+ {
+  "name": "/body/body.4/c2/pw/Conv + /body/body.4/c2/act_1/Relu",
+  "timeMs": 215.532,
+  "averageMs": 0.0591309,
+  "percentage": 1.96389
+ },
+ {
+  "name": "/body/body.4/Add + /body/body.4/act/Relu",
+  "timeMs": 78.8957,
+  "averageMs": 0.0216449,
+  "percentage": 0.718884
+ },
+ {
+  "name": "/body/body.5/c1/dw/Conv + /body/body.5/c1/act/Relu",
+  "timeMs": 272.385,
+  "averageMs": 0.0747284,
+  "percentage": 2.48193
+ },
+ {
+  "name": "/body/body.5/c1/pw/Conv + /body/body.5/c1/act_1/Relu",
+  "timeMs": 277.103,
+  "averageMs": 0.0760227,
+  "percentage": 2.52491
+ },
+ {
+  "name": "/body/body.5/c2/dw/Conv + /body/body.5/c2/act/Relu",
+  "timeMs": 364.175,
+  "averageMs": 0.0999109,
+  "percentage": 3.3183
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /body/body.5/c2/pw/Conv + /body/body.5/c2/act_1/Relu",
+  "timeMs": 57.3473,
+  "averageMs": 0.0157331,
+  "percentage": 0.522539
+ },
+ {
+  "name": "/body/body.5/c2/pw/Conv + /body/body.5/c2/act_1/Relu",
+  "timeMs": 202.277,
+  "averageMs": 0.0554943,
+  "percentage": 1.84311
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /body/body.5/proj/proj.0/Conv + /body/body.5/Add + /body/body.5/act/Relu",
+  "timeMs": 91.8729,
+  "averageMs": 0.0252052,
+  "percentage": 0.837131
+ },
+ {
+  "name": "/body/body.5/proj/proj.0/Conv + /body/body.5/Add + /body/body.5/act/Relu",
+  "timeMs": 397.381,
+  "averageMs": 0.109021,
+  "percentage": 3.62087
+ },
+ {
+  "name": "/pool/GlobalAveragePool",
+  "timeMs": 66.4479,
+  "averageMs": 0.0182299,
+  "percentage": 0.605462
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /head/Gemm",
+  "timeMs": 23.3686,
+  "averageMs": 0.00641114,
+  "percentage": 0.212931
+ },
+ {
+  "name": "/head/Gemm",
+  "timeMs": 240.628,
+  "averageMs": 0.0660159,
+  "percentage": 2.19256
+ },
+ {
+  "name": "(Unnamed Layer* 71) [Shuffle]",
+  "timeMs": 6.44741,
+  "averageMs": 0.00176884,
+  "percentage": 0.0587477
+ }
+]

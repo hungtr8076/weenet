@@ -1,0 +1,39 @@
+{
+ "label": "efficientformerv2_s0",
+ "round": 1,
+ "plan": "efficientformerv2_s0.plan",
+ "throughput_qps": 48.5363,
+ "gpu_ms": {
+  "min": 20.1797,
+  "max": 22.0996,
+  "mean": 20.3032,
+  "median": 20.2935,
+  "p99": 20.4258
+ },
+ "latency_median_ms": 20.3535,
+ "window_s": 14.462560415267944,
+ "n_samples": 40,
+ "power_w": {
+  "POM_5V_IN": 6.639024999999999,
+  "POM_5V_GPU": 3.5442,
+  "POM_5V_CPU": 0.988325
+ },
+ "energy_mj": {
+  "board_in": 136.78473637257062,
+  "gpu_rail": 73.0216353533335
+ },
+ "gpu_temp_c_mean": 32.0625,
+ "clocks": {
+  "gpu_mhz_median": 921.6,
+  "gpu_mhz_min": 921.6,
+  "cpu_mhz_median": 1479.0,
+  "cpu_mhz_min": 518.4,
+  "n": 144,
+  "gpu_below_921": false
+ },
+ "gpu_freq_hz": [
+  921600000,
+  921600000
+ ],
+ "time": "13:19:31"
+}

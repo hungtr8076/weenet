@@ -1,0 +1,155 @@
+[
+ {
+  "count": 3339
+ },
+ {
+  "name": "/stem/stem.0/Conv + /stem/stem.1/Relu",
+  "timeMs": 1303.39,
+  "averageMs": 0.390355,
+  "percentage": 12.0933
+ },
+ {
+  "name": "/stem/stem.2/Conv + /stem/stem.3/Relu",
+  "timeMs": 592.757,
+  "averageMs": 0.177525,
+  "percentage": 5.49977
+ },
+ {
+  "name": "Reformatting CopyNode for Output Tensor 0 to /stem/stem.2/Conv + /stem/stem.3/Relu",
+  "timeMs": 284.249,
+  "averageMs": 0.0851301,
+  "percentage": 2.63735
+ },
+ {
+  "name": "/body/body.0/c1/conv/Conv + /body/body.0/c1/act/Relu",
+  "timeMs": 611.639,
+  "averageMs": 0.18318,
+  "percentage": 5.67496
+ },
+ {
+  "name": "/body/body.0/c2/conv/Conv + /body/body.0/c2/act/Relu",
+  "timeMs": 561.792,
+  "averageMs": 0.168251,
+  "percentage": 5.21247
+ },
+ {
+  "name": "/body/body.0/Add + /body/body.0/act/Relu",
+  "timeMs": 164.771,
+  "averageMs": 0.0493475,
+  "percentage": 1.5288
+ },
+ {
+  "name": "/body/body.1/c1/conv/Conv + /body/body.1/c1/act/Relu",
+  "timeMs": 601.772,
+  "averageMs": 0.180225,
+  "percentage": 5.58342
+ },
+ {
+  "name": "/body/body.1/c2/conv/Conv + /body/body.1/c2/act/Relu",
+  "timeMs": 528.121,
+  "averageMs": 0.158167,
+  "percentage": 4.90006
+ },
+ {
+  "name": "/body/body.1/proj/proj.0/Conv + /body/body.1/Add + /body/body.1/act/Relu",
+  "timeMs": 245.128,
+  "averageMs": 0.0734135,
+  "percentage": 2.27437
+ },
+ {
+  "name": "/body/body.2/c1/conv/Conv + /body/body.2/c1/act/Relu",
+  "timeMs": 510.167,
+  "averageMs": 0.15279,
+  "percentage": 4.73348
+ },
+ {
+  "name": "/body/body.2/c2/conv/Conv + /body/body.2/c2/act/Relu",
+  "timeMs": 501.741,
+  "averageMs": 0.150267,
+  "percentage": 4.6553
+ },
+ {
+  "name": "/body/body.2/Add + /body/body.2/act/Relu",
+  "timeMs": 92.0015,
+  "averageMs": 0.0275536,
+  "percentage": 0.853616
+ },
+ {
+  "name": "/body/body.3/c1/conv/Conv + /body/body.3/c1/act/Relu",
+  "timeMs": 622.005,
+  "averageMs": 0.186285,
+  "percentage": 5.77114
+ },
+ {
+  "name": "/body/body.3/c2/conv/Conv + /body/body.3/c2/act/Relu",
+  "timeMs": 478.392,
+  "averageMs": 0.143274,
+  "percentage": 4.43866
+ },
+ {
+  "name": "/body/body.3/proj/proj.0/Conv + /body/body.3/Add + /body/body.3/act/Relu",
+  "timeMs": 218.579,
+  "averageMs": 0.0654625,
+  "percentage": 2.02804
+ },
+ {
+  "name": "/body/body.4/c1/conv/Conv + /body/body.4/c1/act/Relu",
+  "timeMs": 466.08,
+  "averageMs": 0.139587,
+  "percentage": 4.32443
+ },
+ {
+  "name": "/body/body.4/c2/conv/Conv + /body/body.4/c2/act/Relu",
+  "timeMs": 453.256,
+  "averageMs": 0.135746,
+  "percentage": 4.20544
+ },
+ {
+  "name": "/body/body.4/Add + /body/body.4/act/Relu",
+  "timeMs": 50.7889,
+  "averageMs": 0.0152108,
+  "percentage": 0.471235
+ },
+ {
+  "name": "/body/body.5/c1/conv/Conv + /body/body.5/c1/act/Relu",
+  "timeMs": 1158.98,
+  "averageMs": 0.347104,
+  "percentage": 10.7534
+ },
+ {
+  "name": "/body/body.5/c2/conv/Conv + /body/body.5/c2/act/Relu",
+  "timeMs": 677.199,
+  "averageMs": 0.202815,
+  "percentage": 6.28325
+ },
+ {
+  "name": "/body/body.5/proj/proj.0/Conv + /body/body.5/Add + /body/body.5/act/Relu",
+  "timeMs": 354.011,
+  "averageMs": 0.106023,
+  "percentage": 3.28462
+ },
+ {
+  "name": "/pool/GlobalAveragePool",
+  "timeMs": 59.625,
+  "averageMs": 0.0178572,
+  "percentage": 0.553218
+ },
+ {
+  "name": "Reformatting CopyNode for Input Tensor 0 to /head/Gemm",
+  "timeMs": 15.1421,
+  "averageMs": 0.00453491,
+  "percentage": 0.140493
+ },
+ {
+  "name": "/head/Gemm",
+  "timeMs": 219.871,
+  "averageMs": 0.0658493,
+  "percentage": 2.04003
+ },
+ {
+  "name": "(Unnamed Layer* 47) [Shuffle]",
+  "timeMs": 6.38553,
+  "averageMs": 0.00191241,
+  "percentage": 0.0592468
+ }
+]
